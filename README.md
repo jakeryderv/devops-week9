@@ -60,7 +60,7 @@ Never put a real password, token, cloud credential, SSH key, or API key into thi
 - `Security Checks` rejects a tracked `.env` or an image that runs as UID 0 on pull requests and pushes to `main`.
 - PostgreSQL 18 stores its data in the named volume mounted at `/var/lib/postgresql`.
 
-The milestone report source is in [docs/evidence-template.md](docs/evidence-template.md).
+The submission PDF is [docs/week9-evidence.pdf](docs/week9-evidence.pdf), with editable source in [docs/evidence-template.md](docs/evidence-template.md).
 Saved commands and outputs are in [docs/evidence/commands](docs/evidence/commands).
 Docker Scout findings describe package vulnerabilities; passing the non-root policy does not mean the image has no CVEs.
 

@@ -6,13 +6,11 @@ Pull request: [Complete Week 9 DevSecOps security hardening #2](https://github.c
 Branch: `security/week9-devsecops`
 Date: October 30, 2026
 
-The Help Desk application was checked before and after non-root hardening. The original CI and new security workflow both passed on implementation commit `9322bd7`.
-
-**Evidence assembly status:** Commands and outputs are saved. Browser screenshots and the final PDF are pending browser access; this document is not yet submission-ready.
+The Help Desk application was checked before and after non-root hardening. The original CI and new security workflow both passed on implementation commit `9322bd7` and evidence commit `608a05f`.
 
 ## Milestone 1 - Baseline application and tests
 
-Screenshot pending: `evidence/screenshots/01-baseline.png`.
+![01-baseline](evidence/screenshots/01-baseline.png)
 
 Caption: Both baseline database tests passed before Dockerfile hardening, and the Compose stack ran the web, PostgreSQL, and Adminer services with a healthy database.
 
@@ -22,7 +20,7 @@ The starter used the old PostgreSQL volume path with `postgres:18`; the mount wa
 
 ## Milestone 2 - .env protected from Git
 
-Screenshot pending: `evidence/screenshots/02-env.png`.
+![02-env](evidence/screenshots/02-env.png)
 
 Caption: Git ignores `.env`, and the tracked-file check returns no `.env` entry.
 
@@ -32,7 +30,7 @@ The local file contains a generated development password; `.env.example` retains
 
 ## Milestone 3 - Dependabot configured
 
-Screenshot pending: `evidence/screenshots/03-dependabot.png`.
+![03-dependabot](evidence/screenshots/03-dependabot.png)
 
 Caption: The configuration on GitHub schedules weekly updates for pip and GitHub Actions at the repository root.
 
@@ -40,7 +38,7 @@ Caption: The configuration on GitHub schedules weekly updates for pip and GitHub
 
 ## Milestone 4 - Baseline Docker Scout CVE scan
 
-Screenshot pending: `evidence/screenshots/04-scout.png`.
+![04-scout](evidence/screenshots/04-scout.png)
 
 Caption: Docker Scout scanned `helpdesk:week9-before` and reported 98 vulnerabilities: 5 critical, 42 high, 23 medium, and 28 low.
 
@@ -50,7 +48,7 @@ Scout indexed 186 packages and identified 19 vulnerable packages. Pillow 11.3.0 
 
 ## Milestone 5 - Docker Scout recommendations / SBOM evidence
 
-Screenshot pending: `evidence/screenshots/05-recommendations.png`.
+![05-recommendations](evidence/screenshots/05-recommendations.png)
 
 Caption: Scout identified `python:3.13-slim` as the base image and reported that its current image version was up to date despite remaining vulnerability findings.
 
@@ -60,7 +58,7 @@ The base image had 0 critical, 7 high, 3 medium, and 27 low findings. Scout list
 
 ## Milestone 6 - Dockerfile hardened to non-root
 
-Screenshot pending: `evidence/screenshots/06-dockerfile.png`.
+![06-dockerfile](evidence/screenshots/06-dockerfile.png)
 
 Caption: The Dockerfile creates `appuser` with UID 10001 and switches to it with `USER appuser` before starting Streamlit on port 8501.
 
@@ -70,7 +68,7 @@ The user's home directory is created, application files remain readable, and `/a
 
 ## Milestone 7 - Non-root container verification
 
-Screenshot pending: `evidence/screenshots/07-uid.png`.
+![07-uid](evidence/screenshots/07-uid.png)
 
 Caption: Running `id -u` in `helpdesk:week9-after` returned 10001, confirming that the hardened image does not run as root.
 
@@ -78,7 +76,7 @@ Caption: Running `id -u` in `helpdesk:week9-after` returned 10001, confirming th
 
 ## Milestone 8 - Security workflow added
 
-Screenshot pending: `evidence/screenshots/08-workflow.png`.
+![08-workflow](evidence/screenshots/08-workflow.png)
 
 Caption: The GitHub workflow rejects a tracked `.env`, builds the image, and fails when its runtime UID is 0 on pushes and pull requests to `main`.
 
@@ -88,19 +86,21 @@ The exact shell checks accepted the clean repository and UID 10001 image, and re
 
 ## Milestone 9 - GitHub Actions security checks passing
 
-Screenshot pending: `evidence/screenshots/09-security-checks.png`.
+![09-security-checks](evidence/screenshots/09-security-checks.png)
 
-Caption: GitHub Actions passed both the original test job and the new security-policy job for the security pull request.
+Caption: GitHub Actions shows the security-policy job completed successfully for the security pull request.
 
-[Security Checks run](https://github.com/jakeryderv/devops-week9/actions/runs/41085503533) | [CI run](https://github.com/jakeryderv/devops-week9/actions/runs/41085503288) | [PR check results](evidence/commands/09-pr-checks.txt) | [Security job log](evidence/commands/09-security-workflow.txt)
+[Security Checks run](https://github.com/jakeryderv/devops-week9/actions/runs/41086244268) | [CI run](https://github.com/jakeryderv/devops-week9/actions/runs/41086244276) | [PR check results](evidence/commands/09-pr-checks.txt) | [Security job log](evidence/commands/09-security-workflow.txt)
 
 ## Milestone 10 - Final pull request and reflection
 
-Screenshot pending: `evidence/screenshots/10-pull-request.png`.
+![10-pull-request](evidence/screenshots/10-pull-request.png)
 
 Caption: Pull request #2 contains the Week 9 security changes and successful test and security checks.
 
 [Pull request](https://github.com/jakeryderv/devops-week9/pull/2)
+
+![Changed files supporting view](evidence/screenshots/pr-files.png)
 
 ### What security problem does running a container as non-root reduce?
 

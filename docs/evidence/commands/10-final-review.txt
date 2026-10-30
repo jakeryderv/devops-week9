@@ -1,0 +1,1701 @@
+Captured UTC: 2026-10-30T16:29:16.774121+00:00
+$ sh -c 'git diff --check origin/main; test -z "$(git ls-files .env)"; git check-ignore .env; git diff --stat origin/main -- Dockerfile compose.yaml .github/dependabot.yml .github/workflows/security.yml; pdfinfo docs/week9-evidence.pdf'
+
+docs/evidence/commands/00-scout-version.txt:7: trailing whitespace.
++  ⡜⡜⡜⡜⡜⡜⠜⠈⠈        ⠁⠙⠮⣺⡪⡯⣺⡪⡯⣺ 
+docs/evidence/commands/00-scout-version.txt:8: trailing whitespace.
++ ⢘⢜⢜⢜⢜⠜               ⠈⠪⡳⡵⣹⡪⠇ 
+docs/evidence/commands/00-scout-version.txt:9: trailing whitespace.
++ ⠨⡪⡪⡪⠂    ⢀⡤⣖⢽⡹⣝⡝⣖⢤⡀    ⠘⢝⢮⡚       _____                 _   
+docs/evidence/commands/00-scout-version.txt:10: trailing whitespace.
++  ⠱⡱⠁    ⡴⡫⣞⢮⡳⣝⢮⡺⣪⡳⣝⢦    ⠘⡵⠁      / ____| Docker        | |  
+docs/evidence/commands/00-scout-version.txt:11: trailing whitespace.
++   ⠁    ⣸⢝⣕⢗⡵⣝⢮⡳⣝⢮⡺⣪⡳⣣    ⠁      | (___   ___ ___  _   _| |_ 
+docs/evidence/commands/00-scout-version.txt:13: trailing whitespace.
++   ⢀    ⢱⡳⡵⣹⡪⡳⣝⢮⡳⣝⢮⡳⡣⡏    ⡀       ____) | (_| (_) | |_| | |_ 
+docs/evidence/commands/00-scout-version.txt:15: trailing whitespace.
++  ⡼⣕⢗⡄    ⠈⠓⠝⢮⡳⣝⠮⠳⠙     ⢠⢢⢣⢣  
+docs/evidence/commands/00-scout-version.txt:16: trailing whitespace.
++ ⢰⡫⡮⡳⣝⢦⡀              ⢀⢔⢕⢕⢕⢕⠅ 
+docs/evidence/commands/00-scout-version.txt:17: trailing whitespace.
++ ⡯⣎⢯⡺⣪⡳⣝⢖⣄⣀        ⡀⡠⡢⡣⡣⡣⡣⡣⡃  
+docs/evidence/commands/00-scout-version.txt:18: trailing whitespace.
++⢸⢝⢮⡳⣝⢮⡺⣪⡳⠕⠗⠉⠁    ⠘⠜⡜⡜⡜⡜⡜⡜⠜⠈   
+docs/evidence/commands/00-scout-version.txt:19: trailing whitespace.
++⡯⡳⠳⠝⠊⠓⠉             ⠈⠈⠈⠈      
+docs/evidence/commands/01-baseline-compose.txt:4: trailing whitespace.
++ Image postgres:18 Pulling 
+docs/evidence/commands/01-baseline-compose.txt:286: trailing whitespace.
++ Image postgres:18 Pulled 
+docs/evidence/commands/01-baseline-compose.txt:287: trailing whitespace.
++ Image week9-web Building 
+docs/evidence/commands/01-baseline-compose.txt:499: trailing whitespace.
++#10 20.81 
+docs/evidence/commands/01-baseline-compose.txt:521: trailing whitespace.
++ Image week9-web Built 
+docs/evidence/commands/01-baseline-compose.txt:522: trailing whitespace.
++ Network week9_default Creating 
+docs/evidence/commands/01-baseline-compose.txt:523: trailing whitespace.
++ Volume week9_helpdesk_data Creating 
+docs/evidence/commands/01-baseline-compose.txt:524: trailing whitespace.
++ Volume week9_helpdesk_data Creating 
+docs/evidence/commands/01-baseline-compose.txt:525: trailing whitespace.
++ Network week9_default Creating 
+docs/evidence/commands/01-baseline-compose.txt:526: trailing whitespace.
++ Volume week9_helpdesk_data Created 
+docs/evidence/commands/01-baseline-compose.txt:527: trailing whitespace.
++ Volume week9_helpdesk_data Created 
+docs/evidence/commands/01-baseline-compose.txt:528: trailing whitespace.
++ Network week9_default Created 
+docs/evidence/commands/01-baseline-compose.txt:529: trailing whitespace.
++ Network week9_default Created 
+docs/evidence/commands/01-baseline-compose.txt:530: trailing whitespace.
++ Container week9-db-1 Creating 
+docs/evidence/commands/01-baseline-compose.txt:531: trailing whitespace.
++ Container week9-db-1 Created 
+docs/evidence/commands/01-baseline-compose.txt:532: trailing whitespace.
++ Container week9-web-1 Creating 
+docs/evidence/commands/01-baseline-compose.txt:533: trailing whitespace.
++ Container week9-adminer-1 Creating 
+docs/evidence/commands/01-baseline-compose.txt:534: trailing whitespace.
++ Container week9-web-1 Created 
+docs/evidence/commands/01-baseline-compose.txt:535: trailing whitespace.
++ Container week9-adminer-1 Created 
+docs/evidence/commands/01-baseline-compose.txt:536: trailing whitespace.
++ Container week9-db-1 Starting 
+docs/evidence/commands/01-baseline-compose.txt:537: trailing whitespace.
++ Container week9-db-1 Started 
+docs/evidence/commands/01-baseline-compose.txt:538: trailing whitespace.
++ Container week9-db-1 Waiting 
+docs/evidence/commands/01-baseline-compose.txt:539: trailing whitespace.
++ Container week9-db-1 Waiting 
+docs/evidence/commands/01-baseline-compose.txt:540: trailing whitespace.
++ Container week9-db-1 Healthy 
+docs/evidence/commands/01-baseline-compose.txt:541: trailing whitespace.
++ Container week9-db-1 Healthy 
+docs/evidence/commands/01-baseline-compose.txt:542: trailing whitespace.
++ Container week9-adminer-1 Starting 
+docs/evidence/commands/01-baseline-compose.txt:543: trailing whitespace.
++ Container week9-web-1 Starting 
+docs/evidence/commands/01-baseline-compose.txt:544: trailing whitespace.
++ Container week9-adminer-1 Started 
+docs/evidence/commands/01-baseline-compose.txt:545: trailing whitespace.
++ Container week9-web-1 Started 
+docs/evidence/commands/04-scout-cves.txt:16: trailing whitespace.
++                   │                 Analyzed Image                 
+docs/evidence/commands/04-scout-cves.txt:18: trailing whitespace.
++ Target            │  helpdesk:week9-before                         
+docs/evidence/commands/04-scout-cves.txt:19: trailing whitespace.
++   digest          │  fee55445a97a                                  
+docs/evidence/commands/04-scout-cves.txt:20: trailing whitespace.
++   platform        │ linux/amd64                                    
+docs/evidence/commands/04-scout-cves.txt:21: trailing whitespace.
++   provenance      │ https://github.com/jakeryderv/devops-week9.git 
+docs/evidence/commands/04-scout-cves.txt:22: trailing whitespace.
++                   │  https://github.com/jakeryderv/devops-week9/blob/2e4925292a6ba544bf4d2eae78c0b557e74c356a      
+docs/evidence/commands/04-scout-cves.txt:23: trailing whitespace.
++   vulnerabilities │    5C    42H    23M    28L                     
+docs/evidence/commands/04-scout-cves.txt:24: trailing whitespace.
++   size            │ 200 MB                                         
+docs/evidence/commands/04-scout-cves.txt:25: trailing whitespace.
++   packages        │ 186                                            
+docs/evidence/commands/04-scout-cves.txt:26: trailing whitespace.
++                   │                                                
+docs/evidence/commands/04-scout-cves.txt:27: trailing whitespace.
++ Base image        │  python:3.13-slim                              
+docs/evidence/commands/04-scout-cves.txt:28: trailing whitespace.
++                   │  aaf08c5490d5                                  
+docs/evidence/commands/04-scout-cves.txt:38: trailing whitespace.
++      Affected range : >=11.0.0                                     
+docs/evidence/commands/04-scout-cves.txt:39: trailing whitespace.
++                     : <13.0.0                                      
+docs/evidence/commands/04-scout-cves.txt:40: trailing whitespace.
++      Fixed version  : 13.0.0                                       
+docs/evidence/commands/04-scout-cves.txt:41: trailing whitespace.
++      CVSS Score     : 9.8                                          
+docs/evidence/commands/04-scout-cves.txt:42: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H 
+docs/evidence/commands/04-scout-cves.txt:43: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:46: trailing whitespace.
++      Affected range : >=2.6.0                                                         
+docs/evidence/commands/04-scout-cves.txt:47: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:48: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:49: trailing whitespace.
++      CVSS Score     : 9.2                                                             
+docs/evidence/commands/04-scout-cves.txt:50: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:51: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:54: trailing whitespace.
++      Affected range : <=12.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:55: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:56: trailing whitespace.
++      CVSS Score     : 9.2                                                             
+docs/evidence/commands/04-scout-cves.txt:57: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:58: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:61: trailing whitespace.
++      Affected range : <=12.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:62: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:63: trailing whitespace.
++      CVSS Score     : 9.2                                                             
+docs/evidence/commands/04-scout-cves.txt:64: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:65: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:68: trailing whitespace.
++      Affected range : >=2.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:69: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:70: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:71: trailing whitespace.
++      CVSS Score     : 9.2                                                             
+docs/evidence/commands/04-scout-cves.txt:72: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:73: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:76: trailing whitespace.
++      Affected range : <=12.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:77: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:78: trailing whitespace.
++      CVSS Score     : 8.8                                                             
+docs/evidence/commands/04-scout-cves.txt:79: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:80: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:83: trailing whitespace.
++      Affected range : <=12.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:84: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:85: trailing whitespace.
++      CVSS Score     : 8.8                                                             
+docs/evidence/commands/04-scout-cves.txt:86: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:87: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:90: trailing whitespace.
++      Affected range : >=8.1.0                                                         
+docs/evidence/commands/04-scout-cves.txt:91: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:92: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:93: trailing whitespace.
++      CVSS Score     : 8.8                                                             
+docs/evidence/commands/04-scout-cves.txt:94: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:95: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:98: trailing whitespace.
++      Affected range : >=8.2.0                                                         
+docs/evidence/commands/04-scout-cves.txt:99: trailing whitespace.
++                     : <12.3.0                                                         
+docs/evidence/commands/04-scout-cves.txt:100: trailing whitespace.
++      Fixed version  : 12.3.0                                                          
+docs/evidence/commands/04-scout-cves.txt:101: trailing whitespace.
++      CVSS Score     : 8.7                                                             
+docs/evidence/commands/04-scout-cves.txt:102: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:103: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:106: trailing whitespace.
++      Affected range : >=10.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:107: trailing whitespace.
++                     : <12.2.0                                                         
+docs/evidence/commands/04-scout-cves.txt:108: trailing whitespace.
++      Fixed version  : 12.2.0                                                          
+docs/evidence/commands/04-scout-cves.txt:109: trailing whitespace.
++      CVSS Score     : 8.7                                                             
+docs/evidence/commands/04-scout-cves.txt:110: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:111: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:114: trailing whitespace.
++      Affected range : >=5.3.0                                                         
+docs/evidence/commands/04-scout-cves.txt:115: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:116: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:117: trailing whitespace.
++      CVSS Score     : 8.7                                                             
+docs/evidence/commands/04-scout-cves.txt:118: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:119: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:122: trailing whitespace.
++      Affected range : >=5.1.0                                                         
+docs/evidence/commands/04-scout-cves.txt:123: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:124: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:125: trailing whitespace.
++      CVSS Score     : 8.7                                                             
+docs/evidence/commands/04-scout-cves.txt:126: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:127: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:130: trailing whitespace.
++      Affected range : >=5.1.0                                                         
+docs/evidence/commands/04-scout-cves.txt:131: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:132: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:133: trailing whitespace.
++      CVSS Score     : 8.7                                                             
+docs/evidence/commands/04-scout-cves.txt:134: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:135: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:138: trailing whitespace.
++      Affected range : >=4.1.0                                                         
+docs/evidence/commands/04-scout-cves.txt:139: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:140: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:141: trailing whitespace.
++      CVSS Score     : 8.7                                                             
+docs/evidence/commands/04-scout-cves.txt:142: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:143: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:146: trailing whitespace.
++      Affected range : >=5.1.0                                                         
+docs/evidence/commands/04-scout-cves.txt:147: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:148: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:149: trailing whitespace.
++      CVSS Score     : 8.7                                                             
+docs/evidence/commands/04-scout-cves.txt:150: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:151: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:154: trailing whitespace.
++      Affected range : <=12.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:155: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:156: trailing whitespace.
++      CVSS Score     : 8.7                                                             
+docs/evidence/commands/04-scout-cves.txt:157: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:158: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:161: trailing whitespace.
++      Affected range : >=9.2.0                                                         
+docs/evidence/commands/04-scout-cves.txt:162: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:163: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:164: trailing whitespace.
++      CVSS Score     : 8.7                                                             
+docs/evidence/commands/04-scout-cves.txt:165: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:166: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:169: trailing whitespace.
++      Affected range : >=8.1.0                                                         
+docs/evidence/commands/04-scout-cves.txt:170: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:171: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:172: trailing whitespace.
++      CVSS Score     : 8.7                                                             
+docs/evidence/commands/04-scout-cves.txt:173: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:174: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:177: trailing whitespace.
++      Affected range : <=12.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:178: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:179: trailing whitespace.
++      CVSS Score     : 8.7                                                             
+docs/evidence/commands/04-scout-cves.txt:180: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:181: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:184: trailing whitespace.
++      Affected range : >=10.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:185: trailing whitespace.
++                     : <12.2.0                                                         
+docs/evidence/commands/04-scout-cves.txt:186: trailing whitespace.
++      Fixed version  : 12.2.0                                                          
+docs/evidence/commands/04-scout-cves.txt:187: trailing whitespace.
++      CVSS Score     : 8.6                                                             
+docs/evidence/commands/04-scout-cves.txt:188: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:189: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:192: trailing whitespace.
++      Affected range : >=10.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:193: trailing whitespace.
++                     : <12.1.1                                                         
+docs/evidence/commands/04-scout-cves.txt:194: trailing whitespace.
++      Fixed version  : 12.1.1                                                          
+docs/evidence/commands/04-scout-cves.txt:195: trailing whitespace.
++      CVSS Score     : 8.6                                                             
+docs/evidence/commands/04-scout-cves.txt:196: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:197: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:200: trailing whitespace.
++      Affected range : <12.3.0                                                         
+docs/evidence/commands/04-scout-cves.txt:201: trailing whitespace.
++      Fixed version  : 12.3.0                                                          
+docs/evidence/commands/04-scout-cves.txt:202: trailing whitespace.
++      CVSS Score     : 8.3                                                             
+docs/evidence/commands/04-scout-cves.txt:203: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:204: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:207: trailing whitespace.
++      Affected range : >=5.1.0                                                         
+docs/evidence/commands/04-scout-cves.txt:208: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:209: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:210: trailing whitespace.
++      CVSS Score     : 8.2                                                             
+docs/evidence/commands/04-scout-cves.txt:211: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:212: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:215: trailing whitespace.
++      Affected range : <12.3.0                                      
+docs/evidence/commands/04-scout-cves.txt:216: trailing whitespace.
++      Fixed version  : 12.3.0                                       
+docs/evidence/commands/04-scout-cves.txt:217: trailing whitespace.
++      CVSS Score     : 8.2                                          
+docs/evidence/commands/04-scout-cves.txt:218: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H 
+docs/evidence/commands/04-scout-cves.txt:219: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:222: trailing whitespace.
++      Affected range : >=10.0.0                                                        
+docs/evidence/commands/04-scout-cves.txt:223: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:224: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:225: trailing whitespace.
++      CVSS Score     : 8.2                                                             
+docs/evidence/commands/04-scout-cves.txt:226: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:227: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:230: trailing whitespace.
++      Affected range : <=12.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:231: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:232: trailing whitespace.
++      CVSS Score     : 8.2                                                             
+docs/evidence/commands/04-scout-cves.txt:233: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:234: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:237: trailing whitespace.
++      Affected range : >=7.2.0                                                         
+docs/evidence/commands/04-scout-cves.txt:238: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:239: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:240: trailing whitespace.
++      CVSS Score     : 8.2                                                             
+docs/evidence/commands/04-scout-cves.txt:241: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:242: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:245: trailing whitespace.
++      Affected range : >=11.1.0                                     
+docs/evidence/commands/04-scout-cves.txt:246: trailing whitespace.
++                     : <13.0.0                                      
+docs/evidence/commands/04-scout-cves.txt:247: trailing whitespace.
++      Fixed version  : 13.0.0                                       
+docs/evidence/commands/04-scout-cves.txt:248: trailing whitespace.
++      CVSS Score     : 8.1                                          
+docs/evidence/commands/04-scout-cves.txt:249: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H 
+docs/evidence/commands/04-scout-cves.txt:250: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:253: trailing whitespace.
++      Affected range : >=9.4.0                                                         
+docs/evidence/commands/04-scout-cves.txt:254: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:255: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:256: trailing whitespace.
++      CVSS Score     : 7.7                                                             
+docs/evidence/commands/04-scout-cves.txt:257: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:258: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:261: trailing whitespace.
++      Affected range : <12.3.0                                      
+docs/evidence/commands/04-scout-cves.txt:262: trailing whitespace.
++      Fixed version  : 12.3.0                                       
+docs/evidence/commands/04-scout-cves.txt:263: trailing whitespace.
++      CVSS Score     : 7.5                                          
+docs/evidence/commands/04-scout-cves.txt:264: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:265: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:268: trailing whitespace.
++      Affected range : >=5.1.0                                      
+docs/evidence/commands/04-scout-cves.txt:269: trailing whitespace.
++                     : <12.3.0                                      
+docs/evidence/commands/04-scout-cves.txt:270: trailing whitespace.
++      Fixed version  : 12.3.0                                       
+docs/evidence/commands/04-scout-cves.txt:271: trailing whitespace.
++      CVSS Score     : 7.5                                          
+docs/evidence/commands/04-scout-cves.txt:272: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:273: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:276: trailing whitespace.
++      Affected range : <12.3.0                                      
+docs/evidence/commands/04-scout-cves.txt:277: trailing whitespace.
++      Fixed version  : 12.3.0                                       
+docs/evidence/commands/04-scout-cves.txt:278: trailing whitespace.
++      CVSS Score     : 7.5                                          
+docs/evidence/commands/04-scout-cves.txt:279: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:280: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:283: trailing whitespace.
++      Affected range : <12.3.0                                      
+docs/evidence/commands/04-scout-cves.txt:284: trailing whitespace.
++      Fixed version  : 12.3.0                                       
+docs/evidence/commands/04-scout-cves.txt:285: trailing whitespace.
++      CVSS Score     : 7.5                                          
+docs/evidence/commands/04-scout-cves.txt:286: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:287: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:290: trailing whitespace.
++      Affected range : <12.3.0                                      
+docs/evidence/commands/04-scout-cves.txt:291: trailing whitespace.
++      Fixed version  : 12.3.0                                       
+docs/evidence/commands/04-scout-cves.txt:292: trailing whitespace.
++      CVSS Score     : 7.5                                          
+docs/evidence/commands/04-scout-cves.txt:293: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:294: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:297: trailing whitespace.
++      Affected range : <12.3.0                                      
+docs/evidence/commands/04-scout-cves.txt:298: trailing whitespace.
++      Fixed version  : 12.3.0                                       
+docs/evidence/commands/04-scout-cves.txt:299: trailing whitespace.
++      CVSS Score     : 7.5                                          
+docs/evidence/commands/04-scout-cves.txt:300: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:301: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:304: trailing whitespace.
++      Affected range : <12.3.0                                      
+docs/evidence/commands/04-scout-cves.txt:305: trailing whitespace.
++      Fixed version  : 12.3.0                                       
+docs/evidence/commands/04-scout-cves.txt:306: trailing whitespace.
++      CVSS Score     : 7.5                                          
+docs/evidence/commands/04-scout-cves.txt:307: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:308: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:311: trailing whitespace.
++      Affected range : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:312: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:313: trailing whitespace.
++      CVSS Score     : 7.1                                                             
+docs/evidence/commands/04-scout-cves.txt:314: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:L/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:315: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:318: trailing whitespace.
++      Affected range : >=11.0.0                                                        
+docs/evidence/commands/04-scout-cves.txt:319: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:320: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:321: trailing whitespace.
++      CVSS Score     : 7.1                                                             
+docs/evidence/commands/04-scout-cves.txt:322: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:323: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:326: trailing whitespace.
++      Affected range : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:327: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:328: trailing whitespace.
++      CVSS Score     : 7.1                                                             
+docs/evidence/commands/04-scout-cves.txt:329: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:330: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:333: trailing whitespace.
++      Affected range : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:334: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:335: trailing whitespace.
++      CVSS Score     : 7.1                                                             
+docs/evidence/commands/04-scout-cves.txt:336: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:337: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:340: trailing whitespace.
++      Affected range : <=12.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:341: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:342: trailing whitespace.
++      CVSS Score     : 6.9                                                             
+docs/evidence/commands/04-scout-cves.txt:343: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:344: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:347: trailing whitespace.
++      Affected range : >=2.3.0                                                         
+docs/evidence/commands/04-scout-cves.txt:348: trailing whitespace.
++                     : <=12.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:349: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:350: trailing whitespace.
++      CVSS Score     : 6.9                                                             
+docs/evidence/commands/04-scout-cves.txt:351: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:352: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:355: trailing whitespace.
++      Affected range : >=9.1.0                                                         
+docs/evidence/commands/04-scout-cves.txt:356: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:357: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:358: trailing whitespace.
++      CVSS Score     : 6.9                                                             
+docs/evidence/commands/04-scout-cves.txt:359: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:360: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:363: trailing whitespace.
++      Affected range : >=9.2.0                                                         
+docs/evidence/commands/04-scout-cves.txt:364: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:365: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:366: trailing whitespace.
++      CVSS Score     : 6.9                                                             
+docs/evidence/commands/04-scout-cves.txt:367: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:368: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:371: trailing whitespace.
++      Affected range : >=5.4.0                                                         
+docs/evidence/commands/04-scout-cves.txt:372: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:373: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:374: trailing whitespace.
++      CVSS Score     : 6.9                                                             
+docs/evidence/commands/04-scout-cves.txt:375: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:376: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:379: trailing whitespace.
++      Affected range : <13.0.0                                      
+docs/evidence/commands/04-scout-cves.txt:380: trailing whitespace.
++      Fixed version  : 13.0.0                                       
+docs/evidence/commands/04-scout-cves.txt:381: trailing whitespace.
++      CVSS Score     : 6.5                                          
+docs/evidence/commands/04-scout-cves.txt:382: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:383: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:386: trailing whitespace.
++      Affected range : >=9.1.0                                      
+docs/evidence/commands/04-scout-cves.txt:387: trailing whitespace.
++                     : <13.0.0                                      
+docs/evidence/commands/04-scout-cves.txt:388: trailing whitespace.
++      Fixed version  : 13.0.0                                       
+docs/evidence/commands/04-scout-cves.txt:389: trailing whitespace.
++      CVSS Score     : 6.5                                          
+docs/evidence/commands/04-scout-cves.txt:390: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:391: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:394: trailing whitespace.
++      Affected range : <13.0.0                                      
+docs/evidence/commands/04-scout-cves.txt:395: trailing whitespace.
++      Fixed version  : 13.0.0                                       
+docs/evidence/commands/04-scout-cves.txt:396: trailing whitespace.
++      CVSS Score     : 6.5                                          
+docs/evidence/commands/04-scout-cves.txt:397: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:398: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:401: trailing whitespace.
++      Affected range : >=5.2.0                                      
+docs/evidence/commands/04-scout-cves.txt:402: trailing whitespace.
++                     : <12.3.0                                      
+docs/evidence/commands/04-scout-cves.txt:403: trailing whitespace.
++      Fixed version  : 12.3.0                                       
+docs/evidence/commands/04-scout-cves.txt:404: trailing whitespace.
++      CVSS Score     : 6.5                                          
+docs/evidence/commands/04-scout-cves.txt:405: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:L 
+docs/evidence/commands/04-scout-cves.txt:406: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:409: trailing whitespace.
++      Affected range : >=8.2.0                                      
+docs/evidence/commands/04-scout-cves.txt:410: trailing whitespace.
++                     : <13.0.0                                      
+docs/evidence/commands/04-scout-cves.txt:411: trailing whitespace.
++      Fixed version  : 13.0.0                                       
+docs/evidence/commands/04-scout-cves.txt:412: trailing whitespace.
++      CVSS Score     : 6.5                                          
+docs/evidence/commands/04-scout-cves.txt:413: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L 
+docs/evidence/commands/04-scout-cves.txt:414: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:417: trailing whitespace.
++      Affected range : >=11.2.1                                                        
+docs/evidence/commands/04-scout-cves.txt:418: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:419: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:420: trailing whitespace.
++      CVSS Score     : 6.3                                                             
+docs/evidence/commands/04-scout-cves.txt:421: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:N/VA:N/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:422: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:425: trailing whitespace.
++      Affected range : <=12.3.0                                                        
+docs/evidence/commands/04-scout-cves.txt:426: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:427: trailing whitespace.
++      CVSS Score     : 6.3                                                             
+docs/evidence/commands/04-scout-cves.txt:428: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:L/VI:N/VA:L/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:429: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:432: trailing whitespace.
++      Affected range : >=5.1.0                                                         
+docs/evidence/commands/04-scout-cves.txt:433: trailing whitespace.
++                     : <13.0.0                                                         
+docs/evidence/commands/04-scout-cves.txt:434: trailing whitespace.
++      Fixed version  : 13.0.0                                                          
+docs/evidence/commands/04-scout-cves.txt:435: trailing whitespace.
++      CVSS Score     : 6.3                                                             
+docs/evidence/commands/04-scout-cves.txt:436: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:437: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:440: trailing whitespace.
++      Affected range : >=11.3.0                                     
+docs/evidence/commands/04-scout-cves.txt:441: trailing whitespace.
++                     : <13.0.0                                      
+docs/evidence/commands/04-scout-cves.txt:442: trailing whitespace.
++      Fixed version  : 13.0.0                                       
+docs/evidence/commands/04-scout-cves.txt:443: trailing whitespace.
++      CVSS Score     : 5.9                                          
+docs/evidence/commands/04-scout-cves.txt:444: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:445: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:448: trailing whitespace.
++      Affected range : >=4.2.0                                                         
+docs/evidence/commands/04-scout-cves.txt:449: trailing whitespace.
++                     : <12.2.0                                                         
+docs/evidence/commands/04-scout-cves.txt:450: trailing whitespace.
++      Fixed version  : 12.2.0                                                          
+docs/evidence/commands/04-scout-cves.txt:451: trailing whitespace.
++      CVSS Score     : 5.1                                                             
+docs/evidence/commands/04-scout-cves.txt:452: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:453: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:456: trailing whitespace.
++      Affected range : >=11.2.1                                                        
+docs/evidence/commands/04-scout-cves.txt:457: trailing whitespace.
++                     : <12.2.0                                                         
+docs/evidence/commands/04-scout-cves.txt:458: trailing whitespace.
++      Fixed version  : 12.2.0                                                          
+docs/evidence/commands/04-scout-cves.txt:459: trailing whitespace.
++      CVSS Score     : 5.1                                                             
+docs/evidence/commands/04-scout-cves.txt:460: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:461: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:464: trailing whitespace.
++      Affected range : <12.2.0                                                         
+docs/evidence/commands/04-scout-cves.txt:465: trailing whitespace.
++      Fixed version  : 12.2.0                                                          
+docs/evidence/commands/04-scout-cves.txt:466: trailing whitespace.
++      CVSS Score     : 5.1                                                             
+docs/evidence/commands/04-scout-cves.txt:467: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:468: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:471: trailing whitespace.
++      Affected range : <12.3.0                                      
+docs/evidence/commands/04-scout-cves.txt:472: trailing whitespace.
++      Fixed version  : 12.3.0                                       
+docs/evidence/commands/04-scout-cves.txt:473: trailing whitespace.
++      CVSS Score     : 4.5                                          
+docs/evidence/commands/04-scout-cves.txt:474: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L 
+docs/evidence/commands/04-scout-cves.txt:475: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:482: trailing whitespace.
++      Affected range : <=1.2.0                                      
+docs/evidence/commands/04-scout-cves.txt:483: trailing whitespace.
++      Fixed version  : 1.2.1                                        
+docs/evidence/commands/04-scout-cves.txt:484: trailing whitespace.
++      CVSS Score     : 7.5                                          
+docs/evidence/commands/04-scout-cves.txt:485: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:486: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:489: trailing whitespace.
++      Affected range : <1.2.1                                       
+docs/evidence/commands/04-scout-cves.txt:490: trailing whitespace.
++      Fixed version  : 1.2.1                                        
+docs/evidence/commands/04-scout-cves.txt:491: trailing whitespace.
++      CVSS Score     : 7.5                                          
+docs/evidence/commands/04-scout-cves.txt:492: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:493: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:496: trailing whitespace.
++      Affected range : <1.2.3                                       
+docs/evidence/commands/04-scout-cves.txt:497: trailing whitespace.
++      Fixed version  : 1.2.3                                        
+docs/evidence/commands/04-scout-cves.txt:498: trailing whitespace.
++      CVSS Score     : 7.5                                          
+docs/evidence/commands/04-scout-cves.txt:499: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H 
+docs/evidence/commands/04-scout-cves.txt:500: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:507: trailing whitespace.
++      Affected range : >=1.10.3                                                        
+docs/evidence/commands/04-scout-cves.txt:508: trailing whitespace.
++                     : <2.8.0                                                          
+docs/evidence/commands/04-scout-cves.txt:509: trailing whitespace.
++      Fixed version  : 2.8.0                                                           
+docs/evidence/commands/04-scout-cves.txt:510: trailing whitespace.
++      CVSS Score     : 8.9                                                             
+docs/evidence/commands/04-scout-cves.txt:511: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:H 
+docs/evidence/commands/04-scout-cves.txt:512: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:515: trailing whitespace.
++      Affected range : >=1.26.0                                                        
+docs/evidence/commands/04-scout-cves.txt:516: trailing whitespace.
++                     : <2.8.0                                                          
+docs/evidence/commands/04-scout-cves.txt:517: trailing whitespace.
++      Fixed version  : 2.8.0                                                           
+docs/evidence/commands/04-scout-cves.txt:518: trailing whitespace.
++      CVSS Score     : 7.6                                                             
+docs/evidence/commands/04-scout-cves.txt:519: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:P/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:520: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:523: trailing whitespace.
++      Affected range : >=2.6.2                                                         
+docs/evidence/commands/04-scout-cves.txt:524: trailing whitespace.
++                     : <2.8.0                                                          
+docs/evidence/commands/04-scout-cves.txt:525: trailing whitespace.
++      Fixed version  : 2.8.0                                                           
+docs/evidence/commands/04-scout-cves.txt:526: trailing whitespace.
++      CVSS Score     : 6.9                                                             
+docs/evidence/commands/04-scout-cves.txt:527: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:528: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:535: trailing whitespace.
++      Affected range : <78.1.1                                                             
+docs/evidence/commands/04-scout-cves.txt:536: trailing whitespace.
++      Fixed version  : 78.1.1                                                              
+docs/evidence/commands/04-scout-cves.txt:537: trailing whitespace.
++      CVSS Score     : 7.7                                                                 
+docs/evidence/commands/04-scout-cves.txt:538: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N/E:P 
+docs/evidence/commands/04-scout-cves.txt:539: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:542: trailing whitespace.
++      Affected range : <83.0.0                                      
+docs/evidence/commands/04-scout-cves.txt:543: trailing whitespace.
++      Fixed version  : 83.0.0                                       
+docs/evidence/commands/04-scout-cves.txt:544: trailing whitespace.
++      CVSS Score     : 6.1                                          
+docs/evidence/commands/04-scout-cves.txt:545: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N 
+docs/evidence/commands/04-scout-cves.txt:546: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:549: trailing whitespace.
++      Affected range : >=38.2.2                                                        
+docs/evidence/commands/04-scout-cves.txt:550: trailing whitespace.
++                     : <84.1.0                                                         
+docs/evidence/commands/04-scout-cves.txt:551: trailing whitespace.
++      Fixed version  : 84.1.0                                                          
+docs/evidence/commands/04-scout-cves.txt:552: trailing whitespace.
++      CVSS Score     : 1.0                                                             
+docs/evidence/commands/04-scout-cves.txt:553: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:L/AC:H/AT:P/PR:L/UI:A/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N 
+docs/evidence/commands/04-scout-cves.txt:554: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:561: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:562: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:563: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:570: trailing whitespace.
++      Affected range : <1.54.0                                      
+docs/evidence/commands/04-scout-cves.txt:571: trailing whitespace.
++      Fixed version  : 1.54.0                                       
+docs/evidence/commands/04-scout-cves.txt:572: trailing whitespace.
++      CVSS Score     : 4.7                                          
+docs/evidence/commands/04-scout-cves.txt:573: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:N 
+docs/evidence/commands/04-scout-cves.txt:574: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:577: trailing whitespace.
++      Affected range : <1.53.1                                                             
+docs/evidence/commands/04-scout-cves.txt:578: trailing whitespace.
++      Fixed version  : 1.53.1                                                              
+docs/evidence/commands/04-scout-cves.txt:579: trailing whitespace.
++      CVSS Score     : 1.1                                                                 
+docs/evidence/commands/04-scout-cves.txt:580: trailing whitespace.
++      CVSS Vector    : CVSS:4.0/AV:L/AC:H/AT:N/PR:L/UI:N/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N/E:P 
+docs/evidence/commands/04-scout-cves.txt:581: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:588: trailing whitespace.
++      Affected range : >=1.35+dfsg-3.1 
+docs/evidence/commands/04-scout-cves.txt:589: trailing whitespace.
++      Fixed version  : not fixed       
+docs/evidence/commands/04-scout-cves.txt:590: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:593: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:594: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:595: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:602: trailing whitespace.
++      Affected range : <9.0.3                                       
+docs/evidence/commands/04-scout-cves.txt:603: trailing whitespace.
++      Fixed version  : 9.0.3                                        
+docs/evidence/commands/04-scout-cves.txt:604: trailing whitespace.
++      CVSS Score     : 6.8                                          
+docs/evidence/commands/04-scout-cves.txt:605: trailing whitespace.
++      CVSS Vector    : CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L 
+docs/evidence/commands/04-scout-cves.txt:606: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:613: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:614: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:615: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:618: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:619: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:620: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:623: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:624: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:625: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:628: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:629: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:630: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:633: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:634: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:635: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:638: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:639: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:640: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:643: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:644: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:645: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:652: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:653: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:654: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:657: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:658: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:659: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:662: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:663: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:664: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:667: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:668: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:669: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:676: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:677: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:678: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:681: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:682: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:683: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:686: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:687: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:688: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:691: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:692: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:693: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:700: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:701: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:702: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:705: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:706: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:707: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:714: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:715: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:716: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:719: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:720: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:721: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:728: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:729: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:730: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:737: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:738: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:739: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:746: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:747: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:748: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:755: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:756: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:757: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:764: trailing whitespace.
++      Affected range : >=3.2.1-3 
+docs/evidence/commands/04-scout-cves.txt:765: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:766: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:773: trailing whitespace.
++      Affected range : >0        
+docs/evidence/commands/04-scout-cves.txt:774: trailing whitespace.
++      Fixed version  : not fixed 
+docs/evidence/commands/04-scout-cves.txt:775: trailing whitespace.
++    
+docs/evidence/commands/04-scout-cves.txt:779: trailing whitespace.
++  CRITICAL  5  
+docs/evidence/commands/04-scout-cves.txt:780: trailing whitespace.
++  HIGH      42 
+docs/evidence/commands/04-scout-cves.txt:781: trailing whitespace.
++  MEDIUM    23 
+docs/evidence/commands/04-scout-cves.txt:782: trailing whitespace.
++  LOW       28 
+docs/evidence/commands/05-scout-recommendations.txt:12: trailing whitespace.
++ Target   │  helpdesk:week9-before  
+docs/evidence/commands/05-scout-recommendations.txt:13: trailing whitespace.
++   digest │  fee55445a97a           
+docs/evidence/commands/05-scout-recommendations.txt:17: trailing whitespace.
++  Base image is  python:3.13-slim 
+docs/evidence/commands/05-scout-recommendations.txt:19: trailing whitespace.
++ Name            │  3.13-slim                                                                
+docs/evidence/commands/05-scout-recommendations.txt:20: trailing whitespace.
++ Digest          │  sha256:aaf08c5490d52cd92bc27142a5215b1e47355a5eaf9adfad2a0fbc022d0b5490  
+docs/evidence/commands/05-scout-recommendations.txt:21: trailing whitespace.
++ Vulnerabilities │    0C     7H     3M    27L                                                
+docs/evidence/commands/05-scout-recommendations.txt:22: trailing whitespace.
++ Pushed          │ 2 days ago                                                                
+docs/evidence/commands/05-scout-recommendations.txt:23: trailing whitespace.
++ Size            │ 43 MB                                                                     
+docs/evidence/commands/05-scout-recommendations.txt:24: trailing whitespace.
++ Packages        │ 142                                                                       
+docs/evidence/commands/05-scout-recommendations.txt:25: trailing whitespace.
++ Runtime         │ 3.13.18                                                                   
+docs/evidence/commands/05-scout-recommendations.txt:38: trailing whitespace.
++             Tag              │                        Details                         │   Pushed   │          Vulnerabilities           
+docs/evidence/commands/05-scout-recommendations.txt:40: trailing whitespace.
++  3.15-slim                   │ Benefits:                                              │ 2 days ago │    0C     7H     3M    27L         
+docs/evidence/commands/05-scout-recommendations.txt:41: trailing whitespace.
++ Minor runtime version update │ • Same OS detected                                     │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:42: trailing whitespace.
++ Also known as:               │ • Minor runtime version update                         │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:43: trailing whitespace.
++ • 3.15.2-slim                │ • Image has similar size                               │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:44: trailing whitespace.
++ • 3-slim                     │ • Image has same number of vulnerabilities             │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:45: trailing whitespace.
++ • slim                       │ • Image contains similar number of packages            │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:46: trailing whitespace.
++ • slim-trixie                │ • Tag is using slim variant                            │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:47: trailing whitespace.
++ • 3-slim-trixie              │                                                        │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:48: trailing whitespace.
++ • 3.15-slim-trixie           │ Image details:                                         │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:49: trailing whitespace.
++ • 3.15.2-slim-trixie         │ • Size: 44 MB                                          │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:50: trailing whitespace.
++                              │ • Runtime: 3.15.2                                      │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:51: trailing whitespace.
++                              │                                                        │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:52: trailing whitespace.
++                              │                                                        │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:53: trailing whitespace.
++                              │                                                        │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:54: trailing whitespace.
++  3.14-slim                   │ Benefits:                                              │ 2 days ago │    0C     7H     3M    27L         
+docs/evidence/commands/05-scout-recommendations.txt:55: trailing whitespace.
++ Minor runtime version update │ • Same OS detected                                     │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:56: trailing whitespace.
++ Also known as:               │ • Minor runtime version update                         │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:57: trailing whitespace.
++ • 3.14.10-slim               │ • Image has similar size                               │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:58: trailing whitespace.
++ • 3.14-slim-trixie           │ • Image has same number of vulnerabilities             │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:59: trailing whitespace.
++ • 3.14.10-slim-trixie        │ • Image contains equal number of packages              │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:60: trailing whitespace.
++                              │ • Tag is using slim variant                            │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:61: trailing whitespace.
++                              │                                                        │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:62: trailing whitespace.
++                              │ Image details:                                         │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:63: trailing whitespace.
++                              │ • Size: 44 MB                                          │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:64: trailing whitespace.
++                              │ • Runtime: 3.14.10                                     │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:65: trailing whitespace.
++                              │                                                        │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:66: trailing whitespace.
++                              │                                                        │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:67: trailing whitespace.
++                              │                                                        │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:68: trailing whitespace.
++  alpine                      │ Benefits:                                              │ 3 days ago │    0C     6H     2M     1L     1?  
+docs/evidence/commands/05-scout-recommendations.txt:69: trailing whitespace.
++ Tag is preferred tag         │ • Minor runtime version update                         │            │           -1     -1    -26     +1  
+docs/evidence/commands/05-scout-recommendations.txt:70: trailing whitespace.
++ Also known as:               │ • Image is smaller by 22 MB                            │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:71: trailing whitespace.
++ • alpine3.24                 │ • Image contains 79 fewer packages                     │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:72: trailing whitespace.
++ • 3.15.2-alpine              │ • Tag is preferred tag                                 │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:73: trailing whitespace.
++ • 3.15.2-alpine3.24          │ • Image introduces no new vulnerability but removes 28 │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:74: trailing whitespace.
++ • 3.15-alpine                │ • alpine was pulled 41K times last month               │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:75: trailing whitespace.
++ • 3.15-alpine3.24            │                                                        │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:76: trailing whitespace.
++ • 3-alpine                   │ Image details:                                         │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:77: trailing whitespace.
++ • 3-alpine3.24               │ • Size: 20 MB                                          │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:78: trailing whitespace.
++                              │ • Flavor: alpine                                       │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:79: trailing whitespace.
++                              │ • OS: 3.24                                             │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:80: trailing whitespace.
++                              │ • Runtime: 3.15.2                                      │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:81: trailing whitespace.
++                              │                                                        │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:82: trailing whitespace.
++                              │                                                        │            │                                    
+docs/evidence/commands/05-scout-recommendations.txt:83: trailing whitespace.
++                              │                                                        │            │                                    
+docs/evidence/commands/05-scout-sbom.txt:12: trailing whitespace.
++           Name            │              Version              │  Type   
+docs/evidence/commands/05-scout-sbom.txt:14: trailing whitespace.
++ acl                       │ 2.3.2-2                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:15: trailing whitespace.
++ adduser                   │ 3.152                             │ deb     
+docs/evidence/commands/05-scout-sbom.txt:16: trailing whitespace.
++ altair                    │ 5.5.0                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:17: trailing whitespace.
++ apt                       │ 3.0.3                             │ deb     
+docs/evidence/commands/05-scout-sbom.txt:18: trailing whitespace.
++ attr                      │ 1:2.5.2-3                         │ deb     
+docs/evidence/commands/05-scout-sbom.txt:19: trailing whitespace.
++ attrs                     │ 26.1.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:20: trailing whitespace.
++ audit                     │ 1:4.0.2-2+deb13u1                 │ deb     
+docs/evidence/commands/05-scout-sbom.txt:21: trailing whitespace.
++ base-files                │ 13.8+deb13u7                      │ deb     
+docs/evidence/commands/05-scout-sbom.txt:22: trailing whitespace.
++ base-passwd               │ 3.6.7                             │ deb     
+docs/evidence/commands/05-scout-sbom.txt:23: trailing whitespace.
++ bash                      │ 5.2.37-2+b10                      │ deb     
+docs/evidence/commands/05-scout-sbom.txt:24: trailing whitespace.
++ blinker                   │ 1.9.0                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:25: trailing whitespace.
++ bsdutils                  │ 1:2.41.5-0+deb13u1                │ deb     
+docs/evidence/commands/05-scout-sbom.txt:26: trailing whitespace.
++ bzip2                     │ 1.0.8-6                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:27: trailing whitespace.
++ ca-certificates           │ 20250419+deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:28: trailing whitespace.
++ cachecontrol              │ 0.14.4                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:29: trailing whitespace.
++ cachetools                │ 6.2.6                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:30: trailing whitespace.
++ cdebconf                  │ 0.280                             │ deb     
+docs/evidence/commands/05-scout-sbom.txt:31: trailing whitespace.
++ certifi                   │ 2026.10.23                        │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:32: trailing whitespace.
++ certifi                   │ 2026.10.19                        │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:33: trailing whitespace.
++ charset-normalizer        │ 3.5.2                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:34: trailing whitespace.
++ click                     │ 8.5.0                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:35: trailing whitespace.
++ coreutils                 │ 9.7-3                             │ deb     
+docs/evidence/commands/05-scout-sbom.txt:36: trailing whitespace.
++ dash                      │ 0.5.12-12                         │ deb     
+docs/evidence/commands/05-scout-sbom.txt:37: trailing whitespace.
++ db5.3                     │ 5.3.28+dfsg2-9                    │ deb     
+docs/evidence/commands/05-scout-sbom.txt:38: trailing whitespace.
++ debconf                   │ 1.5.91                            │ deb     
+docs/evidence/commands/05-scout-sbom.txt:39: trailing whitespace.
++ debian-archive-keyring    │ 2025.1                            │ deb     
+docs/evidence/commands/05-scout-sbom.txt:40: trailing whitespace.
++ debianutils               │ 5.23.2                            │ deb     
+docs/evidence/commands/05-scout-sbom.txt:41: trailing whitespace.
++ diffutils                 │ 1:3.10-4                          │ deb     
+docs/evidence/commands/05-scout-sbom.txt:42: trailing whitespace.
++ distlib                   │ 0.4.2                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:43: trailing whitespace.
++ distro                    │ 1.9.0                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:44: trailing whitespace.
++ dpkg                      │ 1.22.22                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:45: trailing whitespace.
++ findutils                 │ 4.10.0-3                          │ deb     
+docs/evidence/commands/05-scout-sbom.txt:46: trailing whitespace.
++ gcc-14                    │ 14.2.0-19                         │ deb     
+docs/evidence/commands/05-scout-sbom.txt:47: trailing whitespace.
++ gcc-14-base               │ 14.2.0-19                         │ deb     
+docs/evidence/commands/05-scout-sbom.txt:48: trailing whitespace.
++ gdbm                      │ 1.24-2                            │ deb     
+docs/evidence/commands/05-scout-sbom.txt:49: trailing whitespace.
++ gitdb                     │ 4.0.12                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:50: trailing whitespace.
++ gitpython                 │ 3.2.1                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:51: trailing whitespace.
++ glibc                     │ 2.41-12+deb13u4                   │ deb     
+docs/evidence/commands/05-scout-sbom.txt:52: trailing whitespace.
++ gmp                       │ 2:6.3.0+dfsg-3                    │ deb     
+docs/evidence/commands/05-scout-sbom.txt:53: trailing whitespace.
++ greenlet                  │ 3.5.6                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:54: trailing whitespace.
++ grep                      │ 3.11-4                            │ deb     
+docs/evidence/commands/05-scout-sbom.txt:55: trailing whitespace.
++ gzip                      │ 1.13-1+deb13u1                    │ deb     
+docs/evidence/commands/05-scout-sbom.txt:56: trailing whitespace.
++ hostname                  │ 3.25                              │ deb     
+docs/evidence/commands/05-scout-sbom.txt:57: trailing whitespace.
++ idna                      │ 3.18                              │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:58: trailing whitespace.
++ idna                      │ 3.20                              │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:59: trailing whitespace.
++ iniconfig                 │ 2.3.1                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:60: trailing whitespace.
++ init-system-helpers       │ 1.69~deb13u1                      │ deb     
+docs/evidence/commands/05-scout-sbom.txt:61: trailing whitespace.
++ jinja2                    │ 3.1.6                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:62: trailing whitespace.
++ jsonschema                │ 4.26.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:63: trailing whitespace.
++ jsonschema-specifications │ 2025.9.1                          │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:64: trailing whitespace.
++ libacl1                   │ 2.3.2-2+b1                        │ deb     
+docs/evidence/commands/05-scout-sbom.txt:65: trailing whitespace.
++ libapt-pkg7.0             │ 3.0.3                             │ deb     
+docs/evidence/commands/05-scout-sbom.txt:66: trailing whitespace.
++ libattr1                  │ 1:2.5.2-3                         │ deb     
+docs/evidence/commands/05-scout-sbom.txt:67: trailing whitespace.
++ libaudit-common           │ 1:4.0.2-2+deb13u1                 │ deb     
+docs/evidence/commands/05-scout-sbom.txt:68: trailing whitespace.
++ libaudit1                 │ 1:4.0.2-2+deb13u1                 │ deb     
+docs/evidence/commands/05-scout-sbom.txt:69: trailing whitespace.
++ libblkid1                 │ 2.41.5-0+deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:70: trailing whitespace.
++ libbsd                    │ 0.12.2-2                          │ deb     
+docs/evidence/commands/05-scout-sbom.txt:71: trailing whitespace.
++ libbsd0                   │ 0.12.2-2                          │ deb     
+docs/evidence/commands/05-scout-sbom.txt:72: trailing whitespace.
++ libbz2-1.0                │ 1.0.8-6                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:73: trailing whitespace.
++ libc-bin                  │ 2.41-12+deb13u4                   │ deb     
+docs/evidence/commands/05-scout-sbom.txt:74: trailing whitespace.
++ libc6                     │ 2.41-12+deb13u4                   │ deb     
+docs/evidence/commands/05-scout-sbom.txt:75: trailing whitespace.
++ libcap-ng                 │ 0.8.5-4                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:76: trailing whitespace.
++ libcap-ng0                │ 0.8.5-4+b1                        │ deb     
+docs/evidence/commands/05-scout-sbom.txt:77: trailing whitespace.
++ libcap2                   │ 1:2.75-10+deb13u1+b3              │ deb     
+docs/evidence/commands/05-scout-sbom.txt:78: trailing whitespace.
++ libcrypt1                 │ 1:4.4.38-1                        │ deb     
+docs/evidence/commands/05-scout-sbom.txt:79: trailing whitespace.
++ libdb5.3t64               │ 5.3.28+dfsg2-9                    │ deb     
+docs/evidence/commands/05-scout-sbom.txt:80: trailing whitespace.
++ libdebconfclient0         │ 0.280                             │ deb     
+docs/evidence/commands/05-scout-sbom.txt:81: trailing whitespace.
++ libffi                    │ 3.4.8-2                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:82: trailing whitespace.
++ libffi8                   │ 3.4.8-2                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:83: trailing whitespace.
++ libgcc-s1                 │ 14.2.0-19                         │ deb     
+docs/evidence/commands/05-scout-sbom.txt:84: trailing whitespace.
++ libgdbm6t64               │ 1.24-2                            │ deb     
+docs/evidence/commands/05-scout-sbom.txt:85: trailing whitespace.
++ libgmp10                  │ 2:6.3.0+dfsg-3                    │ deb     
+docs/evidence/commands/05-scout-sbom.txt:86: trailing whitespace.
++ libhogweed6t64            │ 3.10.1-1                          │ deb     
+docs/evidence/commands/05-scout-sbom.txt:87: trailing whitespace.
++ liblastlog2-2             │ 2.41.5-0+deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:88: trailing whitespace.
++ liblz4-1                  │ 1.10.0-4                          │ deb     
+docs/evidence/commands/05-scout-sbom.txt:89: trailing whitespace.
++ liblzma5                  │ 5.8.1-1+deb13u2                   │ deb     
+docs/evidence/commands/05-scout-sbom.txt:90: trailing whitespace.
++ libmd                     │ 1.1.0-2                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:91: trailing whitespace.
++ libmd0                    │ 1.1.0-2+b1                        │ deb     
+docs/evidence/commands/05-scout-sbom.txt:92: trailing whitespace.
++ libmount1                 │ 2.41.5-0+deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:93: trailing whitespace.
++ libncursesw6              │ 6.5+20250216-2                    │ deb     
+docs/evidence/commands/05-scout-sbom.txt:94: trailing whitespace.
++ libnettle8t64             │ 3.10.1-1                          │ deb     
+docs/evidence/commands/05-scout-sbom.txt:95: trailing whitespace.
++ libpam-modules            │ 1.7.0-5                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:96: trailing whitespace.
++ libpam-modules-bin        │ 1.7.0-5                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:97: trailing whitespace.
++ libpam-runtime            │ 1.7.0-5                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:98: trailing whitespace.
++ libpam0g                  │ 1.7.0-5                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:99: trailing whitespace.
++ libpcre2-8-0              │ 10.46-1~deb13u3                   │ deb     
+docs/evidence/commands/05-scout-sbom.txt:100: trailing whitespace.
++ libreadline8t64           │ 8.2-6                             │ deb     
+docs/evidence/commands/05-scout-sbom.txt:101: trailing whitespace.
++ libseccomp                │ 2.6.0-2                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:102: trailing whitespace.
++ libseccomp2               │ 2.6.0-2                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:103: trailing whitespace.
++ libselinux                │ 3.8.1-1                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:104: trailing whitespace.
++ libselinux1               │ 3.8.1-1                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:105: trailing whitespace.
++ libsemanage               │ 3.8.1-1                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:106: trailing whitespace.
++ libsemanage-common        │ 3.8.1-1                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:107: trailing whitespace.
++ libsemanage2              │ 3.8.1-1                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:108: trailing whitespace.
++ libsepol                  │ 3.8.1-1                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:109: trailing whitespace.
++ libsepol2                 │ 3.8.1-1                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:110: trailing whitespace.
++ libsmartcols1             │ 2.41.5-0+deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:111: trailing whitespace.
++ libsqlite3-0              │ 3.46.1-7+deb13u2                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:112: trailing whitespace.
++ libssl3t64                │ 3.5.7-1~deb13u3                   │ deb     
+docs/evidence/commands/05-scout-sbom.txt:113: trailing whitespace.
++ libstdc++6                │ 14.2.0-19                         │ deb     
+docs/evidence/commands/05-scout-sbom.txt:114: trailing whitespace.
++ libsystemd0               │ 257.13-1~deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:115: trailing whitespace.
++ libtinfo6                 │ 6.5+20250216-2                    │ deb     
+docs/evidence/commands/05-scout-sbom.txt:116: trailing whitespace.
++ libudev1                  │ 257.13-1~deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:117: trailing whitespace.
++ libuuid1                  │ 2.41.5-0+deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:118: trailing whitespace.
++ libxcrypt                 │ 1:4.4.38-1                        │ deb     
+docs/evidence/commands/05-scout-sbom.txt:119: trailing whitespace.
++ libxxhash0                │ 0.8.3-2                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:120: trailing whitespace.
++ libzstd                   │ 1.5.7+dfsg-1                      │ deb     
+docs/evidence/commands/05-scout-sbom.txt:121: trailing whitespace.
++ libzstd1                  │ 1.5.7+dfsg-1                      │ deb     
+docs/evidence/commands/05-scout-sbom.txt:122: trailing whitespace.
++ login                     │ 1:4.16.0-2+really2.41.5-0+deb13u1 │ deb     
+docs/evidence/commands/05-scout-sbom.txt:123: trailing whitespace.
++ login.defs                │ 1:4.17.4-2                        │ deb     
+docs/evidence/commands/05-scout-sbom.txt:124: trailing whitespace.
++ lz4                       │ 1.10.0-4                          │ deb     
+docs/evidence/commands/05-scout-sbom.txt:125: trailing whitespace.
++ markupsafe                │ 3.0.4                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:126: trailing whitespace.
++ mawk                      │ 1.3.4.20250131-1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:127: trailing whitespace.
++ mount                     │ 2.41.5-0+deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:128: trailing whitespace.
++ msgpack                   │ 1.1.2                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:129: trailing whitespace.
++ narwhals                  │ 2.28.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:130: trailing whitespace.
++ ncurses                   │ 6.5+20250216-2                    │ deb     
+docs/evidence/commands/05-scout-sbom.txt:131: trailing whitespace.
++ ncurses-base              │ 6.5+20250216-2                    │ deb     
+docs/evidence/commands/05-scout-sbom.txt:132: trailing whitespace.
++ ncurses-bin               │ 6.5+20250216-2                    │ deb     
+docs/evidence/commands/05-scout-sbom.txt:133: trailing whitespace.
++ netbase                   │ 6.5                               │ deb     
+docs/evidence/commands/05-scout-sbom.txt:134: trailing whitespace.
++ nettle                    │ 3.10.1-1                          │ deb     
+docs/evidence/commands/05-scout-sbom.txt:135: trailing whitespace.
++ numpy                     │ 2.5.4                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:136: trailing whitespace.
++ openssl                   │ 3.5.7-1~deb13u3                   │ deb     
+docs/evidence/commands/05-scout-sbom.txt:137: trailing whitespace.
++ openssl-provider-legacy   │ 3.5.7-1~deb13u3                   │ deb     
+docs/evidence/commands/05-scout-sbom.txt:138: trailing whitespace.
++ packaging                 │ 25.0                              │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:139: trailing whitespace.
++ packaging                 │ 26.2                              │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:140: trailing whitespace.
++ pam                       │ 1.7.0-5                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:141: trailing whitespace.
++ pandas                    │ 2.3.3                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:142: trailing whitespace.
++ passwd                    │ 1:4.17.4-2                        │ deb     
+docs/evidence/commands/05-scout-sbom.txt:143: trailing whitespace.
++ pcre2                     │ 10.46-1~deb13u3                   │ deb     
+docs/evidence/commands/05-scout-sbom.txt:144: trailing whitespace.
++ perl                      │ 5.40.1-6+deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:145: trailing whitespace.
++ perl-base                 │ 5.40.1-6+deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:146: trailing whitespace.
++ pillow                    │ 11.3.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:147: trailing whitespace.
++ pip                       │ 26.2.2                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:148: trailing whitespace.
++ platformdirs              │ 4.10.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:149: trailing whitespace.
++ pluggy                    │ 1.7.0                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:150: trailing whitespace.
++ protobuf                  │ 6.33.6                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:151: trailing whitespace.
++ psycopg                   │ 3.2.10                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:152: trailing whitespace.
++ psycopg-binary            │ 3.2.10                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:153: trailing whitespace.
++ pyarrow                   │ 26.0.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:154: trailing whitespace.
++ pydeck                    │ 0.9.3                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:155: trailing whitespace.
++ pygments                  │ 2.20.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:156: trailing whitespace.
++ pygments                  │ 2.21.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:157: trailing whitespace.
++ pyproject-hooks           │ 1.2.0                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:158: trailing whitespace.
++ pytest                    │ 8.4.2                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:159: trailing whitespace.
++ python                    │ 3.13.18                           │ generic 
+docs/evidence/commands/05-scout-sbom.txt:160: trailing whitespace.
++ python-dateutil           │ 3.0.0                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:161: trailing whitespace.
++ pytz                      │ 2026.6                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:162: trailing whitespace.
++ readline                  │ 8.2-6                             │ deb     
+docs/evidence/commands/05-scout-sbom.txt:163: trailing whitespace.
++ readline-common           │ 8.2-6                             │ deb     
+docs/evidence/commands/05-scout-sbom.txt:164: trailing whitespace.
++ referencing               │ 0.37.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:165: trailing whitespace.
++ requests                  │ 2.34.2                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:166: trailing whitespace.
++ resolvelib                │ 1.2.1                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:167: trailing whitespace.
++ rich                      │ 14.2.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:168: trailing whitespace.
++ rpds-py                   │ 2026.9.1                          │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:169: trailing whitespace.
++ rust-sequoia-sqv          │ 1.3.0-3                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:170: trailing whitespace.
++ sed                       │ 4.9-2+deb13u1                     │ deb     
+docs/evidence/commands/05-scout-sbom.txt:171: trailing whitespace.
++ setuptools                │ 70.3.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:172: trailing whitespace.
++ shadow                    │ 1:4.17.4-2                        │ deb     
+docs/evidence/commands/05-scout-sbom.txt:173: trailing whitespace.
++ six                       │ 1.17.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:174: trailing whitespace.
++ smmap                     │ 5.0.3                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:175: trailing whitespace.
++ sqlalchemy                │ 2.0.44                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:176: trailing whitespace.
++ sqlite3                   │ 3.46.1-7+deb13u2                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:177: trailing whitespace.
++ sqv                       │ 1.3.0-3+b2                        │ deb     
+docs/evidence/commands/05-scout-sbom.txt:178: trailing whitespace.
++ streamlit                 │ 1.50.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:179: trailing whitespace.
++ systemd                   │ 257.13-1~deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:180: trailing whitespace.
++ sysvinit                  │ 3.14-4                            │ deb     
+docs/evidence/commands/05-scout-sbom.txt:181: trailing whitespace.
++ sysvinit-utils            │ 3.14-4                            │ deb     
+docs/evidence/commands/05-scout-sbom.txt:182: trailing whitespace.
++ tar                       │ 1.35+dfsg-3.1                     │ deb     
+docs/evidence/commands/05-scout-sbom.txt:183: trailing whitespace.
++ tenacity                  │ 9.2.1                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:184: trailing whitespace.
++ toml                      │ 0.10.2                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:185: trailing whitespace.
++ tomli                     │ 2.4.1                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:186: trailing whitespace.
++ tomli-w                   │ 1.2.0                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:187: trailing whitespace.
++ tornado                   │ 6.6                               │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:188: trailing whitespace.
++ truststore                │ 0.10.4                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:189: trailing whitespace.
++ typing-extensions         │ 4.16.0                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:190: trailing whitespace.
++ tzdata                    │ 2026e-0+deb13u1                   │ deb     
+docs/evidence/commands/05-scout-sbom.txt:191: trailing whitespace.
++ tzdata                    │ 2026.6                            │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:192: trailing whitespace.
++ urllib3                   │ 2.7.0                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:193: trailing whitespace.
++ urllib3                   │ 2.8.0                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:194: trailing whitespace.
++ util-linux                │ 2.41.5-0+deb13u1                  │ deb     
+docs/evidence/commands/05-scout-sbom.txt:195: trailing whitespace.
++ watchdog                  │ 6.0.0                             │ pypi    
+docs/evidence/commands/05-scout-sbom.txt:196: trailing whitespace.
++ xxhash                    │ 0.8.3-2                           │ deb     
+docs/evidence/commands/05-scout-sbom.txt:197: trailing whitespace.
++ xz-utils                  │ 5.8.1-1+deb13u2                   │ deb     
+docs/evidence/commands/05-scout-sbom.txt:198: trailing whitespace.
++ zlib                      │ 1:1.3.dfsg+really1.3.1-1          │ deb     
+docs/evidence/commands/05-scout-sbom.txt:199: trailing whitespace.
++ zlib1g                    │ 1:1.3.dfsg+really1.3.1-1+b1       │ deb     
+docs/evidence/commands/07-hardened-compose.txt:4: trailing whitespace.
++ Image week9-web Building 
+docs/evidence/commands/07-hardened-compose.txt:55: trailing whitespace.
++ Image week9-web Built 
+docs/evidence/commands/07-hardened-compose.txt:56: trailing whitespace.
++ Container week9-db-1 Running 
+docs/evidence/commands/07-hardened-compose.txt:57: trailing whitespace.
++ Container week9-adminer-1 Running 
+docs/evidence/commands/07-hardened-compose.txt:58: trailing whitespace.
++ Container week9-web-1 Recreate 
+docs/evidence/commands/07-hardened-compose.txt:59: trailing whitespace.
++ Container week9-web-1 Recreated 
+docs/evidence/commands/07-hardened-compose.txt:60: trailing whitespace.
++ Container week9-db-1 Waiting 
+docs/evidence/commands/07-hardened-compose.txt:61: trailing whitespace.
++ Container week9-db-1 Waiting 
+docs/evidence/commands/07-hardened-compose.txt:62: trailing whitespace.
++ Container week9-db-1 Healthy 
+docs/evidence/commands/07-hardened-compose.txt:63: trailing whitespace.
++ Container week9-web-1 Starting 
+docs/evidence/commands/07-hardened-compose.txt:64: trailing whitespace.
++ Container week9-db-1 Healthy 
+docs/evidence/commands/07-hardened-compose.txt:65: trailing whitespace.
++ Container week9-web-1 Started 
+docs/evidence/commands/09-pr-checks.txt:4: trailing whitespace.
++security-policy	pass	28s	https://github.com/jakeryderv/devops-week9/actions/runs/41085503533/job/124165474728	
+docs/evidence/commands/09-pr-checks.txt:5: trailing whitespace.
++test	pass	29s	https://github.com/jakeryderv/devops-week9/actions/runs/41085503288/job/124165474214	
+docs/evidence/commands/09-security-workflow.txt:114: trailing whitespace.
++security-policy	Check out repository	2026-10-30T15:57:49.3458841Z 
+docs/evidence/commands/09-security-workflow.txt:118: trailing whitespace.
++security-policy	Check out repository	2026-10-30T15:57:49.3461193Z 
+docs/evidence/commands/09-security-workflow.txt:121: trailing whitespace.
++security-policy	Check out repository	2026-10-30T15:57:49.3462725Z 
+docs/evidence/commands/09-security-workflow.txt:123: trailing whitespace.
++security-policy	Check out repository	2026-10-30T15:57:49.3463221Z 
+docs/evidence/commands/09-security-workflow.txt:125: trailing whitespace.
++security-policy	Check out repository	2026-10-30T15:57:49.3463677Z 
+docs/evidence/commands/09-security-workflow.txt:127: trailing whitespace.
++security-policy	Check out repository	2026-10-30T15:57:49.3464065Z 
+docs/evidence/commands/09-security-workflow.txt:129: trailing whitespace.
++security-policy	Check out repository	2026-10-30T15:57:49.3465131Z 
+docs/evidence/commands/09-security-workflow.txt:148: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:57:50.0165796Z 
+docs/evidence/commands/09-security-workflow.txt:152: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:57:50.0168035Z 
+docs/evidence/commands/09-security-workflow.txt:155: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:57:50.0169924Z 
+docs/evidence/commands/09-security-workflow.txt:158: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:57:50.4793321Z 
+docs/evidence/commands/09-security-workflow.txt:162: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:57:50.4796981Z 
+docs/evidence/commands/09-security-workflow.txt:166: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:57:50.4800060Z 
+docs/evidence/commands/09-security-workflow.txt:187: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:57:54.4769479Z 
+docs/evidence/commands/09-security-workflow.txt:190: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:57:54.4769999Z 
+docs/evidence/commands/09-security-workflow.txt:193: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:57:54.4770561Z 
+docs/evidence/commands/09-security-workflow.txt:343: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:58:08.9147444Z #9 14.59 
+docs/evidence/commands/09-security-workflow.txt:347: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:58:11.7313528Z 
+docs/evidence/commands/09-security-workflow.txt:350: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:58:11.7314701Z 
+docs/evidence/commands/09-security-workflow.txt:353: trailing whitespace.
++security-policy	Build application image	2026-10-30T15:58:11.8851924Z 
+docs/evidence/commands/09-test-workflow.txt:115: trailing whitespace.
++test	Check out repository	2026-10-30T15:57:50.7186869Z 
+docs/evidence/commands/09-test-workflow.txt:119: trailing whitespace.
++test	Check out repository	2026-10-30T15:57:50.7190412Z 
+docs/evidence/commands/09-test-workflow.txt:122: trailing whitespace.
++test	Check out repository	2026-10-30T15:57:50.7192695Z 
+docs/evidence/commands/09-test-workflow.txt:124: trailing whitespace.
++test	Check out repository	2026-10-30T15:57:50.7193413Z 
+docs/evidence/commands/09-test-workflow.txt:126: trailing whitespace.
++test	Check out repository	2026-10-30T15:57:50.7194288Z 
+docs/evidence/commands/09-test-workflow.txt:128: trailing whitespace.
++test	Check out repository	2026-10-30T15:57:50.7195182Z 
+docs/evidence/commands/09-test-workflow.txt:130: trailing whitespace.
++test	Check out repository	2026-10-30T15:57:50.7197024Z 
+docs/evidence/commands/09-test-workflow.txt:307: trailing whitespace.
++test	Install dependencies	2026-10-30T15:58:12.2828728Z 
+docs/evidence/transcripts/04-scout.html:7: trailing whitespace.
++                   │                 Analyzed Image                 
+docs/evidence/transcripts/04-scout.html:9: trailing whitespace.
++ Target            │  helpdesk:week9-before                         
+docs/evidence/transcripts/04-scout.html:10: trailing whitespace.
++   digest          │  fee55445a97a                                  
+docs/evidence/transcripts/04-scout.html:11: trailing whitespace.
++   platform        │ linux/amd64                                    
+docs/evidence/transcripts/04-scout.html:12: trailing whitespace.
++   provenance      │ https://github.com/jakeryderv/devops-week9.git 
+docs/evidence/transcripts/04-scout.html:13: trailing whitespace.
++                   │  https://github.com/jakeryderv/devops-week9/blob/2e4925292a6ba544bf4d2eae78c0b557e74c356a      
+docs/evidence/transcripts/04-scout.html:14: trailing whitespace.
++   vulnerabilities │    5C    42H    23M    28L                     
+docs/evidence/transcripts/04-scout.html:15: trailing whitespace.
++   size            │ 200 MB                                         
+docs/evidence/transcripts/04-scout.html:16: trailing whitespace.
++   packages        │ 186                                            
+docs/evidence/transcripts/04-scout.html:17: trailing whitespace.
++                   │                                                
+docs/evidence/transcripts/04-scout.html:18: trailing whitespace.
++ Base image        │  python:3.13-slim                              
+docs/evidence/transcripts/04-scout.html:19: trailing whitespace.
++                   │  aaf08c5490d5                                  
+docs/evidence/transcripts/05-recommendations.html:4: trailing whitespace.
++ Target   │  helpdesk:week9-before  
+docs/evidence/transcripts/05-recommendations.html:5: trailing whitespace.
++   digest │  fee55445a97a           
+docs/evidence/transcripts/05-recommendations.html:9: trailing whitespace.
++  Base image is  python:3.13-slim 
+docs/evidence/transcripts/05-recommendations.html:11: trailing whitespace.
++ Name            │  3.13-slim                                                                
+docs/evidence/transcripts/05-recommendations.html:12: trailing whitespace.
++ Digest          │  sha256:aaf08c5490d52cd92bc27142a5215b1e47355a5eaf9adfad2a0fbc022d0b5490  
+docs/evidence/transcripts/05-recommendations.html:13: trailing whitespace.
++ Vulnerabilities │    0C     7H     3M    27L                                                
+docs/evidence/transcripts/05-recommendations.html:14: trailing whitespace.
++ Pushed          │ 2 days ago                                                                
+docs/evidence/transcripts/05-recommendations.html:15: trailing whitespace.
++ Size            │ 43 MB                                                                     
+docs/evidence/transcripts/05-recommendations.html:16: trailing whitespace.
++ Packages        │ 142                                                                       
+docs/evidence/transcripts/05-recommendations.html:17: trailing whitespace.
++ Runtime         │ 3.13.18                                                                   
+.env
+ .github/dependabot.yml         | 11 +++++++++++
+ .github/workflows/security.yml | 34 ++++++++++++++++++++++++++++++++++
+ Dockerfile                     |  8 +++++---
+ compose.yaml                   |  2 +-
+ 4 files changed, 51 insertions(+), 4 deletions(-)
+Title:           Week 9 DevSecOps Evidence
+Subject:         (unspecified)
+Keywords:        
+Author:          jakeryderv
+Creator:         (unspecified)
+Producer:        ReportLab PDF Library - (opensource)
+CreationDate:    Fri Oct 30 11:28:37 2026 CDT
+ModDate:         Fri Oct 30 11:28:37 2026 CDT
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           13
+Encrypted:       no
+Page size:       841.89 x 595.276 pts (A4)
+Page rot:        0
+File size:       784594 bytes
+Optimized:       no
+PDF version:     1.4
+
+Exit code: 0

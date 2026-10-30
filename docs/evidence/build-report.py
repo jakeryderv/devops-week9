@@ -6,7 +6,6 @@ from pathlib import Path
 import html
 import re
 from reportlab.lib import colors
-from reportlab.lib.enums import TA_LEFT
 from reportlab.lib.pagesizes import landscape, A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import inch
@@ -52,8 +51,17 @@ for i in range(1,len(parts),2):
     title, body=parts[i],parts[i+1]
     number=int(re.search(r'Milestone (\d+)',title)[1])
     story.append(Paragraph(inline(title),styles['Milestone']))
+    before_reflection = body.split('### ', 1)[0]
+    text_height = 0
+    for paragraph in before_reflection.split('\n\n'):
+        paragraph = paragraph.strip()
+        if not paragraph or paragraph.startswith('!['):
+            continue
+        style = styles['SmallEvidence'] if paragraph.startswith('[') else styles['BodyEvidence']
+        text_height += Paragraph(inline(paragraph.removeprefix('Caption: ')), style).wrap(width, page_h)[1] + style.spaceAfter
     image=Image(str(folder/'screenshots'/f'{stems[number-1]}.png'))
-    ratio=min(width/image.imageWidth, (page_h-2*margin-125)/image.imageHeight)
+    max_height = page_h - 2*margin - 60 - text_height
+    ratio=min(width/image.imageWidth, max_height/image.imageHeight)
     image.drawWidth=image.imageWidth*ratio
     image.drawHeight=image.imageHeight*ratio
     image.hAlign='LEFT'
@@ -62,7 +70,18 @@ for i in range(1,len(parts),2):
     reflection_started=False
     for para in body.split('\n\n'):
         para=para.strip()
-        if not para or para.startswith('!['): continue
+        if not para: continue
+        if para.startswith('!['):
+            if 'pr-files.png' in para:
+                story.append(PageBreak())
+                story.append(Paragraph('Milestone 10 - Files changed', styles['Milestone']))
+                supporting = Image(str(folder/'screenshots'/'pr-files.png'))
+                scale = min(width/supporting.imageWidth, (page_h-2*margin-80)/supporting.imageHeight)
+                supporting.drawWidth = supporting.imageWidth*scale
+                supporting.drawHeight = supporting.imageHeight*scale
+                supporting.hAlign = 'LEFT'
+                story.extend([supporting, Spacer(1,10), Paragraph('The pull request includes Dependabot, the security workflow, Dockerfile hardening, the PostgreSQL volume correction, and the supporting evidence.', styles['BodyEvidence'])])
+            continue
         if para.startswith('### '):
             if number==10 and not reflection_started:
                 story.append(PageBreak())
