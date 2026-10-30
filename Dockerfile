@@ -9,8 +9,10 @@ COPY app ./app
 
 EXPOSE 8501
 
-# WEEK 9 SECURITY TODO:
-# The container currently runs as root by default.
-# Create a non-root application user and switch to that user before CMD.
+# A writable working directory also preserves the local SQLite fallback.
+RUN useradd --uid 10001 --user-group --create-home --shell /usr/sbin/nologin appuser \
+    && chown appuser:appuser /app
+
+USER appuser
 
 CMD ["streamlit", "run", "app/main.py", "--server.address=0.0.0.0", "--server.port=8501"]

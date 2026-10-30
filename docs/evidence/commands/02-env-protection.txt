@@ -1,0 +1,9 @@
+Captured UTC: 2026-10-30T15:53:51.949802+00:00
+$ sh -c 'git check-ignore .env; git ls-files .env; git status --short --branch'
+
+.env
+## security/week9-devsecops
+ M compose.yaml
+?? docs/evidence/
+
+Exit code: 0

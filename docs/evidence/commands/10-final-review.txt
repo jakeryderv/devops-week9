@@ -1,0 +1,33 @@
+Captured UTC: 2026-10-30T16:29:58.598235+00:00
+$ sh -ec 'git diff --check origin/main -- Dockerfile compose.yaml README.md .github docs/evidence-template.md "docs/evidence/*.py" docs/evidence/README.md; test -z "$(git ls-files .env)"; git check-ignore .env; git diff --stat origin/main -- Dockerfile compose.yaml .github/dependabot.yml .github/workflows/security.yml; pdfinfo docs/week9-evidence.pdf'
+
+.env
+ .github/dependabot.yml         | 11 +++++++++++
+ .github/workflows/security.yml | 34 ++++++++++++++++++++++++++++++++++
+ Dockerfile                     |  8 +++++---
+ compose.yaml                   |  2 +-
+ 4 files changed, 51 insertions(+), 4 deletions(-)
+Title:           Week 9 DevSecOps Evidence
+Subject:         (unspecified)
+Keywords:        
+Author:          jakeryderv
+Creator:         (unspecified)
+Producer:        ReportLab PDF Library - (opensource)
+CreationDate:    Fri Oct 30 11:28:37 2026 CDT
+ModDate:         Fri Oct 30 11:28:37 2026 CDT
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           13
+Encrypted:       no
+Page size:       841.89 x 595.276 pts (A4)
+Page rot:        0
+File size:       784594 bytes
+Optimized:       no
+PDF version:     1.4
+
+Exit code: 0

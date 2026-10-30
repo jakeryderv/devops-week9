@@ -1,0 +1,86 @@
+Captured UTC: 2026-10-30T15:56:14.889270+00:00
+$ docker scout recommendations helpdesk:week9-before
+
+    ...Storing image for indexing
+    ✓ Image stored for indexing
+    ...Indexing
+    ✓ Indexed 186 packages
+    ✓ Provenance obtained from attestation
+    ...Pulling
+    ✓ Pulled
+
+ Target   │  helpdesk:week9-before  
+   digest │  fee55445a97a           
+
+## Recommended fixes
+
+  Base image is  python:3.13-slim 
+
+ Name            │  3.13-slim                                                                
+ Digest          │  sha256:aaf08c5490d52cd92bc27142a5215b1e47355a5eaf9adfad2a0fbc022d0b5490  
+ Vulnerabilities │    0C     7H     3M    27L                                                
+ Pushed          │ 2 days ago                                                                
+ Size            │ 43 MB                                                                     
+ Packages        │ 142                                                                       
+ Runtime         │ 3.13.18                                                                   
+
+
+Refresh base image
+  Rebuild the image using a newer base image version. Updating this may result in breaking changes.
+
+  ✓ This image version is up to date.
+
+
+Change base image
+  The list displays new recommended tags in descending order, where the top results are rated as most suitable.
+
+
+             Tag              │                        Details                         │   Pushed   │          Vulnerabilities           
+──────────────────────────────┼────────────────────────────────────────────────────────┼────────────┼────────────────────────────────────
+  3.15-slim                   │ Benefits:                                              │ 2 days ago │    0C     7H     3M    27L         
+ Minor runtime version update │ • Same OS detected                                     │            │                                    
+ Also known as:               │ • Minor runtime version update                         │            │                                    
+ • 3.15.2-slim                │ • Image has similar size                               │            │                                    
+ • 3-slim                     │ • Image has same number of vulnerabilities             │            │                                    
+ • slim                       │ • Image contains similar number of packages            │            │                                    
+ • slim-trixie                │ • Tag is using slim variant                            │            │                                    
+ • 3-slim-trixie              │                                                        │            │                                    
+ • 3.15-slim-trixie           │ Image details:                                         │            │                                    
+ • 3.15.2-slim-trixie         │ • Size: 44 MB                                          │            │                                    
+                              │ • Runtime: 3.15.2                                      │            │                                    
+                              │                                                        │            │                                    
+                              │                                                        │            │                                    
+                              │                                                        │            │                                    
+  3.14-slim                   │ Benefits:                                              │ 2 days ago │    0C     7H     3M    27L         
+ Minor runtime version update │ • Same OS detected                                     │            │                                    
+ Also known as:               │ • Minor runtime version update                         │            │                                    
+ • 3.14.10-slim               │ • Image has similar size                               │            │                                    
+ • 3.14-slim-trixie           │ • Image has same number of vulnerabilities             │            │                                    
+ • 3.14.10-slim-trixie        │ • Image contains equal number of packages              │            │                                    
+                              │ • Tag is using slim variant                            │            │                                    
+                              │                                                        │            │                                    
+                              │ Image details:                                         │            │                                    
+                              │ • Size: 44 MB                                          │            │                                    
+                              │ • Runtime: 3.14.10                                     │            │                                    
+                              │                                                        │            │                                    
+                              │                                                        │            │                                    
+                              │                                                        │            │                                    
+  alpine                      │ Benefits:                                              │ 3 days ago │    0C     6H     2M     1L     1?  
+ Tag is preferred tag         │ • Minor runtime version update                         │            │           -1     -1    -26     +1  
+ Also known as:               │ • Image is smaller by 22 MB                            │            │                                    
+ • alpine3.24                 │ • Image contains 79 fewer packages                     │            │                                    
+ • 3.15.2-alpine              │ • Tag is preferred tag                                 │            │                                    
+ • 3.15.2-alpine3.24          │ • Image introduces no new vulnerability but removes 28 │            │                                    
+ • 3.15-alpine                │ • alpine was pulled 41K times last month               │            │                                    
+ • 3.15-alpine3.24            │                                                        │            │                                    
+ • 3-alpine                   │ Image details:                                         │            │                                    
+ • 3-alpine3.24               │ • Size: 20 MB                                          │            │                                    
+                              │ • Flavor: alpine                                       │            │                                    
+                              │ • OS: 3.24                                             │            │                                    
+                              │ • Runtime: 3.15.2                                      │            │                                    
+                              │                                                        │            │                                    
+                              │                                                        │            │                                    
+                              │                                                        │            │                                    
+
+
+Exit code: 0

@@ -1,0 +1,34 @@
+name: Security Checks
+
+on:
+  pull_request:
+    branches: [ main ]
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+jobs:
+  security-policy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Reject tracked .env
+        run: |
+          if git ls-files --error-unmatch .env >/dev/null 2>&1; then
+            echo "::error::.env must not be tracked by Git"
+            exit 1
+          fi
+          echo ".env is not tracked by Git"
+
+      - name: Build application image
+        run: docker build -t helpdesk:security .
+
+      - name: Verify non-root runtime user
+        run: |
+          USER_ID=$(docker run --rm --entrypoint id helpdesk:security -u)
+          echo "Container UID: $USER_ID"
+          test "$USER_ID" -ne 0
