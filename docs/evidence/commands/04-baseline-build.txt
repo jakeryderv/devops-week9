@@ -1,0 +1,47 @@
+Captured UTC: 2026-10-30T15:55:15.741556+00:00
+$ docker build -t helpdesk:week9-before .
+
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 420B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.13-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 106B done
+#3 DONE 0.0s
+
+#4 [internal] load build context
+#4 transferring context: 4.68kB done
+#4 DONE 0.0s
+
+#5 [1/5] FROM docker.io/library/python:3.13-slim@sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb
+#5 resolve docker.io/library/python:3.13-slim@sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb 0.0s done
+#5 DONE 0.0s
+
+#6 [3/5] COPY requirements.txt .
+#6 CACHED
+
+#7 [2/5] WORKDIR /app
+#7 CACHED
+
+#8 [4/5] RUN pip install --no-cache-dir -r requirements.txt
+#8 CACHED
+
+#9 [5/5] COPY app ./app
+#9 DONE 0.0s
+
+#10 exporting to image
+#10 exporting layers 0.0s done
+#10 exporting manifest sha256:7c8a2e287d5f45381ec69fc10d9e5a82a785164030015b6ea1e0801aac412946 done
+#10 exporting config sha256:3096bfef87e81f323ea4078614e0496720a4685ca8d36786f9f9eb470b0730d7 done
+#10 exporting attestation manifest sha256:5c059f397e7a260edc270be395abe58cd55b0127c12c8e836a6fbd316faf21fb 0.0s done
+#10 exporting manifest list sha256:fee55445a97a832963329c904678a07e9d8b77814fa359f39a419c6b77123ce9 done
+#10 naming to docker.io/library/helpdesk:week9-before done
+#10 unpacking to docker.io/library/helpdesk:week9-before 0.0s done
+#10 DONE 0.1s
+
+Exit code: 0

@@ -1,0 +1,15 @@
+Captured UTC: 2026-10-30T15:56:49.528248+00:00
+$ .venv/bin/python -m pytest -v
+
+============================= test session starts ==============================
+platform linux -- Python 3.13.11, pytest-8.4.2, pluggy-1.7.0 -- /home/jake/school/devops/week9/.venv/bin/python
+cachedir: .pytest_cache
+rootdir: /home/jake/school/devops/week9
+collecting ... collected 2 items
+
+tests/test_db.py::test_create_and_list_request PASSED                    [ 50%]
+tests/test_db.py::test_update_status PASSED                              [100%]
+
+============================== 2 passed in 0.07s ===============================
+
+Exit code: 0

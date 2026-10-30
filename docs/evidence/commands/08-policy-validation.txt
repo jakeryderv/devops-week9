@@ -1,0 +1,21 @@
+Captured UTC: 2026-10-30T15:56:51.441891+00:00
+$ python3 docs/evidence/verify-policy.py
+
+Real repository: .env untracked
+.env is not tracked by Git
+PASS: expected acceptance; exit code 0
+
+Isolated temporary repository: dummy .env tracked
+::error::.env must not be tracked by Git
+PASS: expected rejection; exit code 1
+
+Hardened image
+Container UID: 10001
+PASS: expected acceptance; exit code 0
+
+Baseline root image
+Container UID: 0
+PASS: expected rejection; exit code 1
+
+
+Exit code: 0

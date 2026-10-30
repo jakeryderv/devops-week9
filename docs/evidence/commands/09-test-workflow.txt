@@ -1,0 +1,361 @@
+Captured UTC: 2026-10-30T15:59:26.497463+00:00
+$ gh run view 41085503288 --repo jakeryderv/devops-week9 --log
+
+test	Set up job	﻿2026-10-30T15:57:48.9047987Z Current runner version: '2.338.2'
+test	Set up job	2026-10-30T15:57:48.9074306Z ##[group]Runner Image Provisioner
+test	Set up job	2026-10-30T15:57:48.9075633Z Hosted Compute Agent
+test	Set up job	2026-10-30T15:57:48.9076324Z Version: 20261021.618
+test	Set up job	2026-10-30T15:57:48.9077025Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+test	Set up job	2026-10-30T15:57:48.9077828Z Build Date: 2026-10-21T00:45:21Z
+test	Set up job	2026-10-30T15:57:48.9078523Z Worker ID: {e29d3fb1-3e69-48bc-843d-23cf1caccfa7}
+test	Set up job	2026-10-30T15:57:48.9079362Z Region: westcentralus
+test	Set up job	2026-10-30T15:57:48.9079946Z Cloud: Azure
+test	Set up job	2026-10-30T15:57:48.9080525Z ##[endgroup]
+test	Set up job	2026-10-30T15:57:48.9082346Z ##[group]Operating System
+test	Set up job	2026-10-30T15:57:48.9083082Z Ubuntu
+test	Set up job	2026-10-30T15:57:48.9083703Z 24.04.5
+test	Set up job	2026-10-30T15:57:48.9084241Z LTS
+test	Set up job	2026-10-30T15:57:48.9084751Z ##[endgroup]
+test	Set up job	2026-10-30T15:57:48.9085706Z ##[group]Runner Image
+test	Set up job	2026-10-30T15:57:48.9086468Z Image: ubuntu-24.04
+test	Set up job	2026-10-30T15:57:48.9087116Z Version: 20261025.353.1
+test	Set up job	2026-10-30T15:57:48.9088221Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+test	Set up job	2026-10-30T15:57:48.9090141Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+test	Set up job	2026-10-30T15:57:48.9091179Z ##[endgroup]
+test	Set up job	2026-10-30T15:57:48.9092336Z ##[group]GITHUB_TOKEN Permissions
+test	Set up job	2026-10-30T15:57:48.9094249Z Contents: read
+test	Set up job	2026-10-30T15:57:48.9094987Z Metadata: read
+test	Set up job	2026-10-30T15:57:48.9095953Z ##[endgroup]
+test	Set up job	2026-10-30T15:57:48.9098076Z Secret source: Actions
+test	Set up job	2026-10-30T15:57:48.9099690Z Cache mode: write
+test	Set up job	2026-10-30T15:57:48.9100825Z Prepare workflow directory
+test	Set up job	2026-10-30T15:57:48.9444087Z Prepare all required actions
+test	Set up job	2026-10-30T15:57:48.9493030Z Getting action download info
+test	Set up job	2026-10-30T15:57:49.2493593Z Download action repository 'actions/checkout@v6' (SHA:d23441a48e516b6c34aea4fa41551a30e30af803)
+test	Set up job	2026-10-30T15:57:49.3631929Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+test	Set up job	2026-10-30T15:57:49.5464341Z Complete job name: test
+test	Check out repository	﻿2026-10-30T15:57:49.6344897Z ##[group]Run actions/checkout@v6
+test	Check out repository	2026-10-30T15:57:49.6346106Z with:
+test	Check out repository	2026-10-30T15:57:49.6346595Z   repository: jakeryderv/devops-week9
+test	Check out repository	2026-10-30T15:57:49.6350366Z   token: ***
+test	Check out repository	2026-10-30T15:57:49.6350826Z   ssh-strict: true
+test	Check out repository	2026-10-30T15:57:49.6351280Z   ssh-user: git
+test	Check out repository	2026-10-30T15:57:49.6351731Z   persist-credentials: true
+test	Check out repository	2026-10-30T15:57:49.6352223Z   clean: true
+test	Check out repository	2026-10-30T15:57:49.6352674Z   sparse-checkout-cone-mode: true
+test	Check out repository	2026-10-30T15:57:49.6353200Z   fetch-depth: 1
+test	Check out repository	2026-10-30T15:57:49.6353643Z   fetch-tags: false
+test	Check out repository	2026-10-30T15:57:49.6354093Z   show-progress: true
+test	Check out repository	2026-10-30T15:57:49.6354541Z   lfs: false
+test	Check out repository	2026-10-30T15:57:49.6354954Z   submodules: false
+test	Check out repository	2026-10-30T15:57:49.6355570Z   set-safe-directory: true
+test	Check out repository	2026-10-30T15:57:49.6356096Z   allow-unsafe-pr-checkout: false
+test	Check out repository	2026-10-30T15:57:49.6356898Z ##[endgroup]
+test	Check out repository	2026-10-30T15:57:50.0199149Z Syncing repository: jakeryderv/devops-week9
+test	Check out repository	2026-10-30T15:57:50.0201754Z ##[group]Getting Git version info
+test	Check out repository	2026-10-30T15:57:50.0202790Z Working directory is '/home/runner/work/devops-week9/devops-week9'
+test	Check out repository	2026-10-30T15:57:50.0204094Z [command]/usr/bin/git version
+test	Check out repository	2026-10-30T15:57:50.0292838Z git version 2.56.0
+test	Check out repository	2026-10-30T15:57:50.0318707Z ##[endgroup]
+test	Check out repository	2026-10-30T15:57:50.0336664Z Temporarily overriding HOME='/home/runner/work/_temp/40c0f7c8-7566-46ef-b5fa-b65f42c50ac0' before making global git config changes
+test	Check out repository	2026-10-30T15:57:50.0339643Z Adding repository directory to the temporary git global config as a safe directory
+test	Check out repository	2026-10-30T15:57:50.0342893Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/devops-week9/devops-week9
+test	Check out repository	2026-10-30T15:57:50.0399263Z Deleting the contents of '/home/runner/work/devops-week9/devops-week9'
+test	Check out repository	2026-10-30T15:57:50.0408361Z ##[group]Determining repository object format
+test	Check out repository	2026-10-30T15:57:50.0409508Z ##[endgroup]
+test	Check out repository	2026-10-30T15:57:50.0410246Z ##[group]Initializing the repository
+test	Check out repository	2026-10-30T15:57:50.0425287Z [command]/usr/bin/git init /home/runner/work/devops-week9/devops-week9
+test	Check out repository	2026-10-30T15:57:50.0530859Z hint: Using 'master' as the name for the initial branch. This default branch name
+test	Check out repository	2026-10-30T15:57:50.0533039Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+test	Check out repository	2026-10-30T15:57:50.0534599Z hint: to use in all of your new repositories, which will suppress this warning,
+test	Check out repository	2026-10-30T15:57:50.0536000Z hint: call:
+test	Check out repository	2026-10-30T15:57:50.0536633Z hint:
+test	Check out repository	2026-10-30T15:57:50.0537496Z hint: 	git config --global init.defaultBranch <name>
+test	Check out repository	2026-10-30T15:57:50.0538553Z hint:
+test	Check out repository	2026-10-30T15:57:50.0539537Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+test	Check out repository	2026-10-30T15:57:50.0541050Z hint: 'development'. The just-created branch can be renamed via this command:
+test	Check out repository	2026-10-30T15:57:50.0542239Z hint:
+test	Check out repository	2026-10-30T15:57:50.0542934Z hint: 	git branch -m <name>
+test	Check out repository	2026-10-30T15:57:50.0543746Z hint:
+test	Check out repository	2026-10-30T15:57:50.0544806Z hint: Disable this message with "git config set advice.defaultBranchName false"
+test	Check out repository	2026-10-30T15:57:50.0558538Z Initialized empty Git repository in /home/runner/work/devops-week9/devops-week9/.git/
+test	Check out repository	2026-10-30T15:57:50.0572939Z [command]/usr/bin/git remote add origin https://github.com/jakeryderv/devops-week9
+test	Check out repository	2026-10-30T15:57:50.0640068Z ##[endgroup]
+test	Check out repository	2026-10-30T15:57:50.0641388Z ##[group]Disabling automatic garbage collection
+test	Check out repository	2026-10-30T15:57:50.0645670Z [command]/usr/bin/git config --local gc.auto 0
+test	Check out repository	2026-10-30T15:57:50.0686810Z ##[endgroup]
+test	Check out repository	2026-10-30T15:57:50.0688550Z ##[group]Setting up auth
+test	Check out repository	2026-10-30T15:57:50.0689877Z Removing SSH command configuration
+test	Check out repository	2026-10-30T15:57:50.0696837Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test	Check out repository	2026-10-30T15:57:50.0751401Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test	Check out repository	2026-10-30T15:57:50.1155079Z Removing HTTP extra header
+test	Check out repository	2026-10-30T15:57:50.1167018Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test	Check out repository	2026-10-30T15:57:50.1204304Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test	Check out repository	2026-10-30T15:57:50.1486722Z Removing includeIf entries pointing to credentials config files
+test	Check out repository	2026-10-30T15:57:50.1494620Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test	Check out repository	2026-10-30T15:57:50.1541416Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test	Check out repository	2026-10-30T15:57:50.1788605Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+test	Check out repository	2026-10-30T15:57:50.1841370Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/devops-week9/devops-week9/.git.path /home/runner/work/_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config
+test	Check out repository	2026-10-30T15:57:50.1885721Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/devops-week9/devops-week9/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config
+test	Check out repository	2026-10-30T15:57:50.1931209Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config
+test	Check out repository	2026-10-30T15:57:50.1971943Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config
+test	Check out repository	2026-10-30T15:57:50.2012317Z ##[endgroup]
+test	Check out repository	2026-10-30T15:57:50.2013767Z ##[group]Fetching the repository
+test	Check out repository	2026-10-30T15:57:50.2022663Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a9c351eba55b951545b13b9bdb6cf8fd8ae61c1d:refs/remotes/pull/2/merge
+test	Check out repository	2026-10-30T15:57:50.6992727Z From https://github.com/jakeryderv/devops-week9
+test	Check out repository	2026-10-30T15:57:50.6994904Z  * [new ref]         a9c351eba55b951545b13b9bdb6cf8fd8ae61c1d -> pull/2/merge
+test	Check out repository	2026-10-30T15:57:50.7001079Z ##[endgroup]
+test	Check out repository	2026-10-30T15:57:50.7002679Z ##[group]Determining the checkout info
+test	Check out repository	2026-10-30T15:57:50.7004547Z ##[endgroup]
+test	Check out repository	2026-10-30T15:57:50.7009988Z [command]/usr/bin/git sparse-checkout disable
+test	Check out repository	2026-10-30T15:57:50.7072650Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+test	Check out repository	2026-10-30T15:57:50.7114722Z ##[group]Checking out the ref
+test	Check out repository	2026-10-30T15:57:50.7118779Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/2/merge
+test	Check out repository	2026-10-30T15:57:50.7185961Z Note: switching to 'refs/remotes/pull/2/merge'.
+test	Check out repository	2026-10-30T15:57:50.7186869Z 
+test	Check out repository	2026-10-30T15:57:50.7187401Z You are in 'detached HEAD' state. You can look around, make experimental
+test	Check out repository	2026-10-30T15:57:50.7188606Z changes and commit them, and you can discard any commits you make in this
+test	Check out repository	2026-10-30T15:57:50.7189746Z state without impacting any branches by switching back to a branch.
+test	Check out repository	2026-10-30T15:57:50.7190412Z 
+test	Check out repository	2026-10-30T15:57:50.7190977Z If you want to create a new branch to retain commits you create, you may
+test	Check out repository	2026-10-30T15:57:50.7192032Z do so (now or later) by using -c with the switch command. Example:
+test	Check out repository	2026-10-30T15:57:50.7192695Z 
+test	Check out repository	2026-10-30T15:57:50.7192948Z   git switch -c <new-branch-name>
+test	Check out repository	2026-10-30T15:57:50.7193413Z 
+test	Check out repository	2026-10-30T15:57:50.7193650Z Or undo this operation with:
+test	Check out repository	2026-10-30T15:57:50.7194288Z 
+test	Check out repository	2026-10-30T15:57:50.7194648Z   git switch -
+test	Check out repository	2026-10-30T15:57:50.7195182Z 
+test	Check out repository	2026-10-30T15:57:50.7196108Z Turn off this advice by setting config variable advice.detachedHead to false
+test	Check out repository	2026-10-30T15:57:50.7197024Z 
+test	Check out repository	2026-10-30T15:57:50.7198077Z HEAD is now at a9c351e Merge 9322bd7c25da8f2909fb5f675be23dcf365961b3 into 875d6782701cbd4764fb22e5b2d7970d75dbf84d
+test	Check out repository	2026-10-30T15:57:50.7201176Z ##[endgroup]
+test	Check out repository	2026-10-30T15:57:50.7244436Z [command]/usr/bin/git log -1 --format=%H
+test	Check out repository	2026-10-30T15:57:50.7278293Z a9c351eba55b951545b13b9bdb6cf8fd8ae61c1d
+test	Set up Python	﻿2026-10-30T15:57:50.7639695Z ##[group]Run actions/setup-python@v5
+test	Set up Python	2026-10-30T15:57:50.7640583Z with:
+test	Set up Python	2026-10-30T15:57:50.7641105Z   python-version: 3.13
+test	Set up Python	2026-10-30T15:57:50.7641707Z   cache: pip
+test	Set up Python	2026-10-30T15:57:50.7642218Z   check-latest: false
+test	Set up Python	2026-10-30T15:57:50.7651191Z   token: ***
+test	Set up Python	2026-10-30T15:57:50.7651752Z   update-environment: true
+test	Set up Python	2026-10-30T15:57:50.7652463Z   allow-prereleases: false
+test	Set up Python	2026-10-30T15:57:50.7653132Z   freethreaded: false
+test	Set up Python	2026-10-30T15:57:50.7653705Z ##[endgroup]
+test	Set up Python	2026-10-30T15:57:50.9112020Z ##[group]Installed versions
+test	Set up Python	2026-10-30T15:57:50.9221675Z (node:2370) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+test	Set up Python	2026-10-30T15:57:50.9226135Z (Use `node --trace-deprecation ...` to show where the warning was created)
+test	Set up Python	2026-10-30T15:57:50.9228522Z Successfully set up CPython (3.13.17)
+test	Set up Python	2026-10-30T15:57:50.9232870Z ##[endgroup]
+test	Set up Python	2026-10-30T15:57:50.9863215Z [command]/opt/hostedtoolcache/Python/3.13.17/x64/bin/pip cache dir
+test	Set up Python	2026-10-30T15:57:51.7287648Z /home/runner/.cache/pip
+test	Set up Python	2026-10-30T15:57:51.9336812Z Cache hit for: setup-python-Linux-x64-24.04-Ubuntu-python-3.13.17-pip-ca22b48022d4831970c536b255bbe5ca19f64d9b4ded3cf52321877d11d01a6a
+test	Set up Python	2026-10-30T15:57:51.9442576Z (node:2370) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+test	Set up Python	2026-10-30T15:57:53.1393109Z Received 58720256 of 129030201 (45.5%), 56.0 MBs/sec
+test	Set up Python	2026-10-30T15:57:53.5143684Z Received 129030201 of 129030201 (100.0%), 89.4 MBs/sec
+test	Set up Python	2026-10-30T15:57:53.5146378Z Cache Size: ~123 MB (129030201 B)
+test	Set up Python	2026-10-30T15:57:53.5180774Z [command]/usr/bin/tar -xf /home/runner/work/_temp/da106e1a-0575-4e89-9b7b-b27dfd075e04/cache.tzst -P -C /home/runner/work/devops-week9/devops-week9 --use-compress-program unzstd
+test	Set up Python	2026-10-30T15:57:53.7294522Z Cache restored successfully
+test	Set up Python	2026-10-30T15:57:53.7353236Z Cache restored from key: setup-python-Linux-x64-24.04-Ubuntu-python-3.13.17-pip-ca22b48022d4831970c536b255bbe5ca19f64d9b4ded3cf52321877d11d01a6a
+test	Install dependencies	﻿2026-10-30T15:57:53.7691210Z ##[group]Run python -m pip install -r requirements.txt
+test	Install dependencies	2026-10-30T15:57:53.7691742Z ^[[36;1mpython -m pip install -r requirements.txt^[[0m
+test	Install dependencies	2026-10-30T15:57:53.7718963Z shell: /usr/bin/bash -e {0}
+test	Install dependencies	2026-10-30T15:57:53.7719255Z env:
+test	Install dependencies	2026-10-30T15:57:53.7719545Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.17/x64
+test	Install dependencies	2026-10-30T15:57:53.7720368Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.17/x64/lib/pkgconfig
+test	Install dependencies	2026-10-30T15:57:53.7720843Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.17/x64
+test	Install dependencies	2026-10-30T15:57:53.7721248Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.17/x64
+test	Install dependencies	2026-10-30T15:57:53.7721656Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.17/x64
+test	Install dependencies	2026-10-30T15:57:53.7722052Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.17/x64/lib
+test	Install dependencies	2026-10-30T15:57:53.7722390Z ##[endgroup]
+test	Install dependencies	2026-10-30T15:57:54.8331842Z Collecting streamlit==1.50.0 (from -r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:54.8347498Z   Using cached streamlit-1.50.0-py3-none-any.whl.metadata (9.5 kB)
+test	Install dependencies	2026-10-30T15:57:55.1329819Z Collecting SQLAlchemy==2.0.44 (from -r requirements.txt (line 2))
+test	Install dependencies	2026-10-30T15:57:55.1344551Z   Using cached sqlalchemy-2.0.44-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.5 kB)
+test	Install dependencies	2026-10-30T15:57:55.1684218Z Collecting psycopg==3.2.10 (from psycopg[binary]==3.2.10->-r requirements.txt (line 3))
+test	Install dependencies	2026-10-30T15:57:55.1697478Z   Using cached psycopg-3.2.10-py3-none-any.whl.metadata (4.6 kB)
+test	Install dependencies	2026-10-30T15:57:55.2094698Z Collecting pytest==8.4.2 (from -r requirements.txt (line 4))
+test	Install dependencies	2026-10-30T15:57:55.2108094Z   Using cached pytest-8.4.2-py3-none-any.whl.metadata (7.7 kB)
+test	Install dependencies	2026-10-30T15:57:55.2430629Z Collecting altair!=5.4.0,!=5.4.1,<6,>=4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:55.2443391Z   Using cached altair-5.5.0-py3-none-any.whl.metadata (11 kB)
+test	Install dependencies	2026-10-30T15:57:55.2730252Z Collecting blinker<2,>=1.5.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:55.2742552Z   Using cached blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+test	Install dependencies	2026-10-30T15:57:55.3061374Z Collecting cachetools<7,>=4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:55.3074287Z   Using cached cachetools-6.2.6-py3-none-any.whl.metadata (5.6 kB)
+test	Install dependencies	2026-10-30T15:57:55.3374055Z Collecting click<9,>=7.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:55.3386964Z   Using cached click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+test	Install dependencies	2026-10-30T15:57:55.5364841Z Collecting numpy<3,>=1.23 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:55.5379269Z   Using cached numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+test	Install dependencies	2026-10-30T15:57:55.5678975Z Collecting packaging<26,>=20 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:55.5691591Z   Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+test	Install dependencies	2026-10-30T15:57:55.6913002Z Collecting pandas<3,>=1.4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:55.6927468Z   Using cached pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+test	Install dependencies	2026-10-30T15:57:55.8769641Z Collecting pillow<12,>=7.1.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:55.8782858Z   Using cached pillow-11.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+test	Install dependencies	2026-10-30T15:57:56.0317004Z Collecting protobuf<7,>=3.20 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:56.0331043Z   Using cached protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl.metadata (593 bytes)
+test	Install dependencies	2026-10-30T15:57:56.1211248Z Collecting pyarrow>=7.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:56.1224660Z   Using cached pyarrow-26.0.0-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+test	Install dependencies	2026-10-30T15:57:56.1564637Z Collecting requests<3,>=2.27 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:56.1577146Z   Using cached requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+test	Install dependencies	2026-10-30T15:57:56.1870302Z Collecting tenacity<10,>=8.1.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:56.1881892Z   Using cached tenacity-9.2.1-py3-none-any.whl.metadata (1.4 kB)
+test	Install dependencies	2026-10-30T15:57:56.2154959Z Collecting toml<2,>=0.10.1 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:56.2166597Z   Using cached toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+test	Install dependencies	2026-10-30T15:57:56.2480873Z Collecting typing-extensions<5,>=4.4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:56.2493521Z   Using cached typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+test	Install dependencies	2026-10-30T15:57:56.3043076Z Collecting watchdog<7,>=2.1.5 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:56.3057842Z   Using cached watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+test	Install dependencies	2026-10-30T15:57:56.3429716Z Collecting gitpython!=3.1.19,<4,>=3.0.7 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:56.3442022Z   Using cached gitpython-3.2.1-py3-none-any.whl.metadata (13 kB)
+test	Install dependencies	2026-10-30T15:57:56.3739578Z Collecting pydeck<1,>=0.8.0b4 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:56.3754650Z   Using cached pydeck-0.9.3-py2.py3-none-any.whl.metadata (4.2 kB)
+test	Install dependencies	2026-10-30T15:57:56.4320369Z Collecting tornado!=6.5.0,<7,>=6.0.3 (from streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:56.4334105Z   Using cached tornado-6.6-cp311-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (2.6 kB)
+test	Install dependencies	2026-10-30T15:57:56.6384628Z Collecting greenlet>=1 (from SQLAlchemy==2.0.44->-r requirements.txt (line 2))
+test	Install dependencies	2026-10-30T15:57:56.6398586Z   Using cached greenlet-3.5.6-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+test	Install dependencies	2026-10-30T15:57:56.6674843Z Collecting iniconfig>=1 (from pytest==8.4.2->-r requirements.txt (line 4))
+test	Install dependencies	2026-10-30T15:57:56.6686573Z   Using cached iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+test	Install dependencies	2026-10-30T15:57:56.6944495Z Collecting pluggy<2,>=1.5 (from pytest==8.4.2->-r requirements.txt (line 4))
+test	Install dependencies	2026-10-30T15:57:56.6956379Z   Using cached pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+test	Install dependencies	2026-10-30T15:57:56.7268160Z Collecting pygments>=2.7.2 (from pytest==8.4.2->-r requirements.txt (line 4))
+test	Install dependencies	2026-10-30T15:57:56.7279557Z   Using cached pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+test	Install dependencies	2026-10-30T15:57:56.8849782Z Collecting psycopg-binary==3.2.10 (from psycopg[binary]==3.2.10->-r requirements.txt (line 3))
+test	Install dependencies	2026-10-30T15:57:56.8863264Z   Using cached psycopg_binary-3.2.10-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.0 kB)
+test	Install dependencies	2026-10-30T15:57:56.9155659Z Collecting jinja2 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:56.9166791Z   Using cached jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+test	Install dependencies	2026-10-30T15:57:56.9522553Z Collecting jsonschema>=3.0 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:56.9534148Z   Using cached jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+test	Install dependencies	2026-10-30T15:57:57.0021491Z Collecting narwhals>=1.14.2 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.0033814Z   Using cached narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+test	Install dependencies	2026-10-30T15:57:57.0430885Z Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3.0.7->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.0442067Z   Using cached gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+test	Install dependencies	2026-10-30T15:57:57.0700697Z Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.0711584Z   Using cached smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+test	Install dependencies	2026-10-30T15:57:57.1006234Z Collecting python-dateutil>=2.8.2 (from pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.1017273Z   Using cached python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+test	Install dependencies	2026-10-30T15:57:57.1467552Z Collecting pytz>=2020.1 (from pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.1479234Z   Using cached pytz-2026.6-py2.py3-none-any.whl.metadata (22 kB)
+test	Install dependencies	2026-10-30T15:57:57.1792961Z Collecting tzdata>=2022.7 (from pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.1804520Z   Using cached tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+test	Install dependencies	2026-10-30T15:57:57.3179434Z Collecting charset_normalizer<4,>=2 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.3193825Z   Using cached charset_normalizer-3.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+test	Install dependencies	2026-10-30T15:57:57.3490072Z Collecting idna<4,>=2.5 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.3502197Z   Using cached idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+test	Install dependencies	2026-10-30T15:57:57.3836242Z Collecting urllib3<3,>=1.26 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.3848320Z   Using cached urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+test	Install dependencies	2026-10-30T15:57:57.4154680Z Collecting certifi>=2023.5.7 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.4167031Z   Using cached certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+test	Install dependencies	2026-10-30T15:57:57.4850726Z Collecting MarkupSafe>=2.0 (from jinja2->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.4863594Z   Using cached markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+test	Install dependencies	2026-10-30T15:57:57.5132833Z Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.5144726Z   Using cached attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+test	Install dependencies	2026-10-30T15:57:57.5411092Z Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.5423159Z   Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+test	Install dependencies	2026-10-30T15:57:57.5748638Z Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.5761257Z   Using cached referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+test	Install dependencies	2026-10-30T15:57:57.8244371Z Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.8258700Z   Using cached rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+test	Install dependencies	2026-10-30T15:57:57.8570869Z Collecting six>=1.6 (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+test	Install dependencies	2026-10-30T15:57:57.8582596Z   Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+test	Install dependencies	2026-10-30T15:57:57.8644892Z Using cached streamlit-1.50.0-py3-none-any.whl (10.1 MB)
+test	Install dependencies	2026-10-30T15:57:57.8695643Z Using cached sqlalchemy-2.0.44-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+test	Install dependencies	2026-10-30T15:57:57.8719653Z Using cached psycopg-3.2.10-py3-none-any.whl (206 kB)
+test	Install dependencies	2026-10-30T15:57:57.8732068Z Using cached pytest-8.4.2-py3-none-any.whl (365 kB)
+test	Install dependencies	2026-10-30T15:57:57.8746358Z Using cached psycopg_binary-3.2.10-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.4 MB)
+test	Install dependencies	2026-10-30T15:57:57.8774611Z Using cached altair-5.5.0-py3-none-any.whl (731 kB)
+test	Install dependencies	2026-10-30T15:57:57.8789196Z Using cached blinker-1.9.0-py3-none-any.whl (8.5 kB)
+test	Install dependencies	2026-10-30T15:57:57.8801171Z Using cached cachetools-6.2.6-py3-none-any.whl (11 kB)
+test	Install dependencies	2026-10-30T15:57:57.8812958Z Using cached click-8.5.0-py3-none-any.whl (125 kB)
+test	Install dependencies	2026-10-30T15:57:57.8825029Z Using cached gitpython-3.2.1-py3-none-any.whl (231 kB)
+test	Install dependencies	2026-10-30T15:57:57.8837542Z Using cached gitdb-4.0.12-py3-none-any.whl (62 kB)
+test	Install dependencies	2026-10-30T15:57:57.8849911Z Using cached numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+test	Install dependencies	2026-10-30T15:57:57.8924175Z Using cached packaging-25.0-py3-none-any.whl (66 kB)
+test	Install dependencies	2026-10-30T15:57:57.8936298Z Using cached pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.3 MB)
+test	Install dependencies	2026-10-30T15:57:57.8991901Z Using cached pillow-11.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.6 MB)
+test	Install dependencies	2026-10-30T15:57:57.9027785Z Using cached pluggy-1.7.0-py3-none-any.whl (27 kB)
+test	Install dependencies	2026-10-30T15:57:57.9040874Z Using cached protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl (323 kB)
+test	Install dependencies	2026-10-30T15:57:57.9053639Z Using cached pydeck-0.9.3-py2.py3-none-any.whl (11.4 MB)
+test	Install dependencies	2026-10-30T15:57:57.9106741Z Using cached requests-2.34.2-py3-none-any.whl (73 kB)
+test	Install dependencies	2026-10-30T15:57:57.9119631Z Using cached charset_normalizer-3.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (254 kB)
+test	Install dependencies	2026-10-30T15:57:57.9131815Z Using cached idna-3.20-py3-none-any.whl (69 kB)
+test	Install dependencies	2026-10-30T15:57:57.9143675Z Using cached smmap-5.0.3-py3-none-any.whl (24 kB)
+test	Install dependencies	2026-10-30T15:57:57.9155440Z Using cached tenacity-9.2.1-py3-none-any.whl (32 kB)
+test	Install dependencies	2026-10-30T15:57:57.9167511Z Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+test	Install dependencies	2026-10-30T15:57:57.9179664Z Using cached tornado-6.6-cp311-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (529 kB)
+test	Install dependencies	2026-10-30T15:57:57.9193036Z Using cached typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+test	Install dependencies	2026-10-30T15:57:57.9204793Z Using cached urllib3-2.8.0-py3-none-any.whl (135 kB)
+test	Install dependencies	2026-10-30T15:57:57.9217086Z Using cached watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+test	Install dependencies	2026-10-30T15:57:57.9229055Z Using cached certifi-2026.10.23-py3-none-any.whl (135 kB)
+test	Install dependencies	2026-10-30T15:57:57.9241612Z Using cached greenlet-3.5.6-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (623 kB)
+test	Install dependencies	2026-10-30T15:57:57.9256044Z Using cached iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+test	Install dependencies	2026-10-30T15:57:57.9267869Z Using cached jinja2-3.1.6-py3-none-any.whl (134 kB)
+test	Install dependencies	2026-10-30T15:57:57.9280170Z Using cached jsonschema-4.26.0-py3-none-any.whl (90 kB)
+test	Install dependencies	2026-10-30T15:57:57.9292180Z Using cached attrs-26.1.0-py3-none-any.whl (67 kB)
+test	Install dependencies	2026-10-30T15:57:57.9304314Z Using cached jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+test	Install dependencies	2026-10-30T15:57:57.9316624Z Using cached markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (23 kB)
+test	Install dependencies	2026-10-30T15:57:57.9328411Z Using cached narwhals-2.28.0-py3-none-any.whl (490 kB)
+test	Install dependencies	2026-10-30T15:57:57.9341968Z Using cached pyarrow-26.0.0-cp313-cp313-manylinux_2_28_x86_64.whl (53.9 MB)
+test	Install dependencies	2026-10-30T15:57:57.9548126Z Using cached pygments-2.21.0-py3-none-any.whl (1.3 MB)
+test	Install dependencies	2026-10-30T15:57:57.9565174Z Using cached python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+test	Install dependencies	2026-10-30T15:57:57.9577955Z Using cached pytz-2026.6-py2.py3-none-any.whl (506 kB)
+test	Install dependencies	2026-10-30T15:57:57.9591806Z Using cached referencing-0.37.0-py3-none-any.whl (26 kB)
+test	Install dependencies	2026-10-30T15:57:57.9604062Z Using cached rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (370 kB)
+test	Install dependencies	2026-10-30T15:57:57.9617162Z Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+test	Install dependencies	2026-10-30T15:57:57.9628836Z Using cached tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+test	Install dependencies	2026-10-30T15:57:58.3865916Z Installing collected packages: pytz, watchdog, urllib3, tzdata, typing-extensions, tornado, toml, tenacity, smmap, six, rpds-py, pygments, pyarrow, psycopg-binary, psycopg, protobuf, pluggy, pillow, packaging, numpy, narwhals, MarkupSafe, iniconfig, idna, greenlet, click, charset_normalizer, certifi, cachetools, blinker, attrs, SQLAlchemy, requests, referencing, python-dateutil, pytest, jinja2, gitdb, pydeck, pandas, jsonschema-specifications, gitpython, jsonschema, altair, streamlit
+test	Install dependencies	2026-10-30T15:58:12.2828728Z 
+test	Install dependencies	2026-10-30T15:58:12.2879321Z Successfully installed MarkupSafe-3.0.4 SQLAlchemy-2.0.44 altair-5.5.0 attrs-26.1.0 blinker-1.9.0 cachetools-6.2.6 certifi-2026.10.23 charset_normalizer-3.5.2 click-8.5.0 gitdb-4.0.12 gitpython-3.2.1 greenlet-3.5.6 idna-3.20 iniconfig-2.3.1 jinja2-3.1.6 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 narwhals-2.28.0 numpy-2.5.4 packaging-25.0 pandas-2.3.3 pillow-11.3.0 pluggy-1.7.0 protobuf-6.33.6 psycopg-3.2.10 psycopg-binary-3.2.10 pyarrow-26.0.0 pydeck-0.9.3 pygments-2.21.0 pytest-8.4.2 python-dateutil-3.0.0 pytz-2026.6 referencing-0.37.0 requests-2.34.2 rpds-py-2026.9.1 six-1.17.0 smmap-5.0.3 streamlit-1.50.0 tenacity-9.2.1 toml-0.10.2 tornado-6.6 typing-extensions-4.16.0 tzdata-2026.6 urllib3-2.8.0 watchdog-6.0.0
+test	Run tests	﻿2026-10-30T15:58:12.4345213Z ##[group]Run python -m pytest -q
+test	Run tests	2026-10-30T15:58:12.4345828Z ^[[36;1mpython -m pytest -q^[[0m
+test	Run tests	2026-10-30T15:58:12.4367382Z shell: /usr/bin/bash -e {0}
+test	Run tests	2026-10-30T15:58:12.4367634Z env:
+test	Run tests	2026-10-30T15:58:12.4367906Z   pythonLocation: /opt/hostedtoolcache/Python/3.13.17/x64
+test	Run tests	2026-10-30T15:58:12.4368352Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.13.17/x64/lib/pkgconfig
+test	Run tests	2026-10-30T15:58:12.4368811Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.17/x64
+test	Run tests	2026-10-30T15:58:12.4369220Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.17/x64
+test	Run tests	2026-10-30T15:58:12.4369611Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.13.17/x64
+test	Run tests	2026-10-30T15:58:12.4370005Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.13.17/x64/lib
+test	Run tests	2026-10-30T15:58:12.4370334Z ##[endgroup]
+test	Run tests	2026-10-30T15:58:13.4199666Z ..                                                                       [100%]
+test	Run tests	2026-10-30T15:58:13.4200410Z 2 passed in 0.51s
+test	Post Set up Python	﻿2026-10-30T15:58:13.4717441Z Post job cleanup.
+test	Post Set up Python	2026-10-30T15:58:13.5925115Z Cache hit occurred on the primary key setup-python-Linux-x64-24.04-Ubuntu-python-3.13.17-pip-ca22b48022d4831970c536b255bbe5ca19f64d9b4ded3cf52321877d11d01a6a, not saving cache.
+test	Post Set up Python	2026-10-30T15:58:13.5927249Z (node:2441) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+test	Post Set up Python	2026-10-30T15:58:13.5928388Z (Use `node --trace-deprecation ...` to show where the warning was created)
+test	Post Check out repository	﻿2026-10-30T15:58:13.6107281Z Post job cleanup.
+test	Post Check out repository	2026-10-30T15:58:13.7012922Z [command]/usr/bin/git version
+test	Post Check out repository	2026-10-30T15:58:13.7060283Z git version 2.56.0
+test	Post Check out repository	2026-10-30T15:58:13.7103639Z Temporarily overriding HOME='/home/runner/work/_temp/65dabae3-56d2-4656-a1dc-8e455e986787' before making global git config changes
+test	Post Check out repository	2026-10-30T15:58:13.7105028Z Adding repository directory to the temporary git global config as a safe directory
+test	Post Check out repository	2026-10-30T15:58:13.7109445Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/devops-week9/devops-week9
+test	Post Check out repository	2026-10-30T15:58:13.7146097Z Removing SSH command configuration
+test	Post Check out repository	2026-10-30T15:58:13.7153181Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+test	Post Check out repository	2026-10-30T15:58:13.7196684Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+test	Post Check out repository	2026-10-30T15:58:13.7478413Z Removing HTTP extra header
+test	Post Check out repository	2026-10-30T15:58:13.7484097Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+test	Post Check out repository	2026-10-30T15:58:13.7524794Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+test	Post Check out repository	2026-10-30T15:58:13.7866013Z Removing includeIf entries pointing to credentials config files
+test	Post Check out repository	2026-10-30T15:58:13.7918087Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+test	Post Check out repository	2026-10-30T15:58:13.7951195Z includeif.gitdir:/home/runner/work/devops-week9/devops-week9/.git.path
+test	Post Check out repository	2026-10-30T15:58:13.7964813Z includeif.gitdir:/home/runner/work/devops-week9/devops-week9/.git/worktrees/*.path
+test	Post Check out repository	2026-10-30T15:58:13.7966246Z includeif.gitdir:/github/workspace/.git.path
+test	Post Check out repository	2026-10-30T15:58:13.7967198Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+test	Post Check out repository	2026-10-30T15:58:13.7969975Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/devops-week9/devops-week9/.git.path
+test	Post Check out repository	2026-10-30T15:58:13.8013452Z /home/runner/work/_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config
+test	Post Check out repository	2026-10-30T15:58:13.8026867Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/devops-week9/devops-week9/.git.path /home/runner/work/_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config
+test	Post Check out repository	2026-10-30T15:58:13.8084393Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/devops-week9/devops-week9/.git/worktrees/*.path
+test	Post Check out repository	2026-10-30T15:58:13.8124405Z /home/runner/work/_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config
+test	Post Check out repository	2026-10-30T15:58:13.8139630Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/devops-week9/devops-week9/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config
+test	Post Check out repository	2026-10-30T15:58:13.8193169Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+test	Post Check out repository	2026-10-30T15:58:13.8231344Z /github/runner_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config
+test	Post Check out repository	2026-10-30T15:58:13.8244381Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config
+test	Post Check out repository	2026-10-30T15:58:13.8298109Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+test	Post Check out repository	2026-10-30T15:58:13.8336343Z /github/runner_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config
+test	Post Check out repository	2026-10-30T15:58:13.8358752Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config
+test	Post Check out repository	2026-10-30T15:58:13.8408001Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+test	Post Check out repository	2026-10-30T15:58:13.8674704Z Removing credentials config '/home/runner/work/_temp/git-credentials-4d47a2cd-97c8-4e02-a231-0c30af85690b.config'
+test	Complete job	﻿2026-10-30T15:58:13.8868210Z Cleaning up orphan processes
+test	Complete job	2026-10-30T15:58:13.9246190Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+
+Exit code: 0

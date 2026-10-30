@@ -1,0 +1,67 @@
+Captured UTC: 2026-10-30T15:56:13.212575+00:00
+$ docker compose up -d --build
+
+ Image week9-web Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 496B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 480B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.13-slim
+#3 DONE 0.1s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 106B done
+#4 DONE 0.0s
+
+#5 [1/6] FROM docker.io/library/python:3.13-slim@sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb
+#5 resolve docker.io/library/python:3.13-slim@sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb 0.0s done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 209B done
+#6 DONE 0.0s
+
+#7 [3/6] COPY requirements.txt .
+#7 CACHED
+
+#8 [2/6] WORKDIR /app
+#8 CACHED
+
+#9 [5/6] COPY app ./app
+#9 CACHED
+
+#10 [4/6] RUN pip install --no-cache-dir -r requirements.txt
+#10 CACHED
+
+#11 [6/6] RUN useradd --uid 10001 --user-group --create-home --shell /usr/sbin/nologin appuser     && chown appuser:appuser /app
+#11 CACHED
+
+#12 exporting to image
+#12 exporting layers done
+#12 exporting manifest sha256:52267115245cafd67757299a277bb8009dbd06a396ac35f96fab1ce1f5e1dfbd done
+#12 exporting config sha256:4f29f7a48370e9cb8225393c0bc4c52ae8ee222a04295e2f6c796b3728bd7044 done
+#12 exporting attestation manifest sha256:e4d4f6b0b814b6a1fef9b93dc825e1b0d6a8df0fbd66a4a815dff9971bb39ce5 0.0s done
+#12 exporting manifest list sha256:68edc0c4dde3d6c7cd6f256e6b79ddaa5414f9f9b7cc2fe0be97430fcebae96d done
+#12 naming to docker.io/library/week9-web:latest done
+#12 unpacking to docker.io/library/week9-web:latest done
+#12 DONE 0.1s
+
+#13 resolving provenance for metadata file
+#13 DONE 0.0s
+ Image week9-web Built 
+ Container week9-db-1 Running 
+ Container week9-adminer-1 Running 
+ Container week9-web-1 Recreate 
+ Container week9-web-1 Recreated 
+ Container week9-db-1 Waiting 
+ Container week9-db-1 Waiting 
+ Container week9-db-1 Healthy 
+ Container week9-web-1 Starting 
+ Container week9-db-1 Healthy 
+ Container week9-web-1 Started 
+
+Exit code: 0

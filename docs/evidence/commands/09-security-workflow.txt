@@ -1,0 +1,401 @@
+Captured UTC: 2026-10-30T15:59:25.069281+00:00
+$ gh run view 41085503533 --repo jakeryderv/devops-week9 --log
+
+security-policy	Set up job	﻿2026-10-30T15:57:48.1353024Z Current runner version: '2.338.2'
+security-policy	Set up job	2026-10-30T15:57:48.1377108Z ##[group]Runner Image Provisioner
+security-policy	Set up job	2026-10-30T15:57:48.1378068Z Hosted Compute Agent
+security-policy	Set up job	2026-10-30T15:57:48.1379119Z Version: 20261021.618
+security-policy	Set up job	2026-10-30T15:57:48.1379879Z Commit: 21505ad2541d5be6135ed84fc33697146cf75b8e
+security-policy	Set up job	2026-10-30T15:57:48.1380866Z Build Date: 2026-10-21T00:45:21Z
+security-policy	Set up job	2026-10-30T15:57:48.1381710Z Worker ID: {cffe2c6d-4e10-4bd4-979b-190f13693300}
+security-policy	Set up job	2026-10-30T15:57:48.1382562Z Region: eastus
+security-policy	Set up job	2026-10-30T15:57:48.1383335Z Cloud: Azure
+security-policy	Set up job	2026-10-30T15:57:48.1383981Z ##[endgroup]
+security-policy	Set up job	2026-10-30T15:57:48.1385967Z ##[group]Operating System
+security-policy	Set up job	2026-10-30T15:57:48.1386732Z Ubuntu
+security-policy	Set up job	2026-10-30T15:57:48.1387349Z 24.04.5
+security-policy	Set up job	2026-10-30T15:57:48.1388095Z LTS
+security-policy	Set up job	2026-10-30T15:57:48.1388901Z ##[endgroup]
+security-policy	Set up job	2026-10-30T15:57:48.1389695Z ##[group]Runner Image
+security-policy	Set up job	2026-10-30T15:57:48.1390419Z Image: ubuntu-24.04
+security-policy	Set up job	2026-10-30T15:57:48.1391126Z Version: 20261025.353.1
+security-policy	Set up job	2026-10-30T15:57:48.1392479Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20261025.353/images/ubuntu/Ubuntu2404-Readme.md
+security-policy	Set up job	2026-10-30T15:57:48.1394718Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20261025.353
+security-policy	Set up job	2026-10-30T15:57:48.1395994Z ##[endgroup]
+security-policy	Set up job	2026-10-30T15:57:48.1397389Z ##[group]GITHUB_TOKEN Permissions
+security-policy	Set up job	2026-10-30T15:57:48.1399842Z Contents: read
+security-policy	Set up job	2026-10-30T15:57:48.1400632Z Metadata: read
+security-policy	Set up job	2026-10-30T15:57:48.1401293Z ##[endgroup]
+security-policy	Set up job	2026-10-30T15:57:48.1403621Z Secret source: Actions
+security-policy	Set up job	2026-10-30T15:57:48.1404885Z Cache mode: write
+security-policy	Set up job	2026-10-30T15:57:48.1405950Z Prepare workflow directory
+security-policy	Set up job	2026-10-30T15:57:48.1759251Z Prepare all required actions
+security-policy	Set up job	2026-10-30T15:57:48.1813744Z Getting action download info
+security-policy	Set up job	2026-10-30T15:57:48.3701757Z Download action repository 'actions/checkout@v6' (SHA:d23441a48e516b6c34aea4fa41551a30e30af803)
+security-policy	Set up job	2026-10-30T15:57:48.5568077Z Complete job name: security-policy
+security-policy	Check out repository	﻿2026-10-30T15:57:48.6296440Z ##[group]Run actions/checkout@v6
+security-policy	Check out repository	2026-10-30T15:57:48.6297138Z with:
+security-policy	Check out repository	2026-10-30T15:57:48.6297531Z   repository: jakeryderv/devops-week9
+security-policy	Check out repository	2026-10-30T15:57:48.6300786Z   token: ***
+security-policy	Check out repository	2026-10-30T15:57:48.6301151Z   ssh-strict: true
+security-policy	Check out repository	2026-10-30T15:57:48.6301522Z   ssh-user: git
+security-policy	Check out repository	2026-10-30T15:57:48.6301897Z   persist-credentials: true
+security-policy	Check out repository	2026-10-30T15:57:48.6302301Z   clean: true
+security-policy	Check out repository	2026-10-30T15:57:48.6302674Z   sparse-checkout-cone-mode: true
+security-policy	Check out repository	2026-10-30T15:57:48.6303104Z   fetch-depth: 1
+security-policy	Check out repository	2026-10-30T15:57:48.6303463Z   fetch-tags: false
+security-policy	Check out repository	2026-10-30T15:57:48.6303825Z   show-progress: true
+security-policy	Check out repository	2026-10-30T15:57:48.6304198Z   lfs: false
+security-policy	Check out repository	2026-10-30T15:57:48.6304608Z   submodules: false
+security-policy	Check out repository	2026-10-30T15:57:48.6305173Z   set-safe-directory: true
+security-policy	Check out repository	2026-10-30T15:57:48.6305772Z   allow-unsafe-pr-checkout: false
+security-policy	Check out repository	2026-10-30T15:57:48.6306617Z ##[endgroup]
+security-policy	Check out repository	2026-10-30T15:57:48.8998599Z Syncing repository: jakeryderv/devops-week9
+security-policy	Check out repository	2026-10-30T15:57:48.9000452Z ##[group]Getting Git version info
+security-policy	Check out repository	2026-10-30T15:57:48.9001200Z Working directory is '/home/runner/work/devops-week9/devops-week9'
+security-policy	Check out repository	2026-10-30T15:57:48.9002813Z [command]/usr/bin/git version
+security-policy	Check out repository	2026-10-30T15:57:48.9097130Z git version 2.56.0
+security-policy	Check out repository	2026-10-30T15:57:48.9114815Z ##[endgroup]
+security-policy	Check out repository	2026-10-30T15:57:48.9127801Z Temporarily overriding HOME='/home/runner/work/_temp/aed05608-a361-43ea-88ca-cfbf8c3fca10' before making global git config changes
+security-policy	Check out repository	2026-10-30T15:57:48.9130029Z Adding repository directory to the temporary git global config as a safe directory
+security-policy	Check out repository	2026-10-30T15:57:48.9132298Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/devops-week9/devops-week9
+security-policy	Check out repository	2026-10-30T15:57:48.9183660Z Deleting the contents of '/home/runner/work/devops-week9/devops-week9'
+security-policy	Check out repository	2026-10-30T15:57:48.9193439Z ##[group]Determining repository object format
+security-policy	Check out repository	2026-10-30T15:57:48.9194774Z ##[endgroup]
+security-policy	Check out repository	2026-10-30T15:57:48.9195767Z ##[group]Initializing the repository
+security-policy	Check out repository	2026-10-30T15:57:48.9196869Z [command]/usr/bin/git init /home/runner/work/devops-week9/devops-week9
+security-policy	Check out repository	2026-10-30T15:57:48.9303437Z hint: Using 'master' as the name for the initial branch. This default branch name
+security-policy	Check out repository	2026-10-30T15:57:48.9305441Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+security-policy	Check out repository	2026-10-30T15:57:48.9307415Z hint: to use in all of your new repositories, which will suppress this warning,
+security-policy	Check out repository	2026-10-30T15:57:48.9308747Z hint: call:
+security-policy	Check out repository	2026-10-30T15:57:48.9309487Z hint:
+security-policy	Check out repository	2026-10-30T15:57:48.9310408Z hint: 	git config --global init.defaultBranch <name>
+security-policy	Check out repository	2026-10-30T15:57:48.9311413Z hint:
+security-policy	Check out repository	2026-10-30T15:57:48.9312371Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+security-policy	Check out repository	2026-10-30T15:57:48.9313840Z hint: 'development'. The just-created branch can be renamed via this command:
+security-policy	Check out repository	2026-10-30T15:57:48.9315025Z hint:
+security-policy	Check out repository	2026-10-30T15:57:48.9315786Z hint: 	git branch -m <name>
+security-policy	Check out repository	2026-10-30T15:57:48.9316689Z hint:
+security-policy	Check out repository	2026-10-30T15:57:48.9317756Z hint: Disable this message with "git config set advice.defaultBranchName false"
+security-policy	Check out repository	2026-10-30T15:57:48.9390086Z Initialized empty Git repository in /home/runner/work/devops-week9/devops-week9/.git/
+security-policy	Check out repository	2026-10-30T15:57:48.9420225Z [command]/usr/bin/git remote add origin https://github.com/jakeryderv/devops-week9
+security-policy	Check out repository	2026-10-30T15:57:48.9472562Z ##[endgroup]
+security-policy	Check out repository	2026-10-30T15:57:48.9474035Z ##[group]Disabling automatic garbage collection
+security-policy	Check out repository	2026-10-30T15:57:48.9477235Z [command]/usr/bin/git config --local gc.auto 0
+security-policy	Check out repository	2026-10-30T15:57:48.9514518Z ##[endgroup]
+security-policy	Check out repository	2026-10-30T15:57:48.9516341Z ##[group]Setting up auth
+security-policy	Check out repository	2026-10-30T15:57:48.9517561Z Removing SSH command configuration
+security-policy	Check out repository	2026-10-30T15:57:48.9522052Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+security-policy	Check out repository	2026-10-30T15:57:48.9565646Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+security-policy	Check out repository	2026-10-30T15:57:48.9917303Z Removing HTTP extra header
+security-policy	Check out repository	2026-10-30T15:57:48.9923166Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+security-policy	Check out repository	2026-10-30T15:57:48.9961401Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+security-policy	Check out repository	2026-10-30T15:57:49.0167107Z Removing includeIf entries pointing to credentials config files
+security-policy	Check out repository	2026-10-30T15:57:49.0172551Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+security-policy	Check out repository	2026-10-30T15:57:49.0212582Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+security-policy	Check out repository	2026-10-30T15:57:49.0426426Z [command]/usr/bin/git config --file /home/runner/work/_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config http.https://github.com/.extraheader AUTHORIZATION: basic ***
+security-policy	Check out repository	2026-10-30T15:57:49.0470069Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/devops-week9/devops-week9/.git.path /home/runner/work/_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config
+security-policy	Check out repository	2026-10-30T15:57:49.0505943Z [command]/usr/bin/git config --local includeIf.gitdir:/home/runner/work/devops-week9/devops-week9/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config
+security-policy	Check out repository	2026-10-30T15:57:49.0550006Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config
+security-policy	Check out repository	2026-10-30T15:57:49.0585498Z [command]/usr/bin/git config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config
+security-policy	Check out repository	2026-10-30T15:57:49.0617990Z ##[endgroup]
+security-policy	Check out repository	2026-10-30T15:57:49.0618994Z ##[group]Fetching the repository
+security-policy	Check out repository	2026-10-30T15:57:49.0625386Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a9c351eba55b951545b13b9bdb6cf8fd8ae61c1d:refs/remotes/pull/2/merge
+security-policy	Check out repository	2026-10-30T15:57:49.3097948Z From https://github.com/jakeryderv/devops-week9
+security-policy	Check out repository	2026-10-30T15:57:49.3099340Z  * [new ref]         a9c351eba55b951545b13b9bdb6cf8fd8ae61c1d -> pull/2/merge
+security-policy	Check out repository	2026-10-30T15:57:49.3102920Z ##[endgroup]
+security-policy	Check out repository	2026-10-30T15:57:49.3103708Z ##[group]Determining the checkout info
+security-policy	Check out repository	2026-10-30T15:57:49.3104682Z ##[endgroup]
+security-policy	Check out repository	2026-10-30T15:57:49.3109277Z [command]/usr/bin/git sparse-checkout disable
+security-policy	Check out repository	2026-10-30T15:57:49.3358863Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+security-policy	Check out repository	2026-10-30T15:57:49.3398130Z ##[group]Checking out the ref
+security-policy	Check out repository	2026-10-30T15:57:49.3401127Z [command]/usr/bin/git checkout --progress --force refs/remotes/pull/2/merge
+security-policy	Check out repository	2026-10-30T15:57:49.3458130Z Note: switching to 'refs/remotes/pull/2/merge'.
+security-policy	Check out repository	2026-10-30T15:57:49.3458841Z 
+security-policy	Check out repository	2026-10-30T15:57:49.3459195Z You are in 'detached HEAD' state. You can look around, make experimental
+security-policy	Check out repository	2026-10-30T15:57:49.3459982Z changes and commit them, and you can discard any commits you make in this
+security-policy	Check out repository	2026-10-30T15:57:49.3460751Z state without impacting any branches by switching back to a branch.
+security-policy	Check out repository	2026-10-30T15:57:49.3461193Z 
+security-policy	Check out repository	2026-10-30T15:57:49.3461576Z If you want to create a new branch to retain commits you create, you may
+security-policy	Check out repository	2026-10-30T15:57:49.3462312Z do so (now or later) by using -c with the switch command. Example:
+security-policy	Check out repository	2026-10-30T15:57:49.3462725Z 
+security-policy	Check out repository	2026-10-30T15:57:49.3462928Z   git switch -c <new-branch-name>
+security-policy	Check out repository	2026-10-30T15:57:49.3463221Z 
+security-policy	Check out repository	2026-10-30T15:57:49.3463406Z Or undo this operation with:
+security-policy	Check out repository	2026-10-30T15:57:49.3463677Z 
+security-policy	Check out repository	2026-10-30T15:57:49.3463845Z   git switch -
+security-policy	Check out repository	2026-10-30T15:57:49.3464065Z 
+security-policy	Check out repository	2026-10-30T15:57:49.3464398Z Turn off this advice by setting config variable advice.detachedHead to false
+security-policy	Check out repository	2026-10-30T15:57:49.3465131Z 
+security-policy	Check out repository	2026-10-30T15:57:49.3466017Z HEAD is now at a9c351e Merge 9322bd7c25da8f2909fb5f675be23dcf365961b3 into 875d6782701cbd4764fb22e5b2d7970d75dbf84d
+security-policy	Check out repository	2026-10-30T15:57:49.3468649Z ##[endgroup]
+security-policy	Check out repository	2026-10-30T15:57:49.3511350Z [command]/usr/bin/git log -1 --format=%H
+security-policy	Check out repository	2026-10-30T15:57:49.3541863Z a9c351eba55b951545b13b9bdb6cf8fd8ae61c1d
+security-policy	Reject tracked .env	﻿2026-10-30T15:57:49.3765403Z ##[group]Run if git ls-files --error-unmatch .env >/dev/null 2>&1; then
+security-policy	Reject tracked .env	2026-10-30T15:57:49.3766329Z ^[[36;1mif git ls-files --error-unmatch .env >/dev/null 2>&1; then^[[0m
+security-policy	Reject tracked .env	2026-10-30T15:57:49.3767014Z ^[[36;1m  echo "::error::.env must not be tracked by Git"^[[0m
+security-policy	Reject tracked .env	2026-10-30T15:57:49.3767579Z ^[[36;1m  exit 1^[[0m
+security-policy	Reject tracked .env	2026-10-30T15:57:49.3767965Z ^[[36;1mfi^[[0m
+security-policy	Reject tracked .env	2026-10-30T15:57:49.3768611Z ^[[36;1mecho ".env is not tracked by Git"^[[0m
+security-policy	Reject tracked .env	2026-10-30T15:57:49.3789671Z shell: /usr/bin/bash -e {0}
+security-policy	Reject tracked .env	2026-10-30T15:57:49.3790180Z ##[endgroup]
+security-policy	Reject tracked .env	2026-10-30T15:57:49.3866755Z .env is not tracked by Git
+security-policy	Build application image	﻿2026-10-30T15:57:49.3913215Z ##[group]Run docker build -t helpdesk:security .
+security-policy	Build application image	2026-10-30T15:57:49.3913840Z ^[[36;1mdocker build -t helpdesk:security .^[[0m
+security-policy	Build application image	2026-10-30T15:57:49.3931344Z shell: /usr/bin/bash -e {0}
+security-policy	Build application image	2026-10-30T15:57:49.3931802Z ##[endgroup]
+security-policy	Build application image	2026-10-30T15:57:50.0164600Z #0 building with "default" instance using docker driver
+security-policy	Build application image	2026-10-30T15:57:50.0165796Z 
+security-policy	Build application image	2026-10-30T15:57:50.0166159Z #1 [internal] load build definition from Dockerfile
+security-policy	Build application image	2026-10-30T15:57:50.0167026Z #1 transferring dockerfile: 480B done
+security-policy	Build application image	2026-10-30T15:57:50.0167720Z #1 DONE 0.0s
+security-policy	Build application image	2026-10-30T15:57:50.0168035Z 
+security-policy	Build application image	2026-10-30T15:57:50.0168660Z #2 [auth] library/python:pull token for registry-1.docker.io
+security-policy	Build application image	2026-10-30T15:57:50.0169603Z #2 DONE 0.0s
+security-policy	Build application image	2026-10-30T15:57:50.0169924Z 
+security-policy	Build application image	2026-10-30T15:57:50.0170397Z #3 [internal] load metadata for docker.io/library/python:3.13-slim
+security-policy	Build application image	2026-10-30T15:57:50.3663180Z #3 DONE 0.5s
+security-policy	Build application image	2026-10-30T15:57:50.4793321Z 
+security-policy	Build application image	2026-10-30T15:57:50.4794455Z #4 [internal] load .dockerignore
+security-policy	Build application image	2026-10-30T15:57:50.4795558Z #4 transferring context: 106B done
+security-policy	Build application image	2026-10-30T15:57:50.4796558Z #4 DONE 0.0s
+security-policy	Build application image	2026-10-30T15:57:50.4796981Z 
+security-policy	Build application image	2026-10-30T15:57:50.4797406Z #5 [internal] load build context
+security-policy	Build application image	2026-10-30T15:57:50.4798571Z #5 transferring context: 4.93kB done
+security-policy	Build application image	2026-10-30T15:57:50.4799599Z #5 DONE 0.0s
+security-policy	Build application image	2026-10-30T15:57:50.4800060Z 
+security-policy	Build application image	2026-10-30T15:57:50.4801001Z #6 [1/6] FROM docker.io/library/python:3.13-slim@sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb
+security-policy	Build application image	2026-10-30T15:57:50.4803044Z #6 resolve docker.io/library/python:3.13-slim@sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb done
+security-policy	Build application image	2026-10-30T15:57:50.4805002Z #6 sha256:6f058ad03f0cab30c01926ad20e38348fe53783080f5309e4bfc4d2709c5fbaf 251B / 251B 0.1s done
+security-policy	Build application image	2026-10-30T15:57:50.4807169Z #6 sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb 10.37kB / 10.37kB done
+security-policy	Build application image	2026-10-30T15:57:50.4809073Z #6 sha256:aaf08c5490d52cd92bc27142a5215b1e47355a5eaf9adfad2a0fbc022d0b5490 1.75kB / 1.75kB done
+security-policy	Build application image	2026-10-30T15:57:50.4810826Z #6 sha256:bdfc738a8a869292ec1b01f1b8e620db533e09d1fe68fe980a7118b22dae9cec 5.66kB / 5.66kB done
+security-policy	Build application image	2026-10-30T15:57:50.4812583Z #6 sha256:6fc242d221a673263eabd14a9ad9584d3177c96e5cb504c891497338e2f912f5 27.26MB / 29.86MB 0.1s
+security-policy	Build application image	2026-10-30T15:57:50.4814376Z #6 sha256:789960dca7c613e9d8872d4790f2ec423b8fe17f52989c6225982f28696e7315 1.29MB / 1.29MB 0.1s done
+security-policy	Build application image	2026-10-30T15:57:50.4816165Z #6 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 11.92MB / 11.92MB 0.1s
+security-policy	Build application image	2026-10-30T15:57:50.6802132Z #6 sha256:6fc242d221a673263eabd14a9ad9584d3177c96e5cb504c891497338e2f912f5 29.86MB / 29.86MB 0.3s done
+security-policy	Build application image	2026-10-30T15:57:50.6803278Z #6 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 11.92MB / 11.92MB 0.2s done
+security-policy	Build application image	2026-10-30T15:57:50.8082517Z #6 extracting sha256:6fc242d221a673263eabd14a9ad9584d3177c96e5cb504c891497338e2f912f5 0.1s
+security-policy	Build application image	2026-10-30T15:57:51.4416890Z #6 extracting sha256:6fc242d221a673263eabd14a9ad9584d3177c96e5cb504c891497338e2f912f5 0.7s done
+security-policy	Build application image	2026-10-30T15:57:51.4417495Z #6 extracting sha256:789960dca7c613e9d8872d4790f2ec423b8fe17f52989c6225982f28696e7315
+security-policy	Build application image	2026-10-30T15:57:51.6638864Z #6 extracting sha256:789960dca7c613e9d8872d4790f2ec423b8fe17f52989c6225982f28696e7315 0.1s done
+security-policy	Build application image	2026-10-30T15:57:53.5847371Z #6 extracting sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f
+security-policy	Build application image	2026-10-30T15:57:54.1421080Z #6 extracting sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 0.4s done
+security-policy	Build application image	2026-10-30T15:57:54.2950795Z #6 extracting sha256:6f058ad03f0cab30c01926ad20e38348fe53783080f5309e4bfc4d2709c5fbaf
+security-policy	Build application image	2026-10-30T15:57:54.4768505Z #6 extracting sha256:6f058ad03f0cab30c01926ad20e38348fe53783080f5309e4bfc4d2709c5fbaf done
+security-policy	Build application image	2026-10-30T15:57:54.4769348Z #6 DONE 3.9s
+security-policy	Build application image	2026-10-30T15:57:54.4769479Z 
+security-policy	Build application image	2026-10-30T15:57:54.4769600Z #7 [2/6] WORKDIR /app
+security-policy	Build application image	2026-10-30T15:57:54.4769859Z #7 DONE 0.0s
+security-policy	Build application image	2026-10-30T15:57:54.4769999Z 
+security-policy	Build application image	2026-10-30T15:57:54.4770116Z #8 [3/6] COPY requirements.txt .
+security-policy	Build application image	2026-10-30T15:57:54.4770419Z #8 DONE 0.0s
+security-policy	Build application image	2026-10-30T15:57:54.4770561Z 
+security-policy	Build application image	2026-10-30T15:57:54.4770790Z #9 [4/6] RUN pip install --no-cache-dir -r requirements.txt
+security-policy	Build application image	2026-10-30T15:57:55.5497016Z #9 1.223 Collecting streamlit==1.50.0 (from -r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:55.7403780Z #9 1.263   Downloading streamlit-1.50.0-py3-none-any.whl.metadata (9.5 kB)
+security-policy	Build application image	2026-10-30T15:57:55.7916440Z #9 1.465 Collecting SQLAlchemy==2.0.44 (from -r requirements.txt (line 2))
+security-policy	Build application image	2026-10-30T15:57:55.8942617Z #9 1.475   Downloading sqlalchemy-2.0.44-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.5 kB)
+security-policy	Build application image	2026-10-30T15:57:55.8943984Z #9 1.487 Collecting psycopg==3.2.10 (from psycopg[binary]==3.2.10->-r requirements.txt (line 3))
+security-policy	Build application image	2026-10-30T15:57:55.8944638Z #9 1.496   Downloading psycopg-3.2.10-py3-none-any.whl.metadata (4.6 kB)
+security-policy	Build application image	2026-10-30T15:57:55.8945154Z #9 1.512 Collecting pytest==8.4.2 (from -r requirements.txt (line 4))
+security-policy	Build application image	2026-10-30T15:57:55.8945689Z #9 1.521   Downloading pytest-8.4.2-py3-none-any.whl.metadata (7.7 kB)
+security-policy	Build application image	2026-10-30T15:57:55.8946325Z #9 1.532 Collecting altair!=5.4.0,!=5.4.1,<6,>=4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:55.8946955Z #9 1.541   Downloading altair-5.5.0-py3-none-any.whl.metadata (11 kB)
+security-policy	Build application image	2026-10-30T15:57:55.8947524Z #9 1.549 Collecting blinker<2,>=1.5.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:55.8948134Z #9 1.557   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+security-policy	Build application image	2026-10-30T15:57:55.8948953Z #9 1.568 Collecting cachetools<7,>=4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.0591424Z #9 1.584   Downloading cachetools-6.2.6-py3-none-any.whl.metadata (5.6 kB)
+security-policy	Build application image	2026-10-30T15:57:56.0592096Z #9 1.601 Collecting click<9,>=7.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.0593126Z #9 1.609   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+security-policy	Build application image	2026-10-30T15:57:56.0593721Z #9 1.733 Collecting numpy<3,>=1.23 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.1676588Z #9 1.742   Downloading numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+security-policy	Build application image	2026-10-30T15:57:56.1677473Z #9 1.751 Collecting packaging<26,>=20 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.1678112Z #9 1.760   Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+security-policy	Build application image	2026-10-30T15:57:56.1678909Z #9 1.831 Collecting pandas<3,>=1.4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.1679657Z #9 1.841   Downloading pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+security-policy	Build application image	2026-10-30T15:57:56.2996460Z #9 1.973 Collecting pillow<12,>=7.1.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.4033655Z #9 1.982   Downloading pillow-11.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+security-policy	Build application image	2026-10-30T15:57:56.4034560Z #9 2.077 Collecting protobuf<7,>=3.20 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.5045587Z #9 2.086   Downloading protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl.metadata (593 bytes)
+security-policy	Build application image	2026-10-30T15:57:56.5046222Z #9 2.138 Collecting pyarrow>=7.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.5046711Z #9 2.147   Downloading pyarrow-26.0.0-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+security-policy	Build application image	2026-10-30T15:57:56.5047171Z #9 2.160 Collecting requests<3,>=2.27 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.5047597Z #9 2.169   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+security-policy	Build application image	2026-10-30T15:57:56.5048007Z #9 2.178 Collecting tenacity<10,>=8.1.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.6074439Z #9 2.187   Downloading tenacity-9.2.1-py3-none-any.whl.metadata (1.4 kB)
+security-policy	Build application image	2026-10-30T15:57:56.6074989Z #9 2.193 Collecting toml<2,>=0.10.1 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.6075746Z #9 2.202   Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+security-policy	Build application image	2026-10-30T15:57:56.6076435Z #9 2.211 Collecting typing-extensions<5,>=4.4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.6077356Z #9 2.220   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+security-policy	Build application image	2026-10-30T15:57:56.6078033Z #9 2.245 Collecting watchdog<7,>=2.1.5 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.6078885Z #9 2.254   Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+security-policy	Build application image	2026-10-30T15:57:56.6079780Z #9 2.273 Collecting gitpython!=3.1.19,<4,>=3.0.7 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.6080478Z #9 2.281   Downloading gitpython-3.2.1-py3-none-any.whl.metadata (13 kB)
+security-policy	Build application image	2026-10-30T15:57:56.7588144Z #9 2.292 Collecting pydeck<1,>=0.8.0b4 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.7589014Z #9 2.301   Downloading pydeck-0.9.3-py2.py3-none-any.whl.metadata (4.2 kB)
+security-policy	Build application image	2026-10-30T15:57:56.7589678Z #9 2.329 Collecting tornado!=6.5.0,<7,>=6.0.3 (from streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:56.7590229Z #9 2.338   Downloading tornado-6.6-cp311-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (2.6 kB)
+security-policy	Build application image	2026-10-30T15:57:56.7590783Z #9 2.432 Collecting greenlet>=1 (from SQLAlchemy==2.0.44->-r requirements.txt (line 2))
+security-policy	Build application image	2026-10-30T15:57:56.9515978Z #9 2.442   Downloading greenlet-3.5.6-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+security-policy	Build application image	2026-10-30T15:57:56.9516810Z #9 2.450 Collecting iniconfig>=1 (from pytest==8.4.2->-r requirements.txt (line 4))
+security-policy	Build application image	2026-10-30T15:57:56.9517396Z #9 2.458   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+security-policy	Build application image	2026-10-30T15:57:56.9517987Z #9 2.467 Collecting pluggy<2,>=1.5 (from pytest==8.4.2->-r requirements.txt (line 4))
+security-policy	Build application image	2026-10-30T15:57:56.9519066Z #9 2.475   Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+security-policy	Build application image	2026-10-30T15:57:56.9519635Z #9 2.517 Collecting pygments>=2.7.2 (from pytest==8.4.2->-r requirements.txt (line 4))
+security-policy	Build application image	2026-10-30T15:57:56.9520203Z #9 2.526   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+security-policy	Build application image	2026-10-30T15:57:56.9520897Z #9 2.625 Collecting psycopg-binary==3.2.10 (from psycopg[binary]==3.2.10->-r requirements.txt (line 3))
+security-policy	Build application image	2026-10-30T15:57:57.0587848Z #9 2.635   Downloading psycopg_binary-3.2.10-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.0 kB)
+security-policy	Build application image	2026-10-30T15:57:57.0589040Z #9 2.645 Collecting jinja2 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.0589782Z #9 2.653   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+security-policy	Build application image	2026-10-30T15:57:57.0590538Z #9 2.667 Collecting jsonschema>=3.0 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.0591308Z #9 2.676   Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+security-policy	Build application image	2026-10-30T15:57:57.0591958Z #9 2.697 Collecting narwhals>=1.14.2 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.0592416Z #9 2.706   Downloading narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+security-policy	Build application image	2026-10-30T15:57:57.0592912Z #9 2.717 Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3.0.7->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.0593375Z #9 2.725   Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+security-policy	Build application image	2026-10-30T15:57:57.0593833Z #9 2.733 Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.2320464Z #9 2.741   Downloading smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+security-policy	Build application image	2026-10-30T15:57:57.2321163Z #9 2.752 Collecting python-dateutil>=2.8.2 (from pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.2321703Z #9 2.761   Downloading python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+security-policy	Build application image	2026-10-30T15:57:57.2322163Z #9 2.782 Collecting pytz>=2020.1 (from pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.2322585Z #9 2.791   Downloading pytz-2026.6-py2.py3-none-any.whl.metadata (22 kB)
+security-policy	Build application image	2026-10-30T15:57:57.2323303Z #9 2.810 Collecting tzdata>=2022.7 (from pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.2323734Z #9 2.819   Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+security-policy	Build application image	2026-10-30T15:57:57.2324225Z #9 2.906 Collecting charset_normalizer<4,>=2 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.3565362Z #9 2.915   Downloading charset_normalizer-3.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+security-policy	Build application image	2026-10-30T15:57:57.3566281Z #9 2.926 Collecting idna<4,>=2.5 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.3566743Z #9 2.935   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+security-policy	Build application image	2026-10-30T15:57:57.3567175Z #9 2.948 Collecting urllib3<3,>=1.26 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.3567622Z #9 2.971   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+security-policy	Build application image	2026-10-30T15:57:57.3568065Z #9 2.982 Collecting certifi>=2023.5.7 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.3568768Z #9 2.990   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+security-policy	Build application image	2026-10-30T15:57:57.3569424Z #9 3.030 Collecting MarkupSafe>=2.0 (from jinja2->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.5709820Z #9 3.039   Downloading markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+security-policy	Build application image	2026-10-30T15:57:57.5711122Z #9 3.048 Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.5712520Z #9 3.057   Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+security-policy	Build application image	2026-10-30T15:57:57.5713480Z #9 3.065 Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.5714559Z #9 3.073   Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+security-policy	Build application image	2026-10-30T15:57:57.5715521Z #9 3.086 Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.5716402Z #9 3.094   Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+security-policy	Build application image	2026-10-30T15:57:57.5903106Z #9 3.264 Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.7015395Z #9 3.273   Downloading rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+security-policy	Build application image	2026-10-30T15:57:57.7017001Z #9 3.284 Collecting six>=1.6 (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+security-policy	Build application image	2026-10-30T15:57:57.7018008Z #9 3.292   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+security-policy	Build application image	2026-10-30T15:57:57.7018955Z #9 3.306 Downloading streamlit-1.50.0-py3-none-any.whl (10.1 MB)
+security-policy	Build application image	2026-10-30T15:57:57.7019877Z #9 3.355    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.1/10.1 MB 261.7 MB/s  0:00:00
+security-policy	Build application image	2026-10-30T15:57:57.7020511Z #9 3.364 Downloading sqlalchemy-2.0.44-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+security-policy	Build application image	2026-10-30T15:57:57.8031502Z #9 3.375    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 312.5 MB/s  0:00:00
+security-policy	Build application image	2026-10-30T15:57:57.8032184Z #9 3.385 Downloading psycopg-3.2.10-py3-none-any.whl (206 kB)
+security-policy	Build application image	2026-10-30T15:57:57.8032705Z #9 3.394 Downloading pytest-8.4.2-py3-none-any.whl (365 kB)
+security-policy	Build application image	2026-10-30T15:57:57.8033478Z #9 3.403 Downloading psycopg_binary-3.2.10-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.4 MB)
+security-policy	Build application image	2026-10-30T15:57:57.8034345Z #9 3.414    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 464.8 MB/s  0:00:00
+security-policy	Build application image	2026-10-30T15:57:57.8034854Z #9 3.423 Downloading altair-5.5.0-py3-none-any.whl (731 kB)
+security-policy	Build application image	2026-10-30T15:57:57.8035380Z #9 3.427    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 731.2/731.2 kB 432.0 MB/s  0:00:00
+security-policy	Build application image	2026-10-30T15:57:57.8035951Z #9 3.442 Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+security-policy	Build application image	2026-10-30T15:57:57.8036259Z #9 3.451 Downloading cachetools-6.2.6-py3-none-any.whl (11 kB)
+security-policy	Build application image	2026-10-30T15:57:57.8036550Z #9 3.460 Downloading click-8.5.0-py3-none-any.whl (125 kB)
+security-policy	Build application image	2026-10-30T15:57:57.8036837Z #9 3.468 Downloading gitpython-3.2.1-py3-none-any.whl (231 kB)
+security-policy	Build application image	2026-10-30T15:57:57.8037116Z #9 3.477 Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+security-policy	Build application image	2026-10-30T15:57:57.9175118Z #9 3.485 Downloading numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+security-policy	Build application image	2026-10-30T15:57:57.9175987Z #9 3.517    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 554.3 MB/s  0:00:00
+security-policy	Build application image	2026-10-30T15:57:57.9176338Z #9 3.526 Downloading packaging-25.0-py3-none-any.whl (66 kB)
+security-policy	Build application image	2026-10-30T15:57:57.9176767Z #9 3.535 Downloading pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.3 MB)
+security-policy	Build application image	2026-10-30T15:57:57.9177257Z #9 3.567    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 405.5 MB/s  0:00:00
+security-policy	Build application image	2026-10-30T15:57:57.9177703Z #9 3.576 Downloading pillow-11.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.6 MB)
+security-policy	Build application image	2026-10-30T15:57:58.0199319Z #9 3.591    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 477.4 MB/s  0:00:00
+security-policy	Build application image	2026-10-30T15:57:58.0199966Z #9 3.600 Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+security-policy	Build application image	2026-10-30T15:57:58.0200661Z #9 3.608 Downloading protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl (323 kB)
+security-policy	Build application image	2026-10-30T15:57:58.0201338Z #9 3.617 Downloading pydeck-0.9.3-py2.py3-none-any.whl (11.4 MB)
+security-policy	Build application image	2026-10-30T15:57:58.0202073Z #9 3.642    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.4/11.4 MB 481.5 MB/s  0:00:00
+security-policy	Build application image	2026-10-30T15:57:58.0202945Z #9 3.651 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+security-policy	Build application image	2026-10-30T15:57:58.0203759Z #9 3.660 Downloading charset_normalizer-3.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (254 kB)
+security-policy	Build application image	2026-10-30T15:57:58.0204553Z #9 3.668 Downloading idna-3.20-py3-none-any.whl (69 kB)
+security-policy	Build application image	2026-10-30T15:57:58.0205016Z #9 3.677 Downloading smmap-5.0.3-py3-none-any.whl (24 kB)
+security-policy	Build application image	2026-10-30T15:57:58.0205316Z #9 3.685 Downloading tenacity-9.2.1-py3-none-any.whl (32 kB)
+security-policy	Build application image	2026-10-30T15:57:58.0205628Z #9 3.694 Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+security-policy	Build application image	2026-10-30T15:57:58.1269557Z #9 3.702 Downloading tornado-6.6-cp311-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (529 kB)
+security-policy	Build application image	2026-10-30T15:57:58.1270743Z #9 3.705    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 529.5/529.5 kB 354.1 MB/s  0:00:00
+security-policy	Build application image	2026-10-30T15:57:58.1271332Z #9 3.713 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+security-policy	Build application image	2026-10-30T15:57:58.1271939Z #9 3.722 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+security-policy	Build application image	2026-10-30T15:57:58.1272479Z #9 3.730 Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+security-policy	Build application image	2026-10-30T15:57:58.1273055Z #9 3.739 Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+security-policy	Build application image	2026-10-30T15:57:58.1273739Z #9 3.747 Downloading greenlet-3.5.6-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (623 kB)
+security-policy	Build application image	2026-10-30T15:57:58.1274414Z #9 3.749    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 623.8/623.8 kB 896.0 MB/s  0:00:00
+security-policy	Build application image	2026-10-30T15:57:58.1274849Z #9 3.758 Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+security-policy	Build application image	2026-10-30T15:57:58.1275159Z #9 3.767 Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+security-policy	Build application image	2026-10-30T15:57:58.1275458Z #9 3.775 Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+security-policy	Build application image	2026-10-30T15:57:58.1275760Z #9 3.784 Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+security-policy	Build application image	2026-10-30T15:57:58.1276107Z #9 3.792 Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+security-policy	Build application image	2026-10-30T15:57:58.1276633Z #9 3.801 Downloading markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (23 kB)
+security-policy	Build application image	2026-10-30T15:57:58.2739301Z #9 3.809 Downloading narwhals-2.28.0-py3-none-any.whl (490 kB)
+security-policy	Build application image	2026-10-30T15:57:58.2739793Z #9 3.818 Downloading pyarrow-26.0.0-cp313-cp313-manylinux_2_28_x86_64.whl (53.9 MB)
+security-policy	Build application image	2026-10-30T15:57:58.2740760Z #9 3.948    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.9/53.9 MB 424.7 MB/s  0:00:00
+security-policy	Build application image	2026-10-30T15:57:58.4885243Z #9 3.957 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+security-policy	Build application image	2026-10-30T15:57:58.4886250Z #9 3.960    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 1.0 GB/s  0:00:00
+security-policy	Build application image	2026-10-30T15:57:58.4886829Z #9 3.968 Downloading python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+security-policy	Build application image	2026-10-30T15:57:58.4887389Z #9 3.977 Downloading pytz-2026.6-py2.py3-none-any.whl (506 kB)
+security-policy	Build application image	2026-10-30T15:57:58.4887906Z #9 3.985 Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+security-policy	Build application image	2026-10-30T15:57:58.4888824Z #9 3.994 Downloading rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (370 kB)
+security-policy	Build application image	2026-10-30T15:57:58.4889576Z #9 4.003 Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+security-policy	Build application image	2026-10-30T15:57:58.4890094Z #9 4.012 Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+security-policy	Build application image	2026-10-30T15:57:58.6463963Z #9 4.320 Installing collected packages: pytz, watchdog, urllib3, tzdata, typing-extensions, tornado, toml, tenacity, smmap, six, rpds-py, pygments, pyarrow, psycopg-binary, psycopg, protobuf, pluggy, pillow, packaging, numpy, narwhals, MarkupSafe, iniconfig, idna, greenlet, click, charset_normalizer, certifi, cachetools, blinker, attrs, SQLAlchemy, requests, referencing, python-dateutil, pytest, jinja2, gitdb, pydeck, pandas, jsonschema-specifications, gitpython, jsonschema, altair, streamlit
+security-policy	Build application image	2026-10-30T15:58:08.9147444Z #9 14.59 
+security-policy	Build application image	2026-10-30T15:58:09.0692924Z #9 14.59 Successfully installed MarkupSafe-3.0.4 SQLAlchemy-2.0.44 altair-5.5.0 attrs-26.1.0 blinker-1.9.0 cachetools-6.2.6 certifi-2026.10.23 charset_normalizer-3.5.2 click-8.5.0 gitdb-4.0.12 gitpython-3.2.1 greenlet-3.5.6 idna-3.20 iniconfig-2.3.1 jinja2-3.1.6 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 narwhals-2.28.0 numpy-2.5.4 packaging-25.0 pandas-2.3.3 pillow-11.3.0 pluggy-1.7.0 protobuf-6.33.6 psycopg-3.2.10 psycopg-binary-3.2.10 pyarrow-26.0.0 pydeck-0.9.3 pygments-2.21.0 pytest-8.4.2 python-dateutil-3.0.0 pytz-2026.6 referencing-0.37.0 requests-2.34.2 rpds-py-2026.9.1 six-1.17.0 smmap-5.0.3 streamlit-1.50.0 tenacity-9.2.1 toml-0.10.2 tornado-6.6 typing-extensions-4.16.0 tzdata-2026.6 urllib3-2.8.0 watchdog-6.0.0
+security-policy	Build application image	2026-10-30T15:58:09.0698240Z #9 14.59 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+security-policy	Build application image	2026-10-30T15:58:11.5706699Z #9 DONE 17.2s
+security-policy	Build application image	2026-10-30T15:58:11.7313528Z 
+security-policy	Build application image	2026-10-30T15:58:11.7314113Z #10 [5/6] COPY app ./app
+security-policy	Build application image	2026-10-30T15:58:11.7314551Z #10 DONE 0.0s
+security-policy	Build application image	2026-10-30T15:58:11.7314701Z 
+security-policy	Build application image	2026-10-30T15:58:11.7315560Z #11 [6/6] RUN useradd --uid 10001 --user-group --create-home --shell /usr/sbin/nologin appuser     && chown appuser:appuser /app
+security-policy	Build application image	2026-10-30T15:58:11.7332200Z #11 DONE 0.2s
+security-policy	Build application image	2026-10-30T15:58:11.8851924Z 
+security-policy	Build application image	2026-10-30T15:58:11.8868007Z #12 exporting to image
+security-policy	Build application image	2026-10-30T15:58:11.8869378Z #12 exporting layers
+security-policy	Build application image	2026-10-30T15:58:13.7429327Z #12 exporting layers 2.0s done
+security-policy	Build application image	2026-10-30T15:58:13.7572632Z #12 writing image sha256:2233c01f75735b8d2f2c2d535244729dff139d69847d824b2202f0c248990369 done
+security-policy	Build application image	2026-10-30T15:58:13.7573467Z #12 naming to docker.io/library/helpdesk:security done
+security-policy	Build application image	2026-10-30T15:58:13.7574093Z #12 DONE 2.0s
+security-policy	Verify non-root runtime user	﻿2026-10-30T15:58:13.7665960Z ##[group]Run USER_ID=$(docker run --rm --entrypoint id helpdesk:security -u)
+security-policy	Verify non-root runtime user	2026-10-30T15:58:13.7666390Z ^[[36;1mUSER_ID=$(docker run --rm --entrypoint id helpdesk:security -u)^[[0m
+security-policy	Verify non-root runtime user	2026-10-30T15:58:13.7666706Z ^[[36;1mecho "Container UID: $USER_ID"^[[0m
+security-policy	Verify non-root runtime user	2026-10-30T15:58:13.7666926Z ^[[36;1mtest "$USER_ID" -ne 0^[[0m
+security-policy	Verify non-root runtime user	2026-10-30T15:58:13.7685231Z shell: /usr/bin/bash -e {0}
+security-policy	Verify non-root runtime user	2026-10-30T15:58:13.7685440Z ##[endgroup]
+security-policy	Verify non-root runtime user	2026-10-30T15:58:13.9910403Z Container UID: 10001
+security-policy	Post Check out repository	﻿2026-10-30T15:58:14.0006954Z Post job cleanup.
+security-policy	Post Check out repository	2026-10-30T15:58:14.0732471Z [command]/usr/bin/git version
+security-policy	Post Check out repository	2026-10-30T15:58:14.0769280Z git version 2.56.0
+security-policy	Post Check out repository	2026-10-30T15:58:14.0800610Z Temporarily overriding HOME='/home/runner/work/_temp/2b5415d2-df40-49aa-a526-4a2f3c81f3da' before making global git config changes
+security-policy	Post Check out repository	2026-10-30T15:58:14.0801809Z Adding repository directory to the temporary git global config as a safe directory
+security-policy	Post Check out repository	2026-10-30T15:58:14.0804842Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/devops-week9/devops-week9
+security-policy	Post Check out repository	2026-10-30T15:58:14.0840283Z Removing SSH command configuration
+security-policy	Post Check out repository	2026-10-30T15:58:14.0846531Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+security-policy	Post Check out repository	2026-10-30T15:58:14.0882962Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+security-policy	Post Check out repository	2026-10-30T15:58:14.1104729Z Removing HTTP extra header
+security-policy	Post Check out repository	2026-10-30T15:58:14.1110356Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+security-policy	Post Check out repository	2026-10-30T15:58:14.1158876Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+security-policy	Post Check out repository	2026-10-30T15:58:14.1384555Z Removing includeIf entries pointing to credentials config files
+security-policy	Post Check out repository	2026-10-30T15:58:14.1392429Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+security-policy	Post Check out repository	2026-10-30T15:58:14.1437988Z includeif.gitdir:/home/runner/work/devops-week9/devops-week9/.git.path
+security-policy	Post Check out repository	2026-10-30T15:58:14.1439113Z includeif.gitdir:/home/runner/work/devops-week9/devops-week9/.git/worktrees/*.path
+security-policy	Post Check out repository	2026-10-30T15:58:14.1440288Z includeif.gitdir:/github/workspace/.git.path
+security-policy	Post Check out repository	2026-10-30T15:58:14.1440932Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+security-policy	Post Check out repository	2026-10-30T15:58:14.1450244Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/devops-week9/devops-week9/.git.path
+security-policy	Post Check out repository	2026-10-30T15:58:14.1479588Z /home/runner/work/_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config
+security-policy	Post Check out repository	2026-10-30T15:58:14.1489273Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/devops-week9/devops-week9/.git.path /home/runner/work/_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config
+security-policy	Post Check out repository	2026-10-30T15:58:14.1529576Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/home/runner/work/devops-week9/devops-week9/.git/worktrees/*.path
+security-policy	Post Check out repository	2026-10-30T15:58:14.1558811Z /home/runner/work/_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config
+security-policy	Post Check out repository	2026-10-30T15:58:14.1568185Z [command]/usr/bin/git config --local --unset includeif.gitdir:/home/runner/work/devops-week9/devops-week9/.git/worktrees/*.path /home/runner/work/_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config
+security-policy	Post Check out repository	2026-10-30T15:58:14.1606466Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git.path
+security-policy	Post Check out repository	2026-10-30T15:58:14.1633904Z /github/runner_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config
+security-policy	Post Check out repository	2026-10-30T15:58:14.1641737Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config
+security-policy	Post Check out repository	2026-10-30T15:58:14.1678933Z [command]/usr/bin/git config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+security-policy	Post Check out repository	2026-10-30T15:58:14.1706781Z /github/runner_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config
+security-policy	Post Check out repository	2026-10-30T15:58:14.1712661Z [command]/usr/bin/git config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config
+security-policy	Post Check out repository	2026-10-30T15:58:14.1754706Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+security-policy	Post Check out repository	2026-10-30T15:58:14.1958778Z Removing credentials config '/home/runner/work/_temp/git-credentials-ae4ee79e-5487-4991-9409-107d090196cf.config'
+security-policy	Complete job	﻿2026-10-30T15:58:14.2141201Z Cleaning up orphan processes
+
+Exit code: 0

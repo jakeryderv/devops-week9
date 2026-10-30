@@ -1,0 +1,51 @@
+Captured UTC: 2026-10-30T15:56:12.234588+00:00
+$ docker build -t helpdesk:week9-after .
+
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 480B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/python:3.13-slim
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 106B done
+#3 DONE 0.0s
+
+#4 [1/6] FROM docker.io/library/python:3.13-slim@sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb
+#4 resolve docker.io/library/python:3.13-slim@sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb 0.0s done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 209B done
+#5 DONE 0.0s
+
+#6 [2/6] WORKDIR /app
+#6 CACHED
+
+#7 [3/6] COPY requirements.txt .
+#7 CACHED
+
+#8 [4/6] RUN pip install --no-cache-dir -r requirements.txt
+#8 CACHED
+
+#9 [5/6] COPY app ./app
+#9 CACHED
+
+#10 [6/6] RUN useradd --uid 10001 --user-group --create-home --shell /usr/sbin/nologin appuser     && chown appuser:appuser /app
+#10 DONE 0.2s
+
+#11 exporting to image
+#11 exporting layers 0.0s done
+#11 exporting manifest sha256:d2fca4625a65500140e1d38d55b1b58c5594f3561377cb0c528574dac5da64b3 done
+#11 exporting config sha256:487a3fd36de56a287a62df1e0e4f2e73f7aa3d8da8ea4f0fdd9377aab0baadc5 done
+#11 exporting attestation manifest sha256:56e2167e5f99feeba8eb66e5406a6e6c21f1fbdee734a477574384dfcbe25b7a 0.0s done
+#11 exporting manifest list sha256:49b64fbbb7bcc7ed290d741c57fad16c6e58d0779b7d6b10d2c07273f4b6dc0f done
+#11 naming to docker.io/library/helpdesk:week9-after done
+#11 unpacking to docker.io/library/helpdesk:week9-after
+#11 unpacking to docker.io/library/helpdesk:week9-after 0.0s done
+#11 DONE 0.1s
+
+Exit code: 0

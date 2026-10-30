@@ -1,0 +1,6 @@
+Captured UTC: 2026-10-30T15:56:12.943835+00:00
+$ docker run --rm --entrypoint id helpdesk:week9-after -u
+
+10001
+
+Exit code: 0

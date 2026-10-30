@@ -51,3 +51,23 @@ Follow `docs/Week9_Individual_Exercise.docx`.
 
 ## Important
 Never put a real password, token, cloud credential, SSH key, or API key into this repository or into your screenshot evidence.
+
+## Week 9 security controls
+
+- `.env` is excluded from Git and the Docker build context; `.env.example` contains placeholders only.
+- Dependabot checks pip and GitHub Actions dependencies weekly.
+- The application image runs as `appuser` (UID 10001), with a writable `/app` for the SQLite fallback.
+- `Security Checks` rejects a tracked `.env` or an image that runs as UID 0 on pull requests and pushes to `main`.
+- PostgreSQL 18 stores its data in the named volume mounted at `/var/lib/postgresql`.
+
+The milestone report source is in [docs/evidence-template.md](docs/evidence-template.md).
+Saved commands and outputs are in [docs/evidence/commands](docs/evidence/commands).
+Docker Scout findings describe package vulnerabilities; passing the non-root policy does not mean the image has no CVEs.
+
+To repeat the main security checks:
+
+```bash
+docker build -t helpdesk:week9-after .
+docker run --rm --entrypoint id helpdesk:week9-after -u
+docker scout cves helpdesk:week9-after
+```

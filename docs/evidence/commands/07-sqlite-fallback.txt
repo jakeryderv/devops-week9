@@ -1,0 +1,6 @@
+Captured UTC: 2026-10-30T15:56:52.008171+00:00
+$ docker run --rm --entrypoint python helpdesk:week9-after -c 'from app.db import get_engine, initialize_database, create_request, list_requests; e=get_engine(); initialize_database(e); create_request(e,"SQLite check","Software","Low","Non-root write check"); assert len(list_requests(e)) == 1; print("PASS: non-root SQLite fallback can create and read a request")'
+
+PASS: non-root SQLite fallback can create and read a request
+
+Exit code: 0

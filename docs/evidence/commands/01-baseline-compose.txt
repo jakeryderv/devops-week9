@@ -1,0 +1,547 @@
+Captured UTC: 2026-10-30T15:53:54.597374+00:00
+$ docker compose up -d --build
+
+ Image postgres:18 Pulling 
+ 6fc242d221a6 Pulling fs layer 0B
+ d89068781d71 Pulling fs layer 0B
+ cea4f0db46a6 Pulling fs layer 0B
+ d06edb2e3f43 Pulling fs layer 0B
+ d0fbcb0db440 Pulling fs layer 0B
+ ef90fb83cca5 Pulling fs layer 0B
+ 3795839385bc Pulling fs layer 0B
+ 7e6d71cb0490 Pulling fs layer 0B
+ 7c25aa4e8a77 Pulling fs layer 0B
+ fbc84e711712 Pulling fs layer 0B
+ 00ff7a4924f2 Pulling fs layer 0B
+ 9b1a18996a22 Pulling fs layer 0B
+ 879995175298 Pulling fs layer 0B
+ d06edb2e3f43 Download complete 0B
+ d89068781d71 Download complete 0B
+ 6fc242d221a6 Downloading 1.049MB
+ cea4f0db46a6 Download complete 0B
+ d0fbcb0db440 Download complete 0B
+ 6fc242d221a6 Downloading 2.097MB
+ 6fc242d221a6 Downloading 3.146MB
+ ef90fb83cca5 Downloading 1.049MB
+ 6fc242d221a6 Downloading 3.146MB
+ ef90fb83cca5 Downloading 2.097MB
+ 6fc242d221a6 Downloading 4.194MB
+ ef90fb83cca5 Downloading 2.097MB
+ 6fc242d221a6 Downloading 5.243MB
+ ef90fb83cca5 Downloading 3.146MB
+ 6fc242d221a6 Downloading 5.243MB
+ ef90fb83cca5 Downloading 4.194MB
+ 6fc242d221a6 Downloading 6.291MB
+ 6fc242d221a6 Downloading 6.291MB
+ ef90fb83cca5 Downloading 4.194MB
+ ef90fb83cca5 Downloading 5.243MB
+ 6fc242d221a6 Downloading 7.34MB
+ ef90fb83cca5 Downloading 6.291MB
+ 6fc242d221a6 Downloading 8.389MB
+ ef90fb83cca5 Downloading 7.34MB
+ 6fc242d221a6 Downloading 8.389MB
+ ef90fb83cca5 Downloading 8.389MB
+ 6fc242d221a6 Downloading 9.437MB
+ 3795839385bc Downloading 1.049MB
+ ef90fb83cca5 Downloading 9.437MB
+ 6fc242d221a6 Downloading 10.49MB
+ ef90fb83cca5 Downloading 10.49MB
+ 6fc242d221a6 Downloading 11.53MB
+ 3795839385bc Downloading 1.049MB
+ 3795839385bc Downloading 1.049MB
+ ef90fb83cca5 Downloading 12.58MB
+ 6fc242d221a6 Downloading 12.58MB
+ ef90fb83cca5 Downloading 13.63MB
+ 6fc242d221a6 Downloading 12.58MB
+ 3795839385bc Downloading 1.049MB
+ 6fc242d221a6 Downloading 13.63MB
+ 3795839385bc Downloading 1.049MB
+ ef90fb83cca5 Downloading 14.68MB
+ ef90fb83cca5 Downloading 15.73MB
+ 6fc242d221a6 Downloading 14.68MB
+ 3795839385bc Downloading 1.049MB
+ ef90fb83cca5 Downloading 16.78MB
+ 6fc242d221a6 Downloading 15.73MB
+ 3795839385bc Downloading 1.049MB
+ 6fc242d221a6 Downloading 16.78MB
+ 3795839385bc Downloading 1.049MB
+ ef90fb83cca5 Downloading 17.83MB
+ ef90fb83cca5 Downloading 17.83MB
+ 6fc242d221a6 Downloading 16.78MB
+ 3795839385bc Downloading 1.049MB
+ 6fc242d221a6 Downloading 17.83MB
+ 3795839385bc Downloading 2.097MB
+ ef90fb83cca5 Downloading 18.87MB
+ ef90fb83cca5 Downloading 19.92MB
+ 6fc242d221a6 Downloading 18.87MB
+ 3795839385bc Downloading 2.097MB
+ ef90fb83cca5 Downloading 20.97MB
+ 6fc242d221a6 Downloading 19.92MB
+ 3795839385bc Downloading 2.097MB
+ ef90fb83cca5 Downloading 23.07MB
+ 6fc242d221a6 Downloading 20.97MB
+ 3795839385bc Downloading 2.097MB
+ 6fc242d221a6 Downloading 22.02MB
+ 3795839385bc Downloading 2.097MB
+ ef90fb83cca5 Downloading 24.12MB
+ 6fc242d221a6 Downloading 23.07MB
+ 3795839385bc Downloading 2.097MB
+ ef90fb83cca5 Downloading 25.17MB
+ 3795839385bc Downloading 2.097MB
+ ef90fb83cca5 Downloading 26.21MB
+ 6fc242d221a6 Downloading 24.12MB
+ 6fc242d221a6 Downloading 24.12MB
+ 3795839385bc Downloading 3.146MB
+ ef90fb83cca5 Downloading 27.26MB
+ ef90fb83cca5 Downloading 28.31MB
+ 6fc242d221a6 Downloading 25.17MB
+ 3795839385bc Downloading 3.146MB
+ 6fc242d221a6 Downloading 26.21MB
+ 3795839385bc Downloading 3.146MB
+ ef90fb83cca5 Downloading 29.36MB
+ ef90fb83cca5 Downloading 31.46MB
+ 6fc242d221a6 Downloading 27.26MB
+ 3795839385bc Downloading 3.146MB
+ ef90fb83cca5 Downloading 32.51MB
+ 6fc242d221a6 Downloading 28.31MB
+ 3795839385bc Downloading 3.146MB
+ ef90fb83cca5 Downloading 33.55MB
+ 6fc242d221a6 Downloading 29.86MB
+ 3795839385bc Downloading 3.146MB
+ 6fc242d221a6 Download complete 0B
+ 3795839385bc Downloading 3.146MB
+ ef90fb83cca5 Downloading 35.65MB
+ 6fc242d221a6 Extracting 1B
+ ef90fb83cca5 Downloading 36.7MB
+ 3795839385bc Downloading 3.146MB
+ 7e6d71cb0490 Download complete 0B
+ 6fc242d221a6 Extracting 1B
+ ef90fb83cca5 Downloading 38.8MB
+ 3795839385bc Downloading 4.194MB
+ 6fc242d221a6 Extracting 1B
+ 00ff7a4924f2 Download complete 0B
+ ef90fb83cca5 Downloading 39.85MB
+ 3795839385bc Downloading 4.194MB
+ 6fc242d221a6 Extracting 1B
+ 3795839385bc Downloading 4.194MB
+ 7c25aa4e8a77 Download complete 0B
+ ef90fb83cca5 Downloading 41.94MB
+ 6fc242d221a6 Extracting 1B
+ ef90fb83cca5 Downloading 42.99MB
+ 3795839385bc Downloading 4.194MB
+ 6fc242d221a6 Extracting 1B
+ ef90fb83cca5 Downloading 44.04MB
+ 3795839385bc Downloading 4.194MB
+ 6fc242d221a6 Extracting 1B
+ 3795839385bc Downloading 4.194MB
+ fbc84e711712 Download complete 0B
+ ef90fb83cca5 Downloading 46.14MB
+ 6fc242d221a6 Extracting 1B
+ 3795839385bc Downloading 5.243MB
+ ef90fb83cca5 Downloading 48.23MB
+ 6fc242d221a6 Extracting 1B
+ 3795839385bc Downloading 5.243MB
+ ef90fb83cca5 Downloading 49.28MB
+ 879995175298 Download complete 0B
+ 6fc242d221a6 Extracting 1B
+ ef90fb83cca5 Downloading 50.33MB
+ 3795839385bc Downloading 5.243MB
+ 6fc242d221a6 Extracting 1B
+ ef90fb83cca5 Downloading 50.33MB
+ 3795839385bc Downloading 5.243MB
+ 6fc242d221a6 Extracting 2B
+ 3795839385bc Downloading 5.243MB
+ ef90fb83cca5 Downloading 52.43MB
+ 6fc242d221a6 Extracting 2B
+ 3795839385bc Downloading 5.243MB
+ 9b1a18996a22 Downloading 1.049MB
+ ef90fb83cca5 Downloading 54.53MB
+ 6fc242d221a6 Extracting 2B
+ 9b1a18996a22 Downloading 1.049MB
+ ef90fb83cca5 Downloading 55.57MB
+ 3795839385bc Downloading 6.291MB
+ 6fc242d221a6 Extracting 2B
+ 3795839385bc Download complete 0B
+ 9b1a18996a22 Downloading 2.097MB
+ ef90fb83cca5 Downloading 57.67MB
+ 6fc242d221a6 Extracting 2B
+ 9b1a18996a22 Downloading 2.097MB
+ ef90fb83cca5 Downloading 58.72MB
+ 6fc242d221a6 Extracting 2B
+ 9b1a18996a22 Downloading 2.097MB
+ ef90fb83cca5 Downloading 59.77MB
+ 6fc242d221a6 Extracting 2B
+ 9b1a18996a22 Downloading 3.146MB
+ ef90fb83cca5 Downloading 60.82MB
+ 6fc242d221a6 Extracting 2B
+ 9b1a18996a22 Downloading 3.146MB
+ ef90fb83cca5 Downloading 62.91MB
+ 6fc242d221a6 Extracting 2B
+ 9b1a18996a22 Downloading 3.146MB
+ ef90fb83cca5 Downloading 62.91MB
+ d06edb2e3f43 Pull complete 0B
+ cea4f0db46a6 Extracting 1B
+ 6fc242d221a6 Pull complete 0B
+ 3795839385bc Pull complete 0B
+ 9b1a18996a22 Downloading 4.194MB
+ ef90fb83cca5 Downloading 65.01MB
+ cea4f0db46a6 Pull complete 0B
+ 9b1a18996a22 Downloading 4.194MB
+ ef90fb83cca5 Downloading 66.06MB
+ 9b1a18996a22 Downloading 5.243MB
+ ef90fb83cca5 Downloading 68.16MB
+ ef90fb83cca5 Downloading 69.21MB
+ 9b1a18996a22 Downloading 5.243MB
+ 9b1a18996a22 Downloading 6.291MB
+ ef90fb83cca5 Downloading 71.3MB
+ 9b1a18996a22 Downloading 6.291MB
+ ef90fb83cca5 Downloading 72.35MB
+ ef90fb83cca5 Downloading 72.35MB
+ 9b1a18996a22 Downloading 6.291MB
+ ef90fb83cca5 Downloading 74.45MB
+ a3fcee8384ca Downloading 1.049MB
+ 9b1a18996a22 Downloading 7.34MB
+ a3fcee8384ca Downloading 1.049MB
+ 9b1a18996a22 Downloading 7.34MB
+ ef90fb83cca5 Downloading 75.5MB
+ a3fcee8384ca Downloading 1.049MB
+ 9b1a18996a22 Download complete 0B
+ ef90fb83cca5 Downloading 77.59MB
+ 9b1a18996a22 Extracting 1B
+ ef90fb83cca5 Downloading 78.64MB
+ a3fcee8384ca Downloading 1.049MB
+ fbc84e711712 Pull complete 0B
+ 9b1a18996a22 Pull complete 0B
+ ef90fb83cca5 Downloading 80.74MB
+ a3fcee8384ca Downloading 1.049MB
+ d89068781d71 Pull complete 0B
+ 879995175298 Pull complete 0B
+ 1b52931e2f91 Download complete 0B
+ ef90fb83cca5 Downloading 81.79MB
+ a3fcee8384ca Downloading 1.049MB
+ ef90fb83cca5 Downloading 82.84MB
+ a3fcee8384ca Downloading 1.049MB
+ ef90fb83cca5 Downloading 84.93MB
+ a3fcee8384ca Downloading 2.097MB
+ a3fcee8384ca Downloading 2.097MB
+ ef90fb83cca5 Downloading 85.98MB
+ ef90fb83cca5 Downloading 88.08MB
+ a3fcee8384ca Downloading 2.097MB
+ a3fcee8384ca Downloading 2.097MB
+ ef90fb83cca5 Downloading 89.13MB
+ a3fcee8384ca Downloading 2.097MB
+ ef90fb83cca5 Downloading 91.23MB
+ ef90fb83cca5 Downloading 92.27MB
+ a3fcee8384ca Downloading 2.097MB
+ ef90fb83cca5 Downloading 94.37MB
+ a3fcee8384ca Downloading 2.097MB
+ ef90fb83cca5 Downloading 95.42MB
+ a3fcee8384ca Downloading 2.097MB
+ ef90fb83cca5 Downloading 96.47MB
+ a3fcee8384ca Downloading 3.146MB
+ ef90fb83cca5 Downloading 98.57MB
+ a3fcee8384ca Downloading 3.146MB
+ ef90fb83cca5 Downloading 99.61MB
+ a3fcee8384ca Downloading 3.146MB
+ ef90fb83cca5 Downloading 100.7MB
+ a3fcee8384ca Downloading 3.146MB
+ ef90fb83cca5 Downloading 100.7MB
+ a3fcee8384ca Downloading 3.146MB
+ ef90fb83cca5 Downloading 104.9MB
+ a3fcee8384ca Downloading 3.146MB
+ a3fcee8384ca Downloading 3.146MB
+ ef90fb83cca5 Downloading 105.9MB
+ ef90fb83cca5 Downloading 108MB
+ a3fcee8384ca Downloading 4.194MB
+ ef90fb83cca5 Downloading 110.1MB
+ a3fcee8384ca Downloading 4.194MB
+ ef90fb83cca5 Downloading 111.1MB
+ a3fcee8384ca Downloading 4.194MB
+ a3fcee8384ca Downloading 4.194MB
+ ef90fb83cca5 Downloading 113.2MB
+ a3fcee8384ca Downloading 4.194MB
+ ef90fb83cca5 Downloading 114.3MB
+ ef90fb83cca5 Download complete 0B
+ a3fcee8384ca Downloading 4.194MB
+ ef90fb83cca5 Extracting 1B
+ a3fcee8384ca Downloading 5.243MB
+ ef90fb83cca5 Extracting 1B
+ a3fcee8384ca Downloading 5.243MB
+ ef90fb83cca5 Extracting 1B
+ a3fcee8384ca Downloading 5.243MB
+ ef90fb83cca5 Extracting 1B
+ a3fcee8384ca Downloading 5.243MB
+ ef90fb83cca5 Extracting 1B
+ a3fcee8384ca Download complete 0B
+ ef90fb83cca5 Extracting 1B
+ ef90fb83cca5 Extracting 1B
+ ef90fb83cca5 Extracting 1B
+ ef90fb83cca5 Extracting 1B
+ ef90fb83cca5 Extracting 1B
+ d0fbcb0db440 Pull complete 0B
+ 7e6d71cb0490 Pull complete 0B
+ 00ff7a4924f2 Pull complete 0B
+ 7c25aa4e8a77 Pull complete 0B
+ ef90fb83cca5 Pull complete 0B
+ Image postgres:18 Pulled 
+ Image week9-web Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 496B done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 420B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.13-slim
+#3 ...
+
+#4 [auth] library/python:pull token for registry-1.docker.io
+#4 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.13-slim
+#3 DONE 1.1s
+
+#5 [internal] load .dockerignore
+#5 transferring context: 106B done
+#5 DONE 0.0s
+
+#6 [internal] load build context
+#6 transferring context: 4.93kB done
+#6 DONE 0.0s
+
+#7 [1/5] FROM docker.io/library/python:3.13-slim@sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb
+#7 resolve docker.io/library/python:3.13-slim@sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb 0.0s done
+#7 DONE 0.1s
+
+#7 [1/5] FROM docker.io/library/python:3.13-slim@sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb
+#7 extracting sha256:6fc242d221a673263eabd14a9ad9584d3177c96e5cb504c891497338e2f912f5
+#7 sha256:6f058ad03f0cab30c01926ad20e38348fe53783080f5309e4bfc4d2709c5fbaf 251B / 251B 0.1s done
+#7 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 0B / 11.92MB 0.2s
+#7 sha256:789960dca7c613e9d8872d4790f2ec423b8fe17f52989c6225982f28696e7315 0B / 1.29MB 0.2s
+#7 extracting sha256:6fc242d221a673263eabd14a9ad9584d3177c96e5cb504c891497338e2f912f5 0.3s done
+#7 sha256:789960dca7c613e9d8872d4790f2ec423b8fe17f52989c6225982f28696e7315 1.29MB / 1.29MB 0.9s done
+#7 extracting sha256:789960dca7c613e9d8872d4790f2ec423b8fe17f52989c6225982f28696e7315 0.0s done
+#7 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 1.05MB / 11.92MB 1.2s
+#7 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 2.10MB / 11.92MB 1.7s
+#7 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 3.15MB / 11.92MB 2.0s
+#7 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 4.19MB / 11.92MB 2.3s
+#7 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 5.24MB / 11.92MB 2.4s
+#7 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 6.29MB / 11.92MB 2.6s
+#7 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 7.34MB / 11.92MB 2.7s
+#7 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 8.39MB / 11.92MB 2.9s
+#7 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 9.44MB / 11.92MB 3.0s
+#7 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 11.53MB / 11.92MB 3.2s
+#7 sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 11.92MB / 11.92MB 3.2s done
+#7 extracting sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f
+#7 extracting sha256:7d824d9f832184c4084576664b622717cb0eb579b504f2079d3b4ac36454761f 0.2s done
+#7 DONE 3.4s
+
+#7 [1/5] FROM docker.io/library/python:3.13-slim@sha256:2d44738ebf4ce5f63b9d9ea871e9c7cfdc0426f7b0c97cac915fd88ded1d86bb
+#7 extracting sha256:6f058ad03f0cab30c01926ad20e38348fe53783080f5309e4bfc4d2709c5fbaf done
+#7 DONE 3.5s
+
+#8 [2/5] WORKDIR /app
+#8 DONE 0.1s
+
+#9 [3/5] COPY requirements.txt .
+#9 DONE 0.0s
+
+#10 [4/5] RUN pip install --no-cache-dir -r requirements.txt
+#10 1.202 Collecting streamlit==1.50.0 (from -r requirements.txt (line 1))
+#10 1.439   Downloading streamlit-1.50.0-py3-none-any.whl.metadata (9.5 kB)
+#10 2.209 Collecting SQLAlchemy==2.0.44 (from -r requirements.txt (line 2))
+#10 2.247   Downloading sqlalchemy-2.0.44-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (9.5 kB)
+#10 2.292 Collecting psycopg==3.2.10 (from psycopg[binary]==3.2.10->-r requirements.txt (line 3))
+#10 2.306   Downloading psycopg-3.2.10-py3-none-any.whl.metadata (4.6 kB)
+#10 2.396 Collecting pytest==8.4.2 (from -r requirements.txt (line 4))
+#10 2.421   Downloading pytest-8.4.2-py3-none-any.whl.metadata (7.7 kB)
+#10 2.454 Collecting altair!=5.4.0,!=5.4.1,<6,>=4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 2.509   Downloading altair-5.5.0-py3-none-any.whl.metadata (11 kB)
+#10 2.546 Collecting blinker<2,>=1.5.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 2.571   Downloading blinker-1.9.0-py3-none-any.whl.metadata (1.6 kB)
+#10 2.606 Collecting cachetools<7,>=4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 2.653   Downloading cachetools-6.2.6-py3-none-any.whl.metadata (5.6 kB)
+#10 2.718 Collecting click<9,>=7.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 2.754   Downloading click-8.5.0-py3-none-any.whl.metadata (2.6 kB)
+#10 3.033 Collecting numpy<3,>=1.23 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 3.053   Downloading numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (6.6 kB)
+#10 3.084 Collecting packaging<26,>=20 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 3.110   Downloading packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+#10 3.266 Collecting pandas<3,>=1.4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 3.298   Downloading pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (91 kB)
+#10 3.559 Collecting pillow<12,>=7.1.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 3.712   Downloading pillow-11.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.0 kB)
+#10 3.962 Collecting protobuf<7,>=3.20 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 4.071   Downloading protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl.metadata (593 bytes)
+#10 4.268 Collecting pyarrow>=7.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 4.384   Downloading pyarrow-26.0.0-cp313-cp313-manylinux_2_28_x86_64.whl.metadata (3.0 kB)
+#10 4.429 Collecting requests<3,>=2.27 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 4.442   Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+#10 4.461 Collecting tenacity<10,>=8.1.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 4.525   Downloading tenacity-9.2.1-py3-none-any.whl.metadata (1.4 kB)
+#10 4.553 Collecting toml<2,>=0.10.1 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 4.604   Downloading toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+#10 4.628 Collecting typing-extensions<5,>=4.4.0 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 4.696   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+#10 4.756 Collecting watchdog<7,>=2.1.5 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 4.805   Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl.metadata (44 kB)
+#10 4.877 Collecting gitpython!=3.1.19,<4,>=3.0.7 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 4.897   Downloading gitpython-3.2.1-py3-none-any.whl.metadata (13 kB)
+#10 4.985 Collecting pydeck<1,>=0.8.0b4 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 5.036   Downloading pydeck-0.9.3-py2.py3-none-any.whl.metadata (4.2 kB)
+#10 5.179 Collecting tornado!=6.5.0,<7,>=6.0.3 (from streamlit==1.50.0->-r requirements.txt (line 1))
+#10 5.219   Downloading tornado-6.6-cp311-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl.metadata (2.6 kB)
+#10 5.433 Collecting greenlet>=1 (from SQLAlchemy==2.0.44->-r requirements.txt (line 2))
+#10 5.457   Downloading greenlet-3.5.6-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+#10 5.492 Collecting iniconfig>=1 (from pytest==8.4.2->-r requirements.txt (line 4))
+#10 5.535   Downloading iniconfig-2.3.1-py3-none-any.whl.metadata (2.8 kB)
+#10 5.600 Collecting pluggy<2,>=1.5 (from pytest==8.4.2->-r requirements.txt (line 4))
+#10 5.682   Downloading pluggy-1.7.0-py3-none-any.whl.metadata (5.0 kB)
+#10 5.799 Collecting pygments>=2.7.2 (from pytest==8.4.2->-r requirements.txt (line 4))
+#10 5.885   Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+#10 6.042 Collecting psycopg-binary==3.2.10 (from psycopg[binary]==3.2.10->-r requirements.txt (line 3))
+#10 6.067   Downloading psycopg_binary-3.2.10-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (3.0 kB)
+#10 6.137 Collecting jinja2 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.148   Downloading jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+#10 6.168 Collecting jsonschema>=3.0 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.178   Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+#10 6.213 Collecting narwhals>=1.14.2 (from altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.253   Downloading narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+#10 6.277 Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19,<4,>=3.0.7->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.292   Downloading gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+#10 6.309 Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19,<4,>=3.0.7->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.319   Downloading smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+#10 6.340 Collecting python-dateutil>=2.8.2 (from pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.361   Downloading python_dateutil-3.0.0-py2.py3-none-any.whl.metadata (8.2 kB)
+#10 6.399 Collecting pytz>=2020.1 (from pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.410   Downloading pytz-2026.6-py2.py3-none-any.whl.metadata (22 kB)
+#10 6.433 Collecting tzdata>=2022.7 (from pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.445   Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+#10 6.544 Collecting charset_normalizer<4,>=2 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.562   Downloading charset_normalizer-3.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+#10 6.588 Collecting idna<4,>=2.5 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.605   Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+#10 6.624 Collecting urllib3<3,>=1.26 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.639   Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+#10 6.666 Collecting certifi>=2023.5.7 (from requests<3,>=2.27->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.675   Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+#10 6.729 Collecting MarkupSafe>=2.0 (from jinja2->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.743   Downloading markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+#10 6.759 Collecting attrs>=22.2.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.768   Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+#10 6.786 Collecting jsonschema-specifications>=2023.03.6 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.795   Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+#10 6.812 Collecting referencing>=0.28.4 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 6.826   Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+#10 6.994 Collecting rpds-py>=0.25.0 (from jsonschema>=3.0->altair!=5.4.0,!=5.4.1,<6,>=4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 7.006   Downloading rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+#10 7.024 Collecting six>=1.6 (from python-dateutil>=2.8.2->pandas<3,>=1.4.0->streamlit==1.50.0->-r requirements.txt (line 1))
+#10 7.036   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+#10 7.050 Downloading streamlit-1.50.0-py3-none-any.whl (10.1 MB)
+#10 7.867    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 10.1/10.1 MB 12.7 MB/s  0:00:00
+#10 7.957 Downloading sqlalchemy-2.0.44-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.3 MB)
+#10 8.165    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.3/3.3 MB 15.5 MB/s  0:00:00
+#10 8.178 Downloading psycopg-3.2.10-py3-none-any.whl (206 kB)
+#10 8.236 Downloading pytest-8.4.2-py3-none-any.whl (365 kB)
+#10 8.299 Downloading psycopg_binary-3.2.10-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (4.4 MB)
+#10 8.613    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 14.1 MB/s  0:00:00
+#10 8.628 Downloading altair-5.5.0-py3-none-any.whl (731 kB)
+#10 8.682    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 731.2/731.2 kB 16.5 MB/s  0:00:00
+#10 8.691 Downloading blinker-1.9.0-py3-none-any.whl (8.5 kB)
+#10 8.702 Downloading cachetools-6.2.6-py3-none-any.whl (11 kB)
+#10 8.714 Downloading click-8.5.0-py3-none-any.whl (125 kB)
+#10 8.728 Downloading gitpython-3.2.1-py3-none-any.whl (231 kB)
+#10 8.755 Downloading gitdb-4.0.12-py3-none-any.whl (62 kB)
+#10 8.767 Downloading numpy-2.5.4-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (16.7 MB)
+#10 9.656    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.7/16.7 MB 19.2 MB/s  0:00:00
+#10 9.673 Downloading packaging-25.0-py3-none-any.whl (66 kB)
+#10 9.685 Downloading pandas-2.3.3-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (12.3 MB)
+#10 10.34    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 12.3/12.3 MB 18.6 MB/s  0:00:00
+#10 10.35 Downloading pillow-11.3.0-cp313-cp313-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (6.6 MB)
+#10 10.77    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 16.4 MB/s  0:00:00
+#10 10.78 Downloading pluggy-1.7.0-py3-none-any.whl (27 kB)
+#10 10.79 Downloading protobuf-6.33.6-cp39-abi3-manylinux2014_x86_64.whl (323 kB)
+#10 10.82 Downloading pydeck-0.9.3-py2.py3-none-any.whl (11.4 MB)
+#10 11.33    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.4/11.4 MB 22.4 MB/s  0:00:00
+#10 11.34 Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+#10 11.35 Downloading charset_normalizer-3.5.2-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (254 kB)
+#10 11.37 Downloading idna-3.20-py3-none-any.whl (69 kB)
+#10 11.38 Downloading smmap-5.0.3-py3-none-any.whl (24 kB)
+#10 11.39 Downloading tenacity-9.2.1-py3-none-any.whl (32 kB)
+#10 11.40 Downloading toml-0.10.2-py2.py3-none-any.whl (16 kB)
+#10 11.41 Downloading tornado-6.6-cp311-abi3-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (529 kB)
+#10 11.43    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 529.5/529.5 kB 27.0 MB/s  0:00:00
+#10 11.44 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+#10 11.45 Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+#10 11.47 Downloading watchdog-6.0.0-py3-none-manylinux2014_x86_64.whl (79 kB)
+#10 11.48 Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+#10 11.50 Downloading greenlet-3.5.6-cp313-cp313-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (623 kB)
+#10 11.52    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 623.8/623.8 kB 34.7 MB/s  0:00:00
+#10 11.53 Downloading iniconfig-2.3.1-py3-none-any.whl (7.6 kB)
+#10 11.54 Downloading jinja2-3.1.6-py3-none-any.whl (134 kB)
+#10 11.55 Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+#10 11.57 Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+#10 11.58 Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+#10 11.59 Downloading markupsafe-3.0.4-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (23 kB)
+#10 11.60 Downloading narwhals-2.28.0-py3-none-any.whl (490 kB)
+#10 11.64 Downloading pyarrow-26.0.0-cp313-cp313-manylinux_2_28_x86_64.whl (53.9 MB)
+#10 13.86    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 53.9/53.9 MB 24.3 MB/s  0:00:02
+#10 13.88 Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+#10 13.95    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 17.7 MB/s  0:00:00
+#10 13.96 Downloading python_dateutil-3.0.0-py2.py3-none-any.whl (94 kB)
+#10 13.99 Downloading pytz-2026.6-py2.py3-none-any.whl (506 kB)
+#10 14.03 Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+#10 14.04 Downloading rpds_py-2026.9.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (370 kB)
+#10 14.07 Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+#10 14.08 Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+#10 14.29 Installing collected packages: pytz, watchdog, urllib3, tzdata, typing-extensions, tornado, toml, tenacity, smmap, six, rpds-py, pygments, pyarrow, psycopg-binary, psycopg, protobuf, pluggy, pillow, packaging, numpy, narwhals, MarkupSafe, iniconfig, idna, greenlet, click, charset_normalizer, certifi, cachetools, blinker, attrs, SQLAlchemy, requests, referencing, python-dateutil, pytest, jinja2, gitdb, pydeck, pandas, jsonschema-specifications, gitpython, jsonschema, altair, streamlit
+#10 20.81 
+#10 20.81 Successfully installed MarkupSafe-3.0.4 SQLAlchemy-2.0.44 altair-5.5.0 attrs-26.1.0 blinker-1.9.0 cachetools-6.2.6 certifi-2026.10.23 charset_normalizer-3.5.2 click-8.5.0 gitdb-4.0.12 gitpython-3.2.1 greenlet-3.5.6 idna-3.20 iniconfig-2.3.1 jinja2-3.1.6 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 narwhals-2.28.0 numpy-2.5.4 packaging-25.0 pandas-2.3.3 pillow-11.3.0 pluggy-1.7.0 protobuf-6.33.6 psycopg-3.2.10 psycopg-binary-3.2.10 pyarrow-26.0.0 pydeck-0.9.3 pygments-2.21.0 pytest-8.4.2 python-dateutil-3.0.0 pytz-2026.6 referencing-0.37.0 requests-2.34.2 rpds-py-2026.9.1 six-1.17.0 smmap-5.0.3 streamlit-1.50.0 tenacity-9.2.1 toml-0.10.2 tornado-6.6 typing-extensions-4.16.0 tzdata-2026.6 urllib3-2.8.0 watchdog-6.0.0
+#10 20.81 WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+#10 DONE 20.9s
+
+#11 [5/5] COPY app ./app
+#11 DONE 0.1s
+
+#12 exporting to image
+#12 exporting layers
+#12 exporting layers 10.2s done
+#12 exporting manifest sha256:effa5e6b984eb86e6c64674ec961b814797051548fa90a18cc6b78fad09314dc 0.0s done
+#12 exporting config sha256:17120d86b9e2bce05a3cf19044d4cfd2fc67b0a6d4b09449cbe5d9c958a66943 0.0s done
+#12 exporting attestation manifest sha256:8059336877f43ac75f2a97e83b2914d701e2ab8e85f0cd624437c8091b77848c 0.0s done
+#12 exporting manifest list sha256:ef091746127e138ae092124fc9686b183c0e5fffa11e646053015faf42b19b6e done
+#12 naming to docker.io/library/week9-web:latest done
+#12 unpacking to docker.io/library/week9-web:latest
+#12 unpacking to docker.io/library/week9-web:latest 1.9s done
+#12 DONE 12.1s
+
+#13 resolving provenance for metadata file
+#13 DONE 0.0s
+ Image week9-web Built 
+ Network week9_default Creating 
+ Volume week9_helpdesk_data Creating 
+ Volume week9_helpdesk_data Creating 
+ Network week9_default Creating 
+ Volume week9_helpdesk_data Created 
+ Volume week9_helpdesk_data Created 
+ Network week9_default Created 
+ Network week9_default Created 
+ Container week9-db-1 Creating 
+ Container week9-db-1 Created 
+ Container week9-web-1 Creating 
+ Container week9-adminer-1 Creating 
+ Container week9-web-1 Created 
+ Container week9-adminer-1 Created 
+ Container week9-db-1 Starting 
+ Container week9-db-1 Started 
+ Container week9-db-1 Waiting 
+ Container week9-db-1 Waiting 
+ Container week9-db-1 Healthy 
+ Container week9-db-1 Healthy 
+ Container week9-adminer-1 Starting 
+ Container week9-web-1 Starting 
+ Container week9-adminer-1 Started 
+ Container week9-web-1 Started 
+
+Exit code: 0
